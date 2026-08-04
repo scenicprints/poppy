@@ -1,0 +1,94 @@
+name: Build APK
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      # Regenerate the seed so the bundled snapshot always matches the doc.
+      - name: Build seed from the trip doc
+        run: node tools/build_seed.js
+
+      # The repo tracks only lib/, pubspec.yaml, assets, data, and tools.
+      # The android/ project is generated fresh here so builds are
+      # deterministic and the repo stays clean.
+      - name: Generate android platform files
+        run: |
+          flutter create --platforms=android --org com.poppy --project-name poppy _scaffold
+          cp -r _scaffold/android ./android
+          rm -rf _scaffold
+          # Flutter only puts INTERNET in the debug manifest; release builds
+          # need it (and friends) added explicitly.
+          M=android/app/src/main/AndroidManifest.xml
+          for P in INTERNET REQUEST_INSTALL_PACKAGES POST_NOTIFICATIONS; do
+            grep -q "android.permission.$P" "$M" || \
+              sed -i "s|<application|<uses-permission android:name=\"android.permission.$P\"/>\n    <application|" "$M"
+          done
+          echo "--- manifest head ---"; head -n 10 "$M"
+
+      - name: Get packages
+        run: flutter pub get
+
+      - name: Build release APK
+        run: flutter build apk --release
+
+      # Sign with our own stable keystore so every release shares a signature
+      # and Android accepts in-app updates between them.
+      - name: Sign APK
+        env:
+          KS_B64: ${{ secrets.KEYSTORE_B64 }}
+          KS_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+        run: |
+          echo "$KS_B64" | base64 -d > release.p12
+          SDK="${ANDROID_SDK_ROOT:-$ANDROID_HOME}"
+          BT="$(ls -d $SDK/build-tools/*/ | sort -V | tail -1)"
+          echo "Using build-tools: $BT"
+          "${BT}zipalign" -f 4 build/app/outputs/flutter-apk/app-release.apk aligned.apk
+          "${BT}apksigner" sign \
+            --ks release.p12 --ks-type PKCS12 \
+            --ks-pass "pass:$KS_PASS" \
+            --ks-key-alias "$KEY_ALIAS" \
+            --key-pass "pass:$KS_PASS" \
+            --out poppy.apk aligned.apk
+          "${BT}apksigner" verify --print-certs poppy.apk
+          rm -f release.p12
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: poppy-apk
+          path: poppy.apk
+
+      - name: Publish to GitHub Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: poppy.apk
+          generate_release_notes: true

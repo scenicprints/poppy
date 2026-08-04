@@ -1,0 +1,34 @@
+name: Rebuild seed
+
+# Edit data/california-trip-planner.md (or overrides.json), push, and this
+# regenerates assets/seed.json. Every installed app picks the new list up on
+# next launch — no APK release needed for list changes.
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'data/**'
+      - 'tools/build_seed.js'
+
+permissions:
+  contents: write
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild seed.json
+        run: node tools/build_seed.js
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet assets/seed.json; then
+            git config user.name "poppy-seed-bot"
+            git config user.email "actions@github.com"
+            git add assets/seed.json
+            git commit -m "Regenerate seed from trip doc"
+            git push
+          else
+            echo "Seed unchanged."
+          fi

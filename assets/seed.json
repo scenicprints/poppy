@@ -1,0 +1,4058 @@
+{
+ "version": 1785802689708,
+ "generatedFrom": "california-trip-planner.md",
+ "regions": [
+  {
+   "id": "modesto-and-the-central-valley",
+   "name": "Modesto & the Central Valley"
+  },
+  {
+   "id": "greater-bay-area",
+   "name": "Greater Bay Area"
+  },
+  {
+   "id": "yosemite-high-country-and-the-sierra-nevada",
+   "name": "Yosemite High Country & the Sierra Nevada"
+  },
+  {
+   "id": "lake-tahoe",
+   "name": "Lake Tahoe"
+  },
+  {
+   "id": "gold-country-sierra-foothills",
+   "name": "Gold Country / Sierra Foothills"
+  },
+  {
+   "id": "napa-and-sonoma-wine-country",
+   "name": "Napa & Sonoma Wine Country"
+  },
+  {
+   "id": "santa-cruz-and-monterey-bay",
+   "name": "Santa Cruz & Monterey Bay"
+  },
+  {
+   "id": "big-sur-and-the-central-coast",
+   "name": "Big Sur & the Central Coast"
+  },
+  {
+   "id": "santa-barbara-solvang-and-the-channel-islands",
+   "name": "Santa Barbara, Solvang & the Channel Islands"
+  },
+  {
+   "id": "los-angeles",
+   "name": "Los Angeles"
+  },
+  {
+   "id": "orange-county",
+   "name": "Orange County"
+  },
+  {
+   "id": "san-diego",
+   "name": "San Diego"
+  },
+  {
+   "id": "palm-springs-and-the-deserts",
+   "name": "Palm Springs & the Deserts"
+  },
+  {
+   "id": "northern-california-redwoods-shasta-lassen-mendocino",
+   "name": "Northern California (Redwoods, Shasta, Lassen, Mendocino)"
+  },
+  {
+   "id": "statewide-experiences-and-road-trips",
+   "name": "Statewide Experiences & Road Trips"
+  }
+ ],
+ "places": [
+  {
+   "id": "mchenry-mansion",
+   "name": "McHenry Mansion",
+   "region": "modesto-and-the-central-valley",
+   "desc": "Victorian-era historic house museum, downtown Modesto"
+  },
+  {
+   "id": "gallo-center-for-the-arts",
+   "name": "Gallo Center for the Arts",
+   "region": "modesto-and-the-central-valley",
+   "desc": "concerts, theater, touring Broadway shows"
+  },
+  {
+   "id": "mchenry-museum",
+   "name": "McHenry Museum",
+   "region": "modesto-and-the-central-valley",
+   "desc": "local history in a restored Carnegie library"
+  },
+  {
+   "id": "graceada-park",
+   "name": "Graceada Park",
+   "region": "modesto-and-the-central-valley",
+   "desc": "shaded park with rose garden and playgrounds"
+  },
+  {
+   "id": "modesto-arch",
+   "name": "Modesto Arch",
+   "region": "modesto-and-the-central-valley",
+   "desc": "iconic \"Water Wealth Contentment Health\" downtown landmark"
+  },
+  {
+   "id": "tuolumne-river-regional-park",
+   "name": "Tuolumne River Regional Park",
+   "region": "modesto-and-the-central-valley",
+   "desc": "riverside trails and picnic areas"
+  },
+  {
+   "id": "dry-creek-regional-park",
+   "name": "Dry Creek Regional Park",
+   "region": "modesto-and-the-central-valley",
+   "desc": "trails and disc golf course"
+  },
+  {
+   "id": "vintage-faire-mall",
+   "name": "Vintage Faire Mall",
+   "region": "modesto-and-the-central-valley",
+   "desc": "shopping and dining"
+  },
+  {
+   "id": "oakdale",
+   "name": "Oakdale",
+   "region": "modesto-and-the-central-valley",
+   "desc": "self-proclaimed \"Cowboy Capital of the World\""
+  },
+  {
+   "id": "hersheys-chocolate-visitor-center",
+   "name": "Hershey's Chocolate Visitor Center",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Oakdale",
+   "desc": "free tours and tastings",
+   "pin": [
+    110,
+    146
+   ],
+   "ll": [
+    37.766,
+    -120.847
+   ]
+  },
+  {
+   "id": "knights-ferry-covered-bridge",
+   "name": "Knights Ferry Covered Bridge",
+   "region": "modesto-and-the-central-valley",
+   "desc": "historic 1863 bridge over the Stanislaus River",
+   "pin": [
+    108,
+    148
+   ],
+   "ll": [
+    37.819,
+    -120.664
+   ]
+  },
+  {
+   "id": "woodward-reservoir-regional-park",
+   "name": "Woodward Reservoir Regional Park",
+   "region": "modesto-and-the-central-valley",
+   "desc": "boating, camping, off-roading",
+   "season": {
+    "label": "summer",
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "modesto-reservoir-regional-park",
+   "name": "Modesto Reservoir Regional Park",
+   "region": "modesto-and-the-central-valley",
+   "desc": "swimming, camping, water sports",
+   "season": {
+    "label": "summer",
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "turlock-lake-state-recreation-area",
+   "name": "Turlock Lake State Recreation Area",
+   "region": "modesto-and-the-central-valley",
+   "desc": "swimming and fishing",
+   "season": {
+    "label": "summer",
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "hilmar-cheese-company-visitor-center",
+   "name": "Hilmar Cheese Company Visitor Center",
+   "region": "modesto-and-the-central-valley",
+   "desc": "cheese-making tours and tastings"
+  },
+  {
+   "id": "george-j-hatfield-state-recreation-area",
+   "name": "George J. Hatfield State Recreation Area",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Newman",
+   "desc": "river access and camping"
+  },
+  {
+   "id": "caswell-memorial-state-park",
+   "name": "Caswell Memorial State Park",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Ripon",
+   "desc": "riparian oak forest along the Stanislaus"
+  },
+  {
+   "id": "stanislaus-county-fair",
+   "name": "Stanislaus County Fair",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Turlock",
+   "desc": "annual summer county fair",
+   "season": {
+    "label": "July",
+    "months": [
+     7
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "la-grange",
+   "name": "La Grange",
+   "region": "modesto-and-the-central-valley",
+   "desc": "small historic Gold Rush–era river town"
+  },
+  {
+   "id": "great-wolf-lodge",
+   "name": "Great Wolf Lodge",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Manteca",
+   "desc": "indoor water park resort"
+  },
+  {
+   "id": "fresno-blossom-trail",
+   "name": "Fresno Blossom Trail",
+   "region": "modesto-and-the-central-valley",
+   "desc": "62-mile orchard bloom driving route",
+   "season": {
+    "label": "Orchard bloom, late Feb",
+    "months": [
+     2
+    ],
+    "type": "hard"
+   },
+   "pin": [
+    122,
+    176
+   ],
+   "ll": [
+    36.6,
+    -119.6
+   ]
+  },
+  {
+   "id": "merced",
+   "name": "Merced",
+   "region": "modesto-and-the-central-valley",
+   "desc": "Applegate Park & Zoo"
+  },
+  {
+   "id": "merced-county-courthouse-museum",
+   "name": "Merced County Courthouse Museum",
+   "region": "modesto-and-the-central-valley"
+  },
+  {
+   "id": "castle-air-museum",
+   "name": "Castle Air Museum",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Atwater",
+   "desc": "vintage military aircraft collection"
+  },
+  {
+   "id": "forestiere-underground-gardens",
+   "name": "Forestiere Underground Gardens",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Fresno",
+   "desc": "hand-dug underground rooms and gardens"
+  },
+  {
+   "id": "fresno-chaffee-zoo",
+   "name": "Fresno Chaffee Zoo",
+   "region": "modesto-and-the-central-valley"
+  },
+  {
+   "id": "woodward-park-and-shinzen-japanese-garden",
+   "name": "Woodward Park & Shinzen Japanese Garden",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Fresno"
+  },
+  {
+   "id": "kearney-mansion-museum",
+   "name": "Kearney Mansion Museum",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Fresno"
+  },
+  {
+   "id": "millerton-lake-state-recreation-area",
+   "name": "Millerton Lake State Recreation Area",
+   "region": "modesto-and-the-central-valley",
+   "desc": "boating near Fresno",
+   "season": {
+    "label": "summer",
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "bass-lake",
+   "name": "Bass Lake",
+   "region": "modesto-and-the-central-valley",
+   "desc": "mountain resort lake near Yosemite's south entrance",
+   "season": {
+    "label": "summer",
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "world-ag-expo",
+   "name": "World Ag Expo",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Tulare",
+   "desc": "huge annual agriculture expo",
+   "season": {
+    "label": "February",
+    "months": [],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "oakwood-lake-water-park",
+   "name": "Oakwood Lake Water Park",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Manteca",
+   "season": {
+    "label": "summer",
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "haggin-museum",
+   "name": "Haggin Museum",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Stockton",
+   "desc": "art and history"
+  },
+  {
+   "id": "bob-hope-theatre",
+   "name": "Bob Hope Theatre",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Stockton",
+   "desc": "historic 1920s movie palace"
+  },
+  {
+   "id": "oak-grove-regional-park",
+   "name": "Oak Grove Regional Park",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Stockton"
+  },
+  {
+   "id": "lodi-lake-park",
+   "name": "Lodi Lake Park",
+   "region": "modesto-and-the-central-valley"
+  },
+  {
+   "id": "lodi-wine-country",
+   "name": "Lodi Wine Country",
+   "region": "modesto-and-the-central-valley",
+   "desc": "family-run wineries known for Zinfandel",
+   "season": {
+    "label": "harvest season Sept–Oct is best",
+    "months": [
+     9,
+     10
+    ],
+    "type": "best"
+   }
+  },
+  {
+   "id": "micke-grove-regional-park",
+   "name": "Micke Grove Regional Park",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Lodi/Lockeford",
+   "desc": "zoo, Japanese garden, museum"
+  },
+  {
+   "id": "old-sacramento-waterfront",
+   "name": "Old Sacramento Waterfront",
+   "region": "modesto-and-the-central-valley",
+   "desc": "historic Gold Rush–era district",
+   "pin": [
+    102,
+    126
+   ],
+   "ll": [
+    38.582,
+    -121.505
+   ]
+  },
+  {
+   "id": "california-state-capitol-and-museum",
+   "name": "California State Capitol & Museum",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Sacramento"
+  },
+  {
+   "id": "crocker-art-museum",
+   "name": "Crocker Art Museum",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Sacramento",
+   "desc": "oldest public art museum in the West"
+  },
+  {
+   "id": "sutters-fort-state-historic-park",
+   "name": "Sutter's Fort State Historic Park",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Sacramento"
+  },
+  {
+   "id": "california-state-railroad-museum",
+   "name": "California State Railroad Museum",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Sacramento"
+  },
+  {
+   "id": "sacramento-river-delta-backroads-loop",
+   "name": "Sacramento River Delta backroads loop",
+   "region": "modesto-and-the-central-valley",
+   "desc": "houseboats, historic Locke",
+   "season": {
+    "label": "summer",
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "sutro-baths-ruins-and-lands-end-trail",
+   "name": "Sutro Baths ruins & Lands End Trail",
+   "region": "greater-bay-area",
+   "desc": "oceanside ruins and coastal cliff walk"
+  },
+  {
+   "id": "grace-cathedral",
+   "name": "Grace Cathedral",
+   "region": "greater-bay-area",
+   "desc": "Gothic cathedral with labyrinth walks"
+  },
+  {
+   "id": "seward-street-slides",
+   "name": "Seward Street Slides",
+   "region": "greater-bay-area",
+   "desc": "two concrete neighborhood slides (bring cardboard)"
+  },
+  {
+   "id": "wave-organ",
+   "name": "Wave Organ",
+   "region": "greater-bay-area",
+   "desc": "wave-powered acoustic sculpture on the bay"
+  },
+  {
+   "id": "glen-canyon-park",
+   "name": "Glen Canyon Park",
+   "region": "greater-bay-area",
+   "desc": "surprisingly wild canyon trail inside the city"
+  },
+  {
+   "id": "tank-hill",
+   "name": "Tank Hill",
+   "region": "greater-bay-area",
+   "desc": "quiet, less-crowded skyline viewpoint"
+  },
+  {
+   "id": "clarion-alley",
+   "name": "Clarion Alley",
+   "region": "greater-bay-area",
+   "desc": "dense, rotating mural gallery in the Mission"
+  },
+  {
+   "id": "green-apple-books",
+   "name": "Green Apple Books",
+   "region": "greater-bay-area",
+   "desc": "beloved sprawling independent bookstore"
+  },
+  {
+   "id": "muir-woods-national-monument",
+   "name": "Muir Woods National Monument",
+   "region": "greater-bay-area",
+   "loc": "Marin",
+   "desc": "old-growth redwood grove",
+   "pin": [
+    72,
+    134
+   ],
+   "ll": [
+    37.897,
+    -122.581
+   ]
+  },
+  {
+   "id": "sausalito",
+   "name": "Sausalito",
+   "region": "greater-bay-area",
+   "desc": "waterfront art village across the bay"
+  },
+  {
+   "id": "point-reyes-national-seashore",
+   "name": "Point Reyes National Seashore",
+   "region": "greater-bay-area",
+   "desc": "cliffs, tule elk, historic lighthouse",
+   "pin": [
+    64,
+    128
+   ],
+   "ll": [
+    38.069,
+    -122.881
+   ]
+  },
+  {
+   "id": "stinson-beach",
+   "name": "Stinson Beach",
+   "region": "greater-bay-area"
+  },
+  {
+   "id": "angel-island-state-park",
+   "name": "Angel Island State Park",
+   "region": "greater-bay-area"
+  },
+  {
+   "id": "marin-headlands",
+   "name": "Marin Headlands",
+   "region": "greater-bay-area",
+   "desc": "historic bunkers, Golden Gate views"
+  },
+  {
+   "id": "mount-tamalpais-state-park",
+   "name": "Mount Tamalpais State Park",
+   "region": "greater-bay-area"
+  },
+  {
+   "id": "lake-merritt",
+   "name": "Lake Merritt",
+   "region": "greater-bay-area",
+   "loc": "Oakland"
+  },
+  {
+   "id": "oakland-museum-of-california",
+   "name": "Oakland Museum of California",
+   "region": "greater-bay-area"
+  },
+  {
+   "id": "chabot-space-and-science-center",
+   "name": "Chabot Space & Science Center",
+   "region": "greater-bay-area",
+   "loc": "Oakland"
+  },
+  {
+   "id": "jack-london-square",
+   "name": "Jack London Square",
+   "region": "greater-bay-area",
+   "loc": "Oakland"
+  },
+  {
+   "id": "redwood-regional-park",
+   "name": "Redwood Regional Park",
+   "region": "greater-bay-area",
+   "loc": "Oakland"
+  },
+  {
+   "id": "uc-berkeley-campus-and-sather-tower-the-campanile",
+   "name": "UC Berkeley campus & Sather Tower (the Campanile)",
+   "region": "greater-bay-area"
+  },
+  {
+   "id": "tilden-regional-park",
+   "name": "Tilden Regional Park",
+   "region": "greater-bay-area",
+   "loc": "Berkeley"
+  },
+  {
+   "id": "berkeley-rose-garden",
+   "name": "Berkeley Rose Garden",
+   "region": "greater-bay-area"
+  },
+  {
+   "id": "fourth-street-shopping-district",
+   "name": "Fourth Street shopping district",
+   "region": "greater-bay-area",
+   "loc": "Berkeley"
+  },
+  {
+   "id": "the-tech-interactive",
+   "name": "The Tech Interactive",
+   "region": "greater-bay-area",
+   "loc": "San Jose"
+  },
+  {
+   "id": "winchester-mystery-house",
+   "name": "Winchester Mystery House",
+   "region": "greater-bay-area",
+   "loc": "San Jose"
+  },
+  {
+   "id": "rosicrucian-egyptian-museum",
+   "name": "Rosicrucian Egyptian Museum",
+   "region": "greater-bay-area",
+   "loc": "San Jose"
+  },
+  {
+   "id": "happy-hollow-park-and-zoo",
+   "name": "Happy Hollow Park & Zoo",
+   "region": "greater-bay-area",
+   "loc": "San Jose"
+  },
+  {
+   "id": "californias-great-america",
+   "name": "California's Great America",
+   "region": "greater-bay-area",
+   "loc": "Santa Clara",
+   "desc": "theme park"
+  },
+  {
+   "id": "stanford-university-campus-and-hoover-tower",
+   "name": "Stanford University campus & Hoover Tower",
+   "region": "greater-bay-area",
+   "loc": "Palo Alto"
+  },
+  {
+   "id": "computer-history-museum",
+   "name": "Computer History Museum",
+   "region": "greater-bay-area",
+   "loc": "Mountain View"
+  },
+  {
+   "id": "filoli-historic-house-and-garden",
+   "name": "Filoli Historic House & Garden",
+   "region": "greater-bay-area",
+   "loc": "Woodside"
+  },
+  {
+   "id": "half-moon-bay",
+   "name": "Half Moon Bay",
+   "region": "greater-bay-area",
+   "desc": "coastal bluffs and pumpkin festival",
+   "season": {
+    "label": "Pumpkin festival in October",
+    "months": [
+     10
+    ],
+    "type": "best"
+   },
+   "pin": [
+    72,
+    148
+   ],
+   "ll": [
+    37.464,
+    -122.428
+   ]
+  },
+  {
+   "id": "ano-nuevo-state-park",
+   "name": "Año Nuevo State Park",
+   "region": "greater-bay-area",
+   "desc": "one of the largest elephant seal breeding colonies on the coast",
+   "season": {
+    "label": "Guided seal walks Dec 15–Mar 31; book ahead",
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ],
+    "type": "hard"
+   },
+   "pin": [
+    74,
+    158
+   ],
+   "ll": [
+    37.108,
+    -122.307
+   ]
+  },
+  {
+   "id": "pescadero-and-pigeon-point-lighthouse",
+   "name": "Pescadero & Pigeon Point Lighthouse",
+   "region": "greater-bay-area"
+  },
+  {
+   "id": "montara-state-beach",
+   "name": "Montara State Beach",
+   "region": "greater-bay-area"
+  },
+  {
+   "id": "curiodyssey",
+   "name": "CuriOdyssey",
+   "region": "greater-bay-area",
+   "loc": "San Mateo"
+  },
+  {
+   "id": "ardenwood-historic-farm",
+   "name": "Ardenwood Historic Farm",
+   "region": "greater-bay-area",
+   "loc": "Fremont"
+  },
+  {
+   "id": "mission-peak",
+   "name": "Mission Peak",
+   "region": "greater-bay-area",
+   "loc": "Fremont",
+   "desc": "popular summit hike",
+   "ll": [
+    37.512,
+    -121.881
+   ]
+  },
+  {
+   "id": "hakone-gardens",
+   "name": "Hakone Gardens",
+   "region": "greater-bay-area",
+   "loc": "Saratoga"
+  },
+  {
+   "id": "six-flags-discovery-kingdom",
+   "name": "Six Flags Discovery Kingdom",
+   "region": "greater-bay-area",
+   "loc": "Vallejo"
+  },
+  {
+   "id": "benicia",
+   "name": "Benicia",
+   "region": "greater-bay-area",
+   "desc": "historic waterfront town"
+  },
+  {
+   "id": "lindsay-wildlife-experience",
+   "name": "Lindsay Wildlife Experience",
+   "region": "greater-bay-area",
+   "loc": "Walnut Creek"
+  },
+  {
+   "id": "blackhawk-museum",
+   "name": "Blackhawk Museum",
+   "region": "greater-bay-area",
+   "loc": "Danville"
+  },
+  {
+   "id": "livermore-valley-wine-country",
+   "name": "Livermore Valley Wine Country",
+   "region": "greater-bay-area"
+  },
+  {
+   "id": "bay-area-discovery-museum",
+   "name": "Bay Area Discovery Museum",
+   "region": "greater-bay-area",
+   "loc": "Sausalito"
+  },
+  {
+   "id": "tioga-pass-tioga-road-scenic-drive",
+   "name": "Tioga Pass / Tioga Road scenic drive",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "desc": "the high-country route through Yosemite",
+   "season": {
+    "label": "Open only ~late May/June–Oct/Nov; closed by snow otherwise",
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "pin": [
+    142,
+    146
+   ],
+   "ll": [
+    37.911,
+    -119.257
+   ]
+  },
+  {
+   "id": "olmsted-point",
+   "name": "Olmsted Point",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "loc": "Tioga Road",
+   "desc": "dramatic granite viewpoint"
+  },
+  {
+   "id": "sentinel-dome",
+   "name": "Sentinel Dome",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "loc": "Yosemite",
+   "desc": "panoramic 360° summit hike"
+  },
+  {
+   "id": "yosemite-mountain-sugar-pine-railroad",
+   "name": "Yosemite Mountain Sugar Pine Railroad",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "loc": "Fish Camp",
+   "desc": "vintage steam train near the south entrance"
+  },
+  {
+   "id": "bishop-creek-canyon",
+   "name": "Bishop Creek Canyon",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "loc": "North Lake, South Lake, Lake Sabrina",
+   "desc": "widely considered California's best fall color",
+   "season": {
+    "label": "peaks late Sept–mid Oct, higher lakes first",
+    "months": [
+     9,
+     10
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "mammoth-lakes",
+   "name": "Mammoth Lakes",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "desc": "hiking, hot springs, alpine scenery",
+   "pin": [
+    158,
+    162
+   ],
+   "ll": [
+    37.648,
+    -118.972
+   ]
+  },
+  {
+   "id": "mammoth-mountain",
+   "name": "Mammoth Mountain",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "season": {
+    "label": "skiing Nov–Apr, wildflower hiking July–Aug",
+    "months": [
+     11,
+     12,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "devils-postpile-national-monument",
+   "name": "Devils Postpile National Monument",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "desc": "columnar basalt formation",
+   "season": {
+    "label": "Road open roughly June–Oct",
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "pin": [
+    156,
+    160
+   ],
+   "ll": [
+    37.625,
+    -119.085
+   ]
+  },
+  {
+   "id": "rainbow-falls",
+   "name": "Rainbow Falls",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "loc": "near Devils Postpile"
+  },
+  {
+   "id": "june-lake-loop",
+   "name": "June Lake Loop",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "season": {
+    "label": "Fall color mid–late Oct",
+    "months": [
+     10
+    ],
+    "type": "hard"
+   },
+   "pin": [
+    156,
+    154
+   ],
+   "ll": [
+    37.78,
+    -119.075
+   ]
+  },
+  {
+   "id": "mono-lake",
+   "name": "Mono Lake",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "desc": "otherworldly tufa rock towers",
+   "season": {
+    "label": "Via Tioga Pass, summer–fall",
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "pin": [
+    154,
+    150
+   ],
+   "ll": [
+    38.017,
+    -119.009
+   ]
+  },
+  {
+   "id": "bodie-state-historic-park",
+   "name": "Bodie State Historic Park",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "desc": "California's best-preserved Gold Rush ghost town",
+   "season": {
+    "label": "Most comfortable via Tioga in summer–fall",
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "pin": [
+    152,
+    142
+   ],
+   "ll": [
+    38.212,
+    -119.012
+   ]
+  },
+  {
+   "id": "convict-lake",
+   "name": "Convict Lake",
+   "region": "yosemite-high-country-and-the-sierra-nevada"
+  },
+  {
+   "id": "mount-whitney-whitney-portal",
+   "name": "Mount Whitney / Whitney Portal",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "desc": "tallest peak in the contiguous US"
+  },
+  {
+   "id": "alabama-hills",
+   "name": "Alabama Hills",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "loc": "Lone Pine",
+   "desc": "iconic rock formations, film history",
+   "pin": [
+    170,
+    198
+   ],
+   "ll": [
+    36.607,
+    -118.124
+   ]
+  },
+  {
+   "id": "manzanar-national-historic-site",
+   "name": "Manzanar National Historic Site",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "pin": [
+    172,
+    192
+   ],
+   "ll": [
+    36.728,
+    -118.154
+   ]
+  },
+  {
+   "id": "bridgeport-and-twin-lakes",
+   "name": "Bridgeport & Twin Lakes",
+   "region": "yosemite-high-country-and-the-sierra-nevada"
+  },
+  {
+   "id": "sonora-pass-scenic-drive",
+   "name": "Sonora Pass scenic drive",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "season": {
+    "label": "Closed by snow roughly Nov–May",
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "ansel-adams-wilderness",
+   "name": "Ansel Adams Wilderness",
+   "region": "yosemite-high-country-and-the-sierra-nevada"
+  },
+  {
+   "id": "rock-creek-canyon",
+   "name": "Rock Creek Canyon",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "season": {
+    "label": "fall color early-mid Oct",
+    "months": [
+     10
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "kings-canyon-scenic-byway",
+   "name": "Kings Canyon Scenic Byway",
+   "region": "yosemite-high-country-and-the-sierra-nevada"
+  },
+  {
+   "id": "crystal-cave",
+   "name": "Crystal Cave",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "loc": "Sequoia National Park",
+   "season": {
+    "label": "open roughly May–Sept",
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "trail-of-100-giants",
+   "name": "Trail of 100 Giants",
+   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "loc": "Sequoia National Forest",
+   "desc": "a different sequoia grove, further south"
+  },
+  {
+   "id": "emerald-bay-state-park",
+   "name": "Emerald Bay State Park",
+   "region": "lake-tahoe",
+   "season": {
+    "label": "Summer for swimming and hiking",
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "type": "best"
+   },
+   "pin": [
+    140,
+    116
+   ],
+   "ll": [
+    38.954,
+    -120.11
+   ]
+  },
+  {
+   "id": "south-lake-tahoe-beaches",
+   "name": "South Lake Tahoe beaches",
+   "region": "lake-tahoe",
+   "season": {
+    "label": "summer for swimming",
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "heavenly-mountain-resort",
+   "name": "Heavenly Mountain Resort",
+   "region": "lake-tahoe",
+   "desc": "skiing and scenic gondola",
+   "season": {
+    "label": "Skiing Nov–Apr",
+    "months": [
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "best"
+   },
+   "pin": [
+    144,
+    120
+   ],
+   "ll": [
+    38.935,
+    -119.94
+   ]
+  },
+  {
+   "id": "palisades-tahoe",
+   "name": "Palisades Tahoe",
+   "region": "lake-tahoe",
+   "desc": "1960 Winter Olympics site",
+   "season": {
+    "label": "skiing Nov–Apr",
+    "months": [
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "sand-harbor",
+   "name": "Sand Harbor",
+   "region": "lake-tahoe",
+   "loc": "Nevada side",
+   "season": {
+    "label": "summer",
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "tahoe-rim-trail",
+   "name": "Tahoe Rim Trail",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "d-l-bliss-state-park",
+   "name": "D.L. Bliss State Park",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "vikingsholm-castle",
+   "name": "Vikingsholm Castle",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "donner-memorial-state-park-and-donner-lake",
+   "name": "Donner Memorial State Park & Donner Lake",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "historic-downtown-truckee",
+   "name": "Historic downtown Truckee",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "kirkwood-mountain-resort",
+   "name": "Kirkwood Mountain Resort",
+   "region": "lake-tahoe",
+   "season": {
+    "label": "skiing",
+    "months": [],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "northstar-california-resort",
+   "name": "Northstar California Resort",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "tahoe-city",
+   "name": "Tahoe City",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "fannette-island",
+   "name": "Fannette Island",
+   "region": "lake-tahoe",
+   "loc": "Emerald Bay"
+  },
+  {
+   "id": "zephyr-cove",
+   "name": "Zephyr Cove",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "tahoe-east-shore-trail",
+   "name": "Tahoe East Shore Trail",
+   "region": "lake-tahoe",
+   "desc": "paved bike path"
+  },
+  {
+   "id": "incline-village",
+   "name": "Incline Village",
+   "region": "lake-tahoe",
+   "loc": "Nevada side"
+  },
+  {
+   "id": "homewood-mountain-resort",
+   "name": "Homewood Mountain Resort",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "lake-tahoe-paddlewheeler-boat-cruises",
+   "name": "Lake Tahoe paddlewheeler boat cruises",
+   "region": "lake-tahoe",
+   "ll": [
+    38.94,
+    -119.95
+   ]
+  },
+  {
+   "id": "mount-rose-tahoe-meadows",
+   "name": "Mount Rose / Tahoe Meadows",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "stateline-fire-lookout-and-sheeps-flat",
+   "name": "Stateline Fire Lookout & Sheep's Flat",
+   "region": "lake-tahoe",
+   "desc": "quieter, dark-sky viewpoints above south shore"
+  },
+  {
+   "id": "spooner-lake",
+   "name": "Spooner Lake",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "van-sickle-bi-state-park",
+   "name": "Van Sickle Bi-State Park",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "nevada-beach",
+   "name": "Nevada Beach",
+   "region": "lake-tahoe"
+  },
+  {
+   "id": "marshall-gold-discovery-state-historic-park",
+   "name": "Marshall Gold Discovery State Historic Park",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Coloma",
+   "desc": "where the Gold Rush began"
+  },
+  {
+   "id": "columbia-state-historic-park",
+   "name": "Columbia State Historic Park",
+   "region": "gold-country-sierra-foothills",
+   "desc": "preserved Gold Rush town",
+   "pin": [
+    118,
+    142
+   ],
+   "ll": [
+    38.036,
+    -120.401
+   ]
+  },
+  {
+   "id": "historic-downtown-sonora",
+   "name": "Historic downtown Sonora",
+   "region": "gold-country-sierra-foothills"
+  },
+  {
+   "id": "railtown-1897-state-historic-park",
+   "name": "Railtown 1897 State Historic Park",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Jamestown"
+  },
+  {
+   "id": "calaveras-county-fairgrounds",
+   "name": "Calaveras County Fairgrounds",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Angels Camp",
+   "desc": "home of the Jumping Frog Jubilee",
+   "season": {
+    "label": "May",
+    "months": [
+     5
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "historic-main-street",
+   "name": "Historic Main Street",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Murphys",
+   "desc": "shops and wineries"
+  },
+  {
+   "id": "moaning-cavern",
+   "name": "Moaning Cavern",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Vallecito"
+  },
+  {
+   "id": "california-cavern",
+   "name": "California Cavern",
+   "region": "gold-country-sierra-foothills"
+  },
+  {
+   "id": "gold-bug-park-and-mine",
+   "name": "Gold Bug Park & Mine",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Placerville"
+  },
+  {
+   "id": "nevada-city",
+   "name": "Nevada City",
+   "region": "gold-country-sierra-foothills",
+   "desc": "Victorian Gold Rush architecture"
+  },
+  {
+   "id": "empire-mine-state-historic-park",
+   "name": "Empire Mine State Historic Park",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Grass Valley"
+  },
+  {
+   "id": "old-town-auburn",
+   "name": "Old Town Auburn",
+   "region": "gold-country-sierra-foothills"
+  },
+  {
+   "id": "amador-city-and-sutter-creek",
+   "name": "Amador City & Sutter Creek",
+   "region": "gold-country-sierra-foothills",
+   "desc": "antique shopping"
+  },
+  {
+   "id": "volcano",
+   "name": "Volcano",
+   "region": "gold-country-sierra-foothills",
+   "desc": "tiny historic mountain village"
+  },
+  {
+   "id": "calaveras-big-trees-state-park",
+   "name": "Calaveras Big Trees State Park",
+   "region": "gold-country-sierra-foothills",
+   "desc": "a different giant sequoia grove"
+  },
+  {
+   "id": "malakoff-diggins-state-historic-park",
+   "name": "Malakoff Diggins State Historic Park",
+   "region": "gold-country-sierra-foothills"
+  },
+  {
+   "id": "amador-wine-country",
+   "name": "Amador Wine Country",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Shenandoah Valley",
+   "season": {
+    "label": "harvest season Sept–Oct",
+    "months": [
+     9,
+     10
+    ],
+    "type": "best"
+   }
+  },
+  {
+   "id": "folsom-powerhouse-and-historic-downtown-folsom",
+   "name": "Folsom Powerhouse & historic downtown Folsom",
+   "region": "gold-country-sierra-foothills"
+  },
+  {
+   "id": "folsom-lake-state-recreation-area",
+   "name": "Folsom Lake State Recreation Area",
+   "region": "gold-country-sierra-foothills",
+   "season": {
+    "label": "summer",
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "apple-hill",
+   "name": "Apple Hill",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Camino/Placerville",
+   "desc": "orchards and farm stands",
+   "season": {
+    "label": "Harvest Sept–Dec",
+    "months": [
+     9,
+     10,
+     11,
+     12
+    ],
+    "type": "hard"
+   },
+   "pin": [
+    116,
+    128
+   ],
+   "ll": [
+    38.737,
+    -120.678
+   ]
+  },
+  {
+   "id": "daffodil-hill",
+   "name": "Daffodil Hill",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Volcano",
+   "desc": "hillside daffodil bloom",
+   "season": {
+    "label": "Hillside bloom, March",
+    "months": [
+     3
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "indian-grinding-rock-state-historic-park",
+   "name": "Indian Grinding Rock State Historic Park",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Pine Grove"
+  },
+  {
+   "id": "napa-valley-wineries",
+   "name": "Napa Valley wineries",
+   "region": "napa-and-sonoma-wine-country",
+   "loc": "beyond Castello di Amorosa"
+  },
+  {
+   "id": "napa-valley-wine-train",
+   "name": "Napa Valley Wine Train",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "oxbow-public-market",
+   "name": "Oxbow Public Market",
+   "region": "napa-and-sonoma-wine-country",
+   "loc": "Napa"
+  },
+  {
+   "id": "old-faithful-geyser-of-california",
+   "name": "Old Faithful Geyser of California",
+   "region": "napa-and-sonoma-wine-country",
+   "loc": "Calistoga"
+  },
+  {
+   "id": "calistoga-hot-springs-and-mud-baths",
+   "name": "Calistoga hot springs & mud baths",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "sterling-vineyards",
+   "name": "Sterling Vineyards",
+   "region": "napa-and-sonoma-wine-country",
+   "desc": "aerial tram to the tasting room"
+  },
+  {
+   "id": "robert-mondavi-winery",
+   "name": "Robert Mondavi Winery",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "yountville",
+   "name": "Yountville",
+   "region": "napa-and-sonoma-wine-country",
+   "desc": "acclaimed dining destination"
+  },
+  {
+   "id": "downtown-st-helena",
+   "name": "Downtown St. Helena",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "sonoma-plaza-and-sonoma-mission",
+   "name": "Sonoma Plaza & Sonoma Mission",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "sonoma-valley-wineries",
+   "name": "Sonoma Valley wineries",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "jack-london-state-historic-park",
+   "name": "Jack London State Historic Park",
+   "region": "napa-and-sonoma-wine-country",
+   "loc": "Glen Ellen"
+  },
+  {
+   "id": "bartholomew-park-winery",
+   "name": "Bartholomew Park Winery",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "downtown-healdsburg-plaza",
+   "name": "Downtown Healdsburg plaza",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "russian-river-valley-wineries",
+   "name": "Russian River Valley wineries",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "korbel-champagne-cellars",
+   "name": "Korbel Champagne Cellars",
+   "region": "napa-and-sonoma-wine-country",
+   "loc": "Guerneville"
+  },
+  {
+   "id": "armstrong-redwoods-state-natural-reserve",
+   "name": "Armstrong Redwoods State Natural Reserve",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "bodega-bay",
+   "name": "Bodega Bay",
+   "region": "napa-and-sonoma-wine-country",
+   "pin": [
+    62,
+    116
+   ],
+   "ll": [
+    38.333,
+    -123.048
+   ]
+  },
+  {
+   "id": "historic-downtown-petaluma",
+   "name": "Historic downtown Petaluma",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "safari-west",
+   "name": "Safari West",
+   "region": "napa-and-sonoma-wine-country",
+   "loc": "Santa Rosa",
+   "desc": "wildlife preserve safari tours",
+   "pin": [
+    72,
+    112
+   ],
+   "ll": [
+    38.553,
+    -122.703
+   ]
+  },
+  {
+   "id": "charles-m-schulz-museum",
+   "name": "Charles M. Schulz Museum",
+   "region": "napa-and-sonoma-wine-country",
+   "loc": "Santa Rosa"
+  },
+  {
+   "id": "luther-burbank-home-and-gardens",
+   "name": "Luther Burbank Home & Gardens",
+   "region": "napa-and-sonoma-wine-country",
+   "loc": "Santa Rosa"
+  },
+  {
+   "id": "kenwood-wine-tasting",
+   "name": "Kenwood wine tasting",
+   "region": "napa-and-sonoma-wine-country"
+  },
+  {
+   "id": "napa-valley-hot-air-balloon-rides",
+   "name": "Napa Valley hot air balloon rides",
+   "region": "napa-and-sonoma-wine-country",
+   "season": {
+    "label": "best at sunrise, spring/fall",
+    "months": [
+     3,
+     4,
+     5
+    ],
+    "type": "best"
+   }
+  },
+  {
+   "id": "di-rosa-center-for-contemporary-art",
+   "name": "di Rosa Center for Contemporary Art",
+   "region": "napa-and-sonoma-wine-country",
+   "loc": "Napa"
+  },
+  {
+   "id": "cornerstone-sonoma",
+   "name": "Cornerstone Sonoma",
+   "region": "napa-and-sonoma-wine-country",
+   "desc": "gardens and artisan shops"
+  },
+  {
+   "id": "occidental",
+   "name": "Occidental",
+   "region": "napa-and-sonoma-wine-country",
+   "desc": "small Sonoma coast redwood town"
+  },
+  {
+   "id": "santa-cruz-beach-boardwalk",
+   "name": "Santa Cruz Beach Boardwalk",
+   "region": "santa-cruz-and-monterey-bay",
+   "desc": "historic seaside amusement park",
+   "season": {
+    "label": "Best June–Oct",
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "pin": [
+    84,
+    166
+   ],
+   "ll": [
+    36.964,
+    -122.018
+   ]
+  },
+  {
+   "id": "santa-cruz-wharf",
+   "name": "Santa Cruz Wharf",
+   "region": "santa-cruz-and-monterey-bay"
+  },
+  {
+   "id": "natural-bridges-state-beach",
+   "name": "Natural Bridges State Beach",
+   "region": "santa-cruz-and-monterey-bay"
+  },
+  {
+   "id": "the-mystery-spot",
+   "name": "The Mystery Spot",
+   "region": "santa-cruz-and-monterey-bay",
+   "loc": "Santa Cruz"
+  },
+  {
+   "id": "west-cliff-drive",
+   "name": "West Cliff Drive",
+   "region": "santa-cruz-and-monterey-bay",
+   "desc": "walking and biking path"
+  },
+  {
+   "id": "capitola-village",
+   "name": "Capitola Village",
+   "region": "santa-cruz-and-monterey-bay"
+  },
+  {
+   "id": "roaring-camp-railroads",
+   "name": "Roaring Camp Railroads",
+   "region": "santa-cruz-and-monterey-bay",
+   "loc": "Felton",
+   "desc": "steam trains through redwoods",
+   "pin": [
+    86,
+    162
+   ],
+   "ll": [
+    37.041,
+    -122.062
+   ]
+  },
+  {
+   "id": "pacific-grove",
+   "name": "Pacific Grove",
+   "region": "santa-cruz-and-monterey-bay",
+   "desc": "Lovers Point, monarch butterfly sanctuary",
+   "season": {
+    "label": "Monarch butterflies Oct–Feb",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2
+    ],
+    "type": "best"
+   }
+  },
+  {
+   "id": "elkhorn-slough",
+   "name": "Elkhorn Slough",
+   "region": "santa-cruz-and-monterey-bay",
+   "desc": "kayaking with sea otters",
+   "pin": [
+    92,
+    172
+   ],
+   "ll": [
+    36.81,
+    -121.785
+   ]
+  },
+  {
+   "id": "moss-landing-wildlife-tours",
+   "name": "Moss Landing wildlife tours",
+   "region": "santa-cruz-and-monterey-bay"
+  },
+  {
+   "id": "henry-cowell-redwoods-state-park",
+   "name": "Henry Cowell Redwoods State Park",
+   "region": "santa-cruz-and-monterey-bay"
+  },
+  {
+   "id": "big-basin-redwoods-state-park",
+   "name": "Big Basin Redwoods State Park",
+   "region": "santa-cruz-and-monterey-bay"
+  },
+  {
+   "id": "watsonville",
+   "name": "Watsonville",
+   "region": "santa-cruz-and-monterey-bay",
+   "desc": "strawberry fields and farm tours"
+  },
+  {
+   "id": "seymour-marine-discovery-center",
+   "name": "Seymour Marine Discovery Center",
+   "region": "santa-cruz-and-monterey-bay",
+   "loc": "Santa Cruz"
+  },
+  {
+   "id": "wilder-ranch-state-park",
+   "name": "Wilder Ranch State Park",
+   "region": "santa-cruz-and-monterey-bay"
+  },
+  {
+   "id": "mission-san-juan-bautista-and-san-juan-bautista-state-historic-park",
+   "name": "Mission San Juan Bautista & San Juan Bautista State Historic Park",
+   "region": "santa-cruz-and-monterey-bay",
+   "desc": "mission plus a preserved Old West town square"
+  },
+  {
+   "id": "pinnacles-national-park",
+   "name": "Pinnacles National Park",
+   "region": "santa-cruz-and-monterey-bay",
+   "desc": "your safe, certified dark-sky spot: a **Gold Tier International Dark Sky Park** with an actual campground and ranger-led night programs, ~2.5 hrs away",
+   "season": {
+    "label": "Stargazing best in summer; hiking spring/fall (hot midday summer)",
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "pin": [
+    102,
+    184
+   ],
+   "ll": [
+    36.49,
+    -121.18
+   ]
+  },
+  {
+   "id": "bixby-creek-bridge",
+   "name": "Bixby Creek Bridge",
+   "region": "big-sur-and-the-central-coast",
+   "pin": [
+    90,
+    186
+   ],
+   "ll": [
+    36.371,
+    -121.902
+   ]
+  },
+  {
+   "id": "mcway-falls",
+   "name": "McWay Falls",
+   "region": "big-sur-and-the-central-coast",
+   "loc": "Julia Pfeiffer Burns State Park"
+  },
+  {
+   "id": "pfeiffer-big-sur-state-park",
+   "name": "Pfeiffer Big Sur State Park",
+   "region": "big-sur-and-the-central-coast"
+  },
+  {
+   "id": "point-sur-lighthouse",
+   "name": "Point Sur Lighthouse",
+   "region": "big-sur-and-the-central-coast"
+  },
+  {
+   "id": "nepenthe",
+   "name": "Nepenthe",
+   "region": "big-sur-and-the-central-coast",
+   "desc": "iconic Big Sur restaurant and viewpoint"
+  },
+  {
+   "id": "hearst-castle",
+   "name": "Hearst Castle",
+   "region": "big-sur-and-the-central-coast",
+   "loc": "San Simeon",
+   "pin": [
+    106,
+    206
+   ],
+   "ll": [
+    35.685,
+    -121.168
+   ]
+  },
+  {
+   "id": "piedras-blancas-elephant-seal-rookery",
+   "name": "Piedras Blancas Elephant Seal Rookery",
+   "region": "big-sur-and-the-central-coast",
+   "season": {
+    "label": "Most active Dec–Mar",
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ],
+    "type": "best"
+   },
+   "pin": [
+    104,
+    202
+   ],
+   "ll": [
+    35.663,
+    -121.257
+   ]
+  },
+  {
+   "id": "morro-bay-and-morro-rock",
+   "name": "Morro Bay & Morro Rock",
+   "region": "big-sur-and-the-central-coast",
+   "pin": [
+    108,
+    212
+   ],
+   "ll": [
+    35.369,
+    -120.856
+   ]
+  },
+  {
+   "id": "mission-san-luis-obispo-de-tolosa",
+   "name": "Mission San Luis Obispo de Tolosa",
+   "region": "big-sur-and-the-central-coast"
+  },
+  {
+   "id": "bubblegum-alley",
+   "name": "Bubblegum Alley",
+   "region": "big-sur-and-the-central-coast",
+   "loc": "San Luis Obispo"
+  },
+  {
+   "id": "avila-beach",
+   "name": "Avila Beach",
+   "region": "big-sur-and-the-central-coast"
+  },
+  {
+   "id": "pismo-beach",
+   "name": "Pismo Beach",
+   "region": "big-sur-and-the-central-coast",
+   "desc": "dunes and pier",
+   "season": {
+    "label": "Monarchs Oct–Feb at the grove",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2
+    ],
+    "type": "best"
+   },
+   "pin": [
+    112,
+    218
+   ],
+   "ll": [
+    35.143,
+    -120.641
+   ]
+  },
+  {
+   "id": "paso-robles-wine-country",
+   "name": "Paso Robles Wine Country",
+   "region": "big-sur-and-the-central-coast",
+   "season": {
+    "label": "harvest season Sept–Oct",
+    "months": [
+     9,
+     10
+    ],
+    "type": "best"
+   }
+  },
+  {
+   "id": "mission-san-miguel-arcangel",
+   "name": "Mission San Miguel Arcángel",
+   "region": "big-sur-and-the-central-coast",
+   "desc": "one of the best-preserved original mission interiors in the chain"
+  },
+  {
+   "id": "mission-san-antonio-de-padua",
+   "name": "Mission San Antonio de Padua",
+   "region": "big-sur-and-the-central-coast",
+   "desc": "remote, beautifully restored, almost no crowds"
+  },
+  {
+   "id": "cambria-and-moonstone-beach",
+   "name": "Cambria & Moonstone Beach",
+   "region": "big-sur-and-the-central-coast"
+  },
+  {
+   "id": "montana-de-oro-state-park",
+   "name": "Montaña de Oro State Park",
+   "region": "big-sur-and-the-central-coast"
+  },
+  {
+   "id": "cayucos",
+   "name": "Cayucos",
+   "region": "big-sur-and-the-central-coast",
+   "desc": "small surf town"
+  },
+  {
+   "id": "guadalupe-nipomo-dunes",
+   "name": "Guadalupe-Nipomo Dunes",
+   "region": "big-sur-and-the-central-coast"
+  },
+  {
+   "id": "oceano-dunes",
+   "name": "Oceano Dunes",
+   "region": "big-sur-and-the-central-coast"
+  },
+  {
+   "id": "edna-valley-wineries",
+   "name": "Edna Valley wineries",
+   "region": "big-sur-and-the-central-coast"
+  },
+  {
+   "id": "estero-bluffs-state-park",
+   "name": "Estero Bluffs State Park",
+   "region": "big-sur-and-the-central-coast"
+  },
+  {
+   "id": "solvang",
+   "name": "Solvang",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "desc": "Danish-heritage village, wine tasting, bakeries",
+   "season": {
+    "label": "Best May–Oct; Danish Days Sept 18–20 2026; Julefest late Nov–early Jan",
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "pin": [
+    126,
+    230
+   ],
+   "ll": [
+    34.596,
+    -120.138
+   ]
+  },
+  {
+   "id": "mission-santa-ines",
+   "name": "Mission Santa Inés",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "loc": "Solvang"
+  },
+  {
+   "id": "santa-ynez-valley-wineries",
+   "name": "Santa Ynez Valley wineries",
+   "region": "santa-barbara-solvang-and-the-channel-islands"
+  },
+  {
+   "id": "nojoqui-falls-park",
+   "name": "Nojoqui Falls Park",
+   "region": "santa-barbara-solvang-and-the-channel-islands"
+  },
+  {
+   "id": "la-purisima-mission-state-historic-park",
+   "name": "La Purisima Mission State Historic Park",
+   "region": "santa-barbara-solvang-and-the-channel-islands"
+  },
+  {
+   "id": "old-mission-santa-barbara",
+   "name": "Old Mission Santa Barbara",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "pin": [
+    130,
+    236
+   ],
+   "ll": [
+    34.438,
+    -119.713
+   ]
+  },
+  {
+   "id": "santa-barbara-county-courthouse",
+   "name": "Santa Barbara County Courthouse",
+   "region": "santa-barbara-solvang-and-the-channel-islands"
+  },
+  {
+   "id": "stearns-wharf",
+   "name": "Stearns Wharf",
+   "region": "santa-barbara-solvang-and-the-channel-islands"
+  },
+  {
+   "id": "santa-barbara-zoo",
+   "name": "Santa Barbara Zoo",
+   "region": "santa-barbara-solvang-and-the-channel-islands"
+  },
+  {
+   "id": "state-street",
+   "name": "State Street",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "loc": "Santa Barbara",
+   "desc": "shopping and dining"
+  },
+  {
+   "id": "santa-barbara-botanic-garden",
+   "name": "Santa Barbara Botanic Garden",
+   "region": "santa-barbara-solvang-and-the-channel-islands"
+  },
+  {
+   "id": "channel-islands-national-park",
+   "name": "Channel Islands National Park",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "desc": "boat trips to Anacapa & Santa Cruz Island",
+   "pin": [
+    135,
+    245
+   ],
+   "ll": [
+    34.007,
+    -119.771
+   ]
+  },
+  {
+   "id": "mission-san-buenaventura-and-ventura-pier",
+   "name": "Mission San Buenaventura & Ventura pier",
+   "region": "santa-barbara-solvang-and-the-channel-islands"
+  },
+  {
+   "id": "ojai",
+   "name": "Ojai",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "desc": "artsy mountain town, famous \"Pink Moment\" sunsets"
+  },
+  {
+   "id": "carpinteria-state-beach",
+   "name": "Carpinteria State Beach",
+   "region": "santa-barbara-solvang-and-the-channel-islands"
+  },
+  {
+   "id": "el-capitan-state-beach",
+   "name": "El Capitan State Beach",
+   "region": "santa-barbara-solvang-and-the-channel-islands"
+  },
+  {
+   "id": "gaviota-state-park",
+   "name": "Gaviota State Park",
+   "region": "santa-barbara-solvang-and-the-channel-islands"
+  },
+  {
+   "id": "lotusland",
+   "name": "Lotusland",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "loc": "Montecito",
+   "desc": "botanical estate garden"
+  },
+  {
+   "id": "griffith-observatory",
+   "name": "Griffith Observatory",
+   "region": "los-angeles",
+   "pin": [
+    157,
+    247
+   ],
+   "ll": [
+    34.118,
+    -118.3
+   ]
+  },
+  {
+   "id": "hollywood-walk-of-fame",
+   "name": "Hollywood Walk of Fame",
+   "region": "los-angeles"
+  },
+  {
+   "id": "tcl-chinese-theatre",
+   "name": "TCL Chinese Theatre",
+   "region": "los-angeles"
+  },
+  {
+   "id": "universal-studios-hollywood",
+   "name": "Universal Studios Hollywood",
+   "region": "los-angeles"
+  },
+  {
+   "id": "the-getty-center",
+   "name": "The Getty Center",
+   "region": "los-angeles"
+  },
+  {
+   "id": "getty-villa",
+   "name": "Getty Villa",
+   "region": "los-angeles",
+   "loc": "Malibu"
+  },
+  {
+   "id": "lacma",
+   "name": "LACMA",
+   "region": "los-angeles",
+   "desc": "Los Angeles County Museum of Art"
+  },
+  {
+   "id": "the-broad",
+   "name": "The Broad",
+   "region": "los-angeles",
+   "desc": "museum"
+  },
+  {
+   "id": "santa-monica-pier",
+   "name": "Santa Monica Pier",
+   "region": "los-angeles"
+  },
+  {
+   "id": "venice-beach-and-boardwalk",
+   "name": "Venice Beach & Boardwalk",
+   "region": "los-angeles"
+  },
+  {
+   "id": "venice-canals",
+   "name": "Venice Canals",
+   "region": "los-angeles"
+  },
+  {
+   "id": "zuma-beach-and-el-matador-beach",
+   "name": "Zuma Beach & El Matador Beach",
+   "region": "los-angeles",
+   "loc": "Malibu"
+  },
+  {
+   "id": "rodeo-drive",
+   "name": "Rodeo Drive",
+   "region": "los-angeles",
+   "loc": "Beverly Hills"
+  },
+  {
+   "id": "the-grove-and-original-farmers-market",
+   "name": "The Grove & Original Farmers Market",
+   "region": "los-angeles"
+  },
+  {
+   "id": "hollywood-sign-viewpoints",
+   "name": "Hollywood Sign viewpoints",
+   "region": "los-angeles"
+  },
+  {
+   "id": "dodger-stadium",
+   "name": "Dodger Stadium",
+   "region": "los-angeles"
+  },
+  {
+   "id": "hollywood-bowl",
+   "name": "Hollywood Bowl",
+   "region": "los-angeles"
+  },
+  {
+   "id": "the-huntington-library-art-museum-and-botanical-gardens",
+   "name": "The Huntington Library, Art Museum & Botanical Gardens",
+   "region": "los-angeles",
+   "loc": "San Marino"
+  },
+  {
+   "id": "descanso-gardens",
+   "name": "Descanso Gardens",
+   "region": "los-angeles",
+   "loc": "La Cañada Flintridge",
+   "season": {
+    "label": "camellias Jan–Mar, roses Apr–Oct",
+    "months": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "griffith-park-and-la-zoo",
+   "name": "Griffith Park & LA Zoo",
+   "region": "los-angeles"
+  },
+  {
+   "id": "california-science-center",
+   "name": "California Science Center",
+   "region": "los-angeles",
+   "desc": "Space Shuttle Endeavour"
+  },
+  {
+   "id": "natural-history-museum-of-la-county",
+   "name": "Natural History Museum of LA County",
+   "region": "los-angeles"
+  },
+  {
+   "id": "olvera-street-and-el-pueblo",
+   "name": "Olvera Street & El Pueblo",
+   "region": "los-angeles",
+   "desc": "LA's original settlement"
+  },
+  {
+   "id": "little-tokyo",
+   "name": "Little Tokyo",
+   "region": "los-angeles"
+  },
+  {
+   "id": "grand-central-market",
+   "name": "Grand Central Market",
+   "region": "los-angeles",
+   "loc": "Downtown LA"
+  },
+  {
+   "id": "walt-disney-concert-hall",
+   "name": "Walt Disney Concert Hall",
+   "region": "los-angeles"
+  },
+  {
+   "id": "the-last-bookstore",
+   "name": "The Last Bookstore",
+   "region": "los-angeles",
+   "loc": "Downtown LA"
+  },
+  {
+   "id": "mission-san-fernando-rey-de-espana",
+   "name": "Mission San Fernando Rey de España",
+   "region": "los-angeles"
+  },
+  {
+   "id": "mission-san-gabriel-arcangel",
+   "name": "Mission San Gabriel Arcángel",
+   "region": "los-angeles"
+  },
+  {
+   "id": "six-flags-magic-mountain",
+   "name": "Six Flags Magic Mountain",
+   "region": "los-angeles",
+   "loc": "Valencia"
+  },
+  {
+   "id": "runyon-canyon-park",
+   "name": "Runyon Canyon Park",
+   "region": "los-angeles",
+   "desc": "hiking with skyline views"
+  },
+  {
+   "id": "topanga-state-park",
+   "name": "Topanga State Park",
+   "region": "los-angeles"
+  },
+  {
+   "id": "will-rogers-state-historic-park-and-beach",
+   "name": "Will Rogers State Historic Park & beach",
+   "region": "los-angeles"
+  },
+  {
+   "id": "palisades-park-bluffs",
+   "name": "Palisades Park bluffs",
+   "region": "los-angeles"
+  },
+  {
+   "id": "manhattan-beach-and-hermosa-beach-piers",
+   "name": "Manhattan Beach & Hermosa Beach piers",
+   "region": "los-angeles"
+  },
+  {
+   "id": "redondo-beach-pier",
+   "name": "Redondo Beach Pier",
+   "region": "los-angeles"
+  },
+  {
+   "id": "aquarium-of-the-pacific",
+   "name": "Aquarium of the Pacific",
+   "region": "los-angeles",
+   "loc": "Long Beach"
+  },
+  {
+   "id": "the-queen-mary",
+   "name": "The Queen Mary",
+   "region": "los-angeles",
+   "loc": "Long Beach"
+  },
+  {
+   "id": "catalina-island-avalon",
+   "name": "Catalina Island (Avalon)",
+   "region": "los-angeles",
+   "desc": "day trip by ferry",
+   "season": {
+    "label": "Best Apr–May or Sept–Oct; whales Dec–Mar",
+    "months": [
+     4,
+     5,
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "pin": [
+    152,
+    264
+   ],
+   "ll": [
+    33.343,
+    -118.325
+   ]
+  },
+  {
+   "id": "rose-bowl-stadium",
+   "name": "Rose Bowl Stadium",
+   "region": "los-angeles",
+   "loc": "Pasadena"
+  },
+  {
+   "id": "old-town-pasadena",
+   "name": "Old Town Pasadena",
+   "region": "los-angeles"
+  },
+  {
+   "id": "norton-simon-museum",
+   "name": "Norton Simon Museum",
+   "region": "los-angeles",
+   "loc": "Pasadena"
+  },
+  {
+   "id": "warner-bros-studio-tour-hollywood",
+   "name": "Warner Bros. Studio Tour Hollywood",
+   "region": "los-angeles"
+  },
+  {
+   "id": "paramount-pictures-studio-tour",
+   "name": "Paramount Pictures Studio Tour",
+   "region": "los-angeles"
+  },
+  {
+   "id": "petersen-automotive-museum",
+   "name": "Petersen Automotive Museum",
+   "region": "los-angeles"
+  },
+  {
+   "id": "la-brea-tar-pits",
+   "name": "La Brea Tar Pits",
+   "region": "los-angeles"
+  },
+  {
+   "id": "watts-towers",
+   "name": "Watts Towers",
+   "region": "los-angeles"
+  },
+  {
+   "id": "kidspace-childrens-museum",
+   "name": "Kidspace Children's Museum",
+   "region": "los-angeles",
+   "loc": "Pasadena"
+  },
+  {
+   "id": "angeles-national-forest",
+   "name": "Angeles National Forest",
+   "region": "los-angeles"
+  },
+  {
+   "id": "mount-wilson-observatory",
+   "name": "Mount Wilson Observatory",
+   "region": "los-angeles"
+  },
+  {
+   "id": "echo-park-lake",
+   "name": "Echo Park Lake",
+   "region": "los-angeles"
+  },
+  {
+   "id": "silver-lake-reservoir-walking-path",
+   "name": "Silver Lake Reservoir walking path",
+   "region": "los-angeles"
+  },
+  {
+   "id": "abbot-kinney-boulevard",
+   "name": "Abbot Kinney Boulevard",
+   "region": "los-angeles",
+   "loc": "Venice"
+  },
+  {
+   "id": "third-street-promenade",
+   "name": "Third Street Promenade",
+   "region": "los-angeles",
+   "loc": "Santa Monica"
+  },
+  {
+   "id": "marvin-braude-south-bay-bicycle-trail",
+   "name": "Marvin Braude (South Bay) Bicycle Trail",
+   "region": "los-angeles"
+  },
+  {
+   "id": "point-vicente-lighthouse-and-wayfarers-chapel",
+   "name": "Point Vicente Lighthouse & Wayfarers Chapel",
+   "region": "los-angeles",
+   "loc": "Palos Verdes"
+  },
+  {
+   "id": "la-maritime-museum-and-cabrillo-marine-aquarium",
+   "name": "LA Maritime Museum & Cabrillo Marine Aquarium",
+   "region": "los-angeles",
+   "loc": "San Pedro"
+  },
+  {
+   "id": "autry-museum-of-the-american-west",
+   "name": "Autry Museum of the American West",
+   "region": "los-angeles"
+  },
+  {
+   "id": "academy-museum-of-motion-pictures",
+   "name": "Academy Museum of Motion Pictures",
+   "region": "los-angeles"
+  },
+  {
+   "id": "universal-citywalk",
+   "name": "Universal CityWalk",
+   "region": "los-angeles"
+  },
+  {
+   "id": "skirball-cultural-center",
+   "name": "Skirball Cultural Center",
+   "region": "los-angeles"
+  },
+  {
+   "id": "museum-of-tolerance",
+   "name": "Museum of Tolerance",
+   "region": "los-angeles"
+  },
+  {
+   "id": "sony-pictures-studios-tour",
+   "name": "Sony Pictures Studios Tour",
+   "region": "los-angeles",
+   "loc": "Culver City"
+  },
+  {
+   "id": "grand-park",
+   "name": "Grand Park",
+   "region": "los-angeles",
+   "loc": "Downtown LA"
+  },
+  {
+   "id": "exposition-park-rose-garden",
+   "name": "Exposition Park Rose Garden",
+   "region": "los-angeles"
+  },
+  {
+   "id": "california-african-american-museum",
+   "name": "California African American Museum",
+   "region": "los-angeles"
+  },
+  {
+   "id": "bradbury-building",
+   "name": "Bradbury Building",
+   "region": "los-angeles"
+  },
+  {
+   "id": "griffith-park-merry-go-round",
+   "name": "Griffith Park Merry-Go-Round",
+   "region": "los-angeles"
+  },
+  {
+   "id": "adamson-house",
+   "name": "Adamson House",
+   "region": "los-angeles",
+   "loc": "Malibu"
+  },
+  {
+   "id": "point-dume-state-beach",
+   "name": "Point Dume State Beach",
+   "region": "los-angeles"
+  },
+  {
+   "id": "leo-carrillo-state-park",
+   "name": "Leo Carrillo State Park",
+   "region": "los-angeles"
+  },
+  {
+   "id": "eaton-canyon-natural-area",
+   "name": "Eaton Canyon Natural Area",
+   "region": "los-angeles",
+   "loc": "Pasadena"
+  },
+  {
+   "id": "vasquez-rocks-natural-area-park",
+   "name": "Vasquez Rocks Natural Area Park",
+   "region": "los-angeles"
+  },
+  {
+   "id": "disneyland-park-and-disney-california-adventure",
+   "name": "Disneyland Park & Disney California Adventure",
+   "region": "orange-county",
+   "loc": "Anaheim",
+   "pin": [
+    162,
+    252
+   ],
+   "ll": [
+    33.812,
+    -117.919
+   ]
+  },
+  {
+   "id": "knotts-berry-farm",
+   "name": "Knott's Berry Farm",
+   "region": "orange-county",
+   "loc": "Buena Park"
+  },
+  {
+   "id": "huntington-beach-pier",
+   "name": "Huntington Beach Pier",
+   "region": "orange-county",
+   "desc": "\"Surf City USA\""
+  },
+  {
+   "id": "balboa-island-and-balboa-pier",
+   "name": "Balboa Island & Balboa Pier",
+   "region": "orange-county",
+   "loc": "Newport Beach"
+  },
+  {
+   "id": "crystal-cove-state-park",
+   "name": "Crystal Cove State Park",
+   "region": "orange-county"
+  },
+  {
+   "id": "laguna-beach-art-galleries-and-coves",
+   "name": "Laguna Beach art galleries & coves",
+   "region": "orange-county"
+  },
+  {
+   "id": "main-beach-and-heisler-park",
+   "name": "Main Beach & Heisler Park",
+   "region": "orange-county",
+   "loc": "Laguna Beach"
+  },
+  {
+   "id": "mission-san-juan-capistrano",
+   "name": "Mission San Juan Capistrano",
+   "region": "orange-county",
+   "season": {
+    "label": "Swallows traditionally return mid-March",
+    "months": [
+     3
+    ],
+    "type": "best"
+   },
+   "pin": [
+    166,
+    258
+   ],
+   "ll": [
+    33.502,
+    -117.663
+   ]
+  },
+  {
+   "id": "dana-point-harbor",
+   "name": "Dana Point Harbor",
+   "region": "orange-county",
+   "desc": "whale watching",
+   "season": {
+    "label": "gray whales Dec–Apr",
+    "months": [
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "san-clemente-pier",
+   "name": "San Clemente Pier",
+   "region": "orange-county"
+  },
+  {
+   "id": "great-park-and-oc-zoo",
+   "name": "Great Park & OC Zoo",
+   "region": "orange-county",
+   "loc": "Irvine"
+  },
+  {
+   "id": "discovery-cube-orange-county",
+   "name": "Discovery Cube Orange County",
+   "region": "orange-county",
+   "loc": "Santa Ana"
+  },
+  {
+   "id": "bowers-museum",
+   "name": "Bowers Museum",
+   "region": "orange-county",
+   "loc": "Santa Ana"
+  },
+  {
+   "id": "fashion-island",
+   "name": "Fashion Island",
+   "region": "orange-county",
+   "loc": "Newport Beach",
+   "desc": "shopping"
+  },
+  {
+   "id": "corona-del-mar-state-beach",
+   "name": "Corona del Mar State Beach",
+   "region": "orange-county"
+  },
+  {
+   "id": "seal-beach-pier",
+   "name": "Seal Beach Pier",
+   "region": "orange-county"
+  },
+  {
+   "id": "laguna-coast-wilderness-park",
+   "name": "Laguna Coast Wilderness Park",
+   "region": "orange-county"
+  },
+  {
+   "id": "sherman-library-and-gardens",
+   "name": "Sherman Library & Gardens",
+   "region": "orange-county",
+   "loc": "Corona del Mar"
+  },
+  {
+   "id": "aliso-beach-park",
+   "name": "Aliso Beach Park",
+   "region": "orange-county"
+  },
+  {
+   "id": "tucker-wildlife-sanctuary",
+   "name": "Tucker Wildlife Sanctuary",
+   "region": "orange-county",
+   "loc": "Modjeska Canyon"
+  },
+  {
+   "id": "san-diego-zoo",
+   "name": "San Diego Zoo",
+   "region": "san-diego",
+   "loc": "Balboa Park"
+  },
+  {
+   "id": "balboa-park-museums-and-gardens",
+   "name": "Balboa Park museums & gardens",
+   "region": "san-diego"
+  },
+  {
+   "id": "san-diego-zoo-safari-park",
+   "name": "San Diego Zoo Safari Park",
+   "region": "san-diego",
+   "loc": "Escondido"
+  },
+  {
+   "id": "uss-midway-museum",
+   "name": "USS Midway Museum",
+   "region": "san-diego"
+  },
+  {
+   "id": "seaworld-san-diego",
+   "name": "SeaWorld San Diego",
+   "region": "san-diego"
+  },
+  {
+   "id": "la-jolla-cove",
+   "name": "La Jolla Cove",
+   "region": "san-diego"
+  },
+  {
+   "id": "torrey-pines-state-natural-reserve",
+   "name": "Torrey Pines State Natural Reserve",
+   "region": "san-diego",
+   "pin": [
+    176,
+    263
+   ],
+   "ll": [
+    32.917,
+    -117.253
+   ]
+  },
+  {
+   "id": "gaslamp-quarter",
+   "name": "Gaslamp Quarter",
+   "region": "san-diego"
+  },
+  {
+   "id": "old-town-san-diego-state-historic-park",
+   "name": "Old Town San Diego State Historic Park",
+   "region": "san-diego"
+  },
+  {
+   "id": "hotel-del-coronado-and-coronado-beach",
+   "name": "Hotel del Coronado & Coronado Beach",
+   "region": "san-diego"
+  },
+  {
+   "id": "cabrillo-national-monument",
+   "name": "Cabrillo National Monument",
+   "region": "san-diego"
+  },
+  {
+   "id": "sunset-cliffs-natural-park",
+   "name": "Sunset Cliffs Natural Park",
+   "region": "san-diego"
+  },
+  {
+   "id": "belmont-park-and-mission-beach",
+   "name": "Belmont Park & Mission Beach",
+   "region": "san-diego"
+  },
+  {
+   "id": "pacific-beach-boardwalk",
+   "name": "Pacific Beach boardwalk",
+   "region": "san-diego"
+  },
+  {
+   "id": "birch-aquarium-at-scripps",
+   "name": "Birch Aquarium at Scripps",
+   "region": "san-diego"
+  },
+  {
+   "id": "san-diego-natural-history-museum",
+   "name": "San Diego Natural History Museum",
+   "region": "san-diego"
+  },
+  {
+   "id": "legoland-california",
+   "name": "Legoland California",
+   "region": "san-diego",
+   "loc": "Carlsbad"
+  },
+  {
+   "id": "carlsbad-flower-fields",
+   "name": "Carlsbad Flower Fields",
+   "region": "san-diego",
+   "season": {
+    "label": "Ranunculus bloom Mar–May",
+    "months": [
+     3,
+     4,
+     5
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "del-mar-beach-and-racetrack",
+   "name": "Del Mar beach & racetrack",
+   "region": "san-diego"
+  },
+  {
+   "id": "encinitas-surf-beaches-and-self-realization-fellowship-gardens",
+   "name": "Encinitas surf beaches & Self-Realization Fellowship gardens",
+   "region": "san-diego"
+  },
+  {
+   "id": "julian",
+   "name": "Julian",
+   "region": "san-diego",
+   "desc": "mountain town known for apple pie",
+   "season": {
+    "label": "apple harvest Sept–Oct",
+    "months": [
+     9,
+     10
+    ],
+    "type": "best"
+   }
+  },
+  {
+   "id": "mission-san-luis-rey-de-francia",
+   "name": "Mission San Luis Rey de Francia",
+   "region": "san-diego",
+   "desc": "largest of the California missions"
+  },
+  {
+   "id": "living-coast-discovery-center",
+   "name": "Living Coast Discovery Center",
+   "region": "san-diego",
+   "loc": "Chula Vista"
+  },
+  {
+   "id": "point-loma",
+   "name": "Point Loma",
+   "region": "san-diego"
+  },
+  {
+   "id": "mission-basilica-san-diego-de-alcala",
+   "name": "Mission Basilica San Diego de Alcalá",
+   "region": "san-diego",
+   "desc": "first of the 21 California missions"
+  },
+  {
+   "id": "the-new-childrens-museum",
+   "name": "The New Children's Museum",
+   "region": "san-diego"
+  },
+  {
+   "id": "san-diego-air-and-space-museum",
+   "name": "San Diego Air & Space Museum",
+   "region": "san-diego"
+  },
+  {
+   "id": "san-diego-museum-of-art",
+   "name": "San Diego Museum of Art",
+   "region": "san-diego"
+  },
+  {
+   "id": "fleet-science-center",
+   "name": "Fleet Science Center",
+   "region": "san-diego"
+  },
+  {
+   "id": "petco-park",
+   "name": "Petco Park",
+   "region": "san-diego",
+   "desc": "Padres games and tours"
+  },
+  {
+   "id": "ocean-beach-and-ob-pier",
+   "name": "Ocean Beach & OB Pier",
+   "region": "san-diego"
+  },
+  {
+   "id": "silver-strand-state-beach",
+   "name": "Silver Strand State Beach",
+   "region": "san-diego"
+  },
+  {
+   "id": "mount-soledad-veterans-memorial",
+   "name": "Mount Soledad Veterans Memorial",
+   "region": "san-diego"
+  },
+  {
+   "id": "presidio-park",
+   "name": "Presidio Park",
+   "region": "san-diego"
+  },
+  {
+   "id": "border-field-state-park",
+   "name": "Border Field State Park",
+   "region": "san-diego"
+  },
+  {
+   "id": "mission-trails-regional-park",
+   "name": "Mission Trails Regional Park",
+   "region": "san-diego"
+  },
+  {
+   "id": "palm-springs-aerial-tramway",
+   "name": "Palm Springs Aerial Tramway",
+   "region": "palm-springs-and-the-deserts",
+   "season": {
+    "label": "Desert season Oct–Apr",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "best"
+   },
+   "pin": [
+    198,
+    248
+   ],
+   "ll": [
+    33.837,
+    -116.613
+   ]
+  },
+  {
+   "id": "mid-century-modern-architecture-tours",
+   "name": "Mid-century modern architecture tours",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Palm Springs"
+  },
+  {
+   "id": "joshua-tree-national-park",
+   "name": "Joshua Tree National Park",
+   "region": "palm-springs-and-the-deserts",
+   "desc": "Keys View, Cholla Cactus Garden, Skull Rock",
+   "season": {
+    "label": "Visit Oct–Apr; dark-sky community",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "pin": [
+    203,
+    243
+   ],
+   "ll": [
+    33.881,
+    -115.9
+   ]
+  },
+  {
+   "id": "indian-canyons",
+   "name": "Indian Canyons",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Palm Springs"
+  },
+  {
+   "id": "salvation-mountain",
+   "name": "Salvation Mountain",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Niland"
+  },
+  {
+   "id": "the-living-desert-zoo-and-gardens",
+   "name": "The Living Desert Zoo and Gardens",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Palm Desert"
+  },
+  {
+   "id": "palm-springs-art-museum",
+   "name": "Palm Springs Art Museum",
+   "region": "palm-springs-and-the-deserts"
+  },
+  {
+   "id": "death-valley-national-park",
+   "name": "Death Valley National Park",
+   "region": "palm-springs-and-the-deserts",
+   "desc": "Badwater Basin, Zabriskie Point",
+   "season": {
+    "label": "Visit Oct–Apr ONLY; deadly heat in summer",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "pin": [
+    196,
+    188
+   ],
+   "ll": [
+    36.505,
+    -117.079
+   ]
+  },
+  {
+   "id": "racetrack-playa",
+   "name": "Racetrack Playa",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Death Valley"
+  },
+  {
+   "id": "anza-borrego-desert-state-park",
+   "name": "Anza-Borrego Desert State Park",
+   "region": "palm-springs-and-the-deserts",
+   "desc": "wildflowers and metal sculptures",
+   "season": {
+    "label": "Wildflower blooms (when they happen) Feb–Apr",
+    "months": [
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "pin": [
+    196,
+    258
+   ],
+   "ll": [
+    33.256,
+    -116.402
+   ]
+  },
+  {
+   "id": "mojave-national-preserve",
+   "name": "Mojave National Preserve",
+   "region": "palm-springs-and-the-deserts"
+  },
+  {
+   "id": "kelso-dunes",
+   "name": "Kelso Dunes",
+   "region": "palm-springs-and-the-deserts"
+  },
+  {
+   "id": "big-morongo-canyon-preserve",
+   "name": "Big Morongo Canyon Preserve",
+   "region": "palm-springs-and-the-deserts"
+  },
+  {
+   "id": "cabots-pueblo-museum",
+   "name": "Cabot's Pueblo Museum",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Desert Hot Springs"
+  },
+  {
+   "id": "desert-hot-springs-mineral-spas",
+   "name": "Desert Hot Springs mineral spas",
+   "region": "palm-springs-and-the-deserts"
+  },
+  {
+   "id": "coachella-valley-preserve",
+   "name": "Coachella Valley Preserve",
+   "region": "palm-springs-and-the-deserts"
+  },
+  {
+   "id": "pioneertown-and-pappy-and-harriets",
+   "name": "Pioneertown & Pappy & Harriet's",
+   "region": "palm-springs-and-the-deserts"
+  },
+  {
+   "id": "amboy-crater-national-natural-landmark",
+   "name": "Amboy Crater National Natural Landmark",
+   "region": "palm-springs-and-the-deserts"
+  },
+  {
+   "id": "whitewater-preserve",
+   "name": "Whitewater Preserve",
+   "region": "palm-springs-and-the-deserts",
+   "season": {
+    "label": "spring wildflowers",
+    "months": [
+     3,
+     4,
+     5
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "tahquitz-canyon",
+   "name": "Tahquitz Canyon",
+   "region": "palm-springs-and-the-deserts"
+  },
+  {
+   "id": "noah-purifoy-outdoor-desert-art-museum",
+   "name": "Noah Purifoy Outdoor Desert Art Museum",
+   "region": "palm-springs-and-the-deserts"
+  },
+  {
+   "id": "avenue-of-the-giants",
+   "name": "Avenue of the Giants",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Humboldt Redwoods State Park",
+   "desc": "the classic 32-mile redwood drive",
+   "season": {
+    "label": "Best June or Sept; open all year",
+    "months": [
+     6,
+     9
+    ],
+    "type": "best"
+   },
+   "pin": [
+    50,
+    44
+   ],
+   "ll": [
+    40.309,
+    -123.911
+   ]
+  },
+  {
+   "id": "founders-grove",
+   "name": "Founders Grove",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Humboldt Redwoods"
+  },
+  {
+   "id": "fern-canyon",
+   "name": "Fern Canyon",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Prairie Creek Redwoods",
+   "pin": [
+    44,
+    22
+   ],
+   "ll": [
+    41.401,
+    -124.065
+   ]
+  },
+  {
+   "id": "tall-trees-grove",
+   "name": "Tall Trees Grove",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Redwood National Park"
+  },
+  {
+   "id": "trees-of-mystery",
+   "name": "Trees of Mystery",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Klamath",
+   "desc": "gondola ride through the redwood canopy",
+   "pin": [
+    46,
+    26
+   ],
+   "ll": [
+    41.585,
+    -124.085
+   ]
+  },
+  {
+   "id": "old-town-eureka",
+   "name": "Old Town Eureka",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "ferndale",
+   "name": "Ferndale",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "desc": "Victorian dairy town"
+  },
+  {
+   "id": "mendocino",
+   "name": "Mendocino",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "desc": "coastal village and headlands trails",
+   "pin": [
+    56,
+    78
+   ],
+   "ll": [
+    39.307,
+    -123.799
+   ]
+  },
+  {
+   "id": "fort-bragg",
+   "name": "Fort Bragg",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "desc": "Glass Beach and the Skunk Train",
+   "pin": [
+    55,
+    72
+   ],
+   "ll": [
+    39.445,
+    -123.805
+   ]
+  },
+  {
+   "id": "mackerricher-state-park",
+   "name": "MacKerricher State Park",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "point-arena-lighthouse",
+   "name": "Point Arena Lighthouse",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "mount-shasta-hiking-and-scenic-views",
+   "name": "Mount Shasta hiking and scenic views",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "pin": [
+    104,
+    30
+   ],
+   "ll": [
+    41.409,
+    -122.194
+   ]
+  },
+  {
+   "id": "mcarthur-burney-falls-memorial-state-park",
+   "name": "McArthur-Burney Falls Memorial State Park",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "desc": "129-ft spring-fed waterfall, flows a constant ~100 million gallons/day year-round",
+   "season": {
+    "label": "Best Apr–May or Sept–Oct; crowded June–Aug",
+    "months": [
+     4,
+     5,
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "pin": [
+    112,
+    42
+   ],
+   "ll": [
+    41.012,
+    -121.652
+   ]
+  },
+  {
+   "id": "lassen-volcanic-national-park",
+   "name": "Lassen Volcanic National Park",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "desc": "also excellent dark skies, Bortle Class 1, annual Dark Sky Festival",
+   "season": {
+    "label": "Dark Sky Festival late July–early Aug; high trails July–Oct",
+    "months": [
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "pin": [
+    120,
+    60
+   ],
+   "ll": [
+    40.497,
+    -121.42
+   ]
+  },
+  {
+   "id": "bumpass-hell-trail",
+   "name": "Bumpass Hell Trail",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Lassen",
+   "desc": "the park's largest hydrothermal basin, boiling pools and mud pots",
+   "season": {
+    "label": "Snow-free roughly July–Oct only",
+    "months": [
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "pin": [
+    118,
+    56
+   ],
+   "ll": [
+    40.458,
+    -121.501
+   ]
+  },
+  {
+   "id": "manzanita-lake",
+   "name": "Manzanita Lake",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Lassen"
+  },
+  {
+   "id": "lava-beds-national-monument",
+   "name": "Lava Beds National Monument",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "shasta-lake-houseboating",
+   "name": "Shasta Lake houseboating",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "season": {
+    "label": "Summer",
+    "months": [
+     6,
+     7,
+     8
+    ],
+    "type": "best"
+   },
+   "pin": [
+    104,
+    38
+   ],
+   "ll": [
+    40.803,
+    -122.323
+   ]
+  },
+  {
+   "id": "castle-crags-state-park",
+   "name": "Castle Crags State Park",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "trinity-lake",
+   "name": "Trinity Lake",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "trinity-alps-wilderness",
+   "name": "Trinity Alps Wilderness",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "sundial-bridge-and-turtle-bay-exploration-park",
+   "name": "Sundial Bridge & Turtle Bay Exploration Park",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Redding"
+  },
+  {
+   "id": "bidwell-park",
+   "name": "Bidwell Park",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Chico",
+   "desc": "one of the largest urban parks in the US"
+  },
+  {
+   "id": "sierra-nevada-brewing-co",
+   "name": "Sierra Nevada Brewing Co.",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Chico"
+  },
+  {
+   "id": "lake-shasta-caverns",
+   "name": "Lake Shasta Caverns",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "humboldt-bay-national-wildlife-refuge",
+   "name": "Humboldt Bay National Wildlife Refuge",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "sue-meg-patricks-point-state-park",
+   "name": "Sue-meg (Patrick's Point) State Park",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "joss-house-state-historic-park",
+   "name": "Joss House State Historic Park",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Weaverville"
+  },
+  {
+   "id": "marble-mountain-wilderness",
+   "name": "Marble Mountain Wilderness",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "clear-lake",
+   "name": "Clear Lake",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "desc": "California's largest natural freshwater lake"
+  },
+  {
+   "id": "lake-almanor",
+   "name": "Lake Almanor",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "samoa-dunes-recreation-area",
+   "name": "Samoa Dunes Recreation Area",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "shasta-dam",
+   "name": "Shasta Dam",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "grizzly-creek-redwoods-state-park",
+   "name": "Grizzly Creek Redwoods State Park",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "confusion-hill",
+   "name": "Confusion Hill",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Piercy"
+  },
+  {
+   "id": "fort-humboldt-state-historic-park",
+   "name": "Fort Humboldt State Historic Park",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "arcata-marsh-and-wildlife-sanctuary",
+   "name": "Arcata Marsh and Wildlife Sanctuary",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+  },
+  {
+   "id": "pacific-coast-highway-highway-1",
+   "name": "Pacific Coast Highway (Highway 1)",
+   "region": "statewide-experiences-and-road-trips",
+   "desc": "full coastal drive"
+  },
+  {
+   "id": "highway-395-eastern-sierra-scenic-byway",
+   "name": "Highway 395 Eastern Sierra scenic byway",
+   "region": "statewide-experiences-and-road-trips"
+  },
+  {
+   "id": "california-state-fair",
+   "name": "California State Fair",
+   "region": "statewide-experiences-and-road-trips",
+   "loc": "Sacramento",
+   "season": {
+    "label": "July",
+    "months": [
+     7
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "gilroy-garlic-festival",
+   "name": "Gilroy Garlic Festival",
+   "region": "statewide-experiences-and-road-trips",
+   "season": {
+    "label": "late July",
+    "months": [
+     7
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "monterey-jazz-festival",
+   "name": "Monterey Jazz Festival",
+   "region": "statewide-experiences-and-road-trips",
+   "season": {
+    "label": "September",
+    "months": [],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "the-california-missions-trail",
+   "name": "The California Missions Trail",
+   "region": "statewide-experiences-and-road-trips",
+   "desc": "21 missions from San Diego to Sonoma; this list has a dozen of the best spread across regions above (San Diego de Alcalá, San Luis Rey, San Juan Capistrano, San Gabriel, San Fernando, San Buenaventura, Santa Inés, La Purisima, San Luis Obispo, San Miguel Arcángel, San Antonio de Padua, San Juan Bautista) — no need to do them all at once, see Part 3 for regional groupings"
+  },
+  {
+   "id": "wildflower-super-bloom-viewing",
+   "name": "Wildflower super bloom viewing",
+   "region": "statewide-experiences-and-road-trips",
+   "season": {
+    "label": "spring, timing varies year to year with rainfall",
+    "months": [
+     3,
+     4,
+     5
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "california-state-parks-camping-circuit",
+   "name": "California State Parks camping circuit",
+   "region": "statewide-experiences-and-road-trips"
+  },
+  {
+   "id": "amtrak-coast-starlight-scenic-train-route",
+   "name": "Amtrak Coast Starlight scenic train route",
+   "region": "statewide-experiences-and-road-trips"
+  },
+  {
+   "id": "route-66-california-segment",
+   "name": "Route 66 California segment",
+   "region": "statewide-experiences-and-road-trips",
+   "loc": "Barstow to Santa Monica"
+  },
+  {
+   "id": "farm-to-table-agritourism",
+   "name": "Farm-to-table agritourism",
+   "region": "statewide-experiences-and-road-trips",
+   "desc": "Central Valley farm stands"
+  },
+  {
+   "id": "coastal-whale-watching-season",
+   "name": "Coastal whale watching season",
+   "region": "statewide-experiences-and-road-trips",
+   "season": {
+    "label": "December–April, gray whales",
+    "months": [
+     4
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "fall-color-road-trip",
+   "name": "Fall color road trip",
+   "region": "statewide-experiences-and-road-trips",
+   "desc": "Eastern Sierra aspens, Bishop Creek to June Lake Loop",
+   "season": {
+    "label": "late Sept–mid Oct",
+    "months": [
+     9,
+     10
+    ],
+    "type": "hard"
+   }
+  }
+ ],
+ "trips": [
+  {
+   "id": "gold-country-ramble",
+   "name": "Gold Country Ramble",
+   "tier": "Quick Trips",
+   "stops": [
+    {
+     "text": "Marshall Gold Discovery State Historic Park (Coloma)",
+     "placeId": "marshall-gold-discovery-state-historic-park"
+    },
+    {
+     "text": "Columbia State Historic Park",
+     "placeId": "columbia-state-historic-park"
+    },
+    {
+     "text": "Railtown 1897 (Jamestown)",
+     "placeId": "railtown-1897-state-historic-park"
+    }
+   ],
+   "season": "Year-round; nicest in spring or fall."
+  },
+  {
+   "id": "sacramento-history-day",
+   "name": "Sacramento History Day",
+   "tier": "Quick Trips",
+   "stops": [
+    {
+     "text": "Old Sacramento",
+     "placeId": "old-sacramento-waterfront"
+    },
+    {
+     "text": "State Capitol",
+     "placeId": "california-state-capitol-and-museum"
+    },
+    {
+     "text": "Crocker Art Museum",
+     "placeId": "crocker-art-museum"
+    },
+    {
+     "text": "Sutter's Fort",
+     "placeId": "sutters-fort-state-historic-park"
+    }
+   ],
+   "season": "Year-round."
+  },
+  {
+   "id": "lodi-wine-and-lake-day",
+   "name": "Lodi Wine & Lake Day",
+   "tier": "Quick Trips",
+   "stops": [
+    {
+     "text": "Lodi Lake Park",
+     "placeId": "lodi-lake-park"
+    },
+    {
+     "text": "Lodi wineries"
+    },
+    {
+     "text": "Micke Grove Regional Park",
+     "placeId": "micke-grove-regional-park"
+    }
+   ],
+   "season": "Best Sept–Oct for harvest, fine any time."
+  },
+  {
+   "id": "apple-hill-harvest-day",
+   "name": "Apple Hill Harvest Day",
+   "tier": "Quick Trips",
+   "stops": [
+    {
+     "text": "Apple Hill orchards & farm stands",
+     "placeId": "apple-hill"
+    },
+    {
+     "text": "Gold Bug Park & Mine (Placerville)",
+     "placeId": "gold-bug-park-and-mine"
+    }
+   ],
+   "season": "Sept–Dec only — this is a harvest trip."
+  },
+  {
+   "id": "delta-backroads-and-locke",
+   "name": "Delta Backroads & Locke",
+   "tier": "Quick Trips",
+   "stops": [
+    {
+     "text": "Sacramento River Delta loop"
+    },
+    {
+     "text": "historic Locke"
+    },
+    {
+     "text": "Old Sacramento if you want to extend it"
+    }
+   ],
+   "season": "Best summer for houseboats on the water."
+  },
+  {
+   "id": "pinnacles-stargazing-overnight",
+   "name": "Pinnacles Stargazing Overnight",
+   "tier": "Day Trips",
+   "stops": [
+    {
+     "text": "Hike the High Peaks by day, camp at the certified Gold Tier Dark Sky campground, stargaze after dark. Pair with Mission San Juan Bautista on the way home"
+    }
+   ],
+   "season": "Hiking: spring/fall (it's hot at midday in summer). Stargazing: summer for the Milky Way core, but genuinely dark year-round. Book the campground ahead."
+  },
+  {
+   "id": "ano-nuevo-wildlife-coast-day",
+   "name": "Año Nuevo Wildlife Coast Day",
+   "tier": "Day Trips",
+   "stops": [
+    {
+     "text": "Año Nuevo elephant seals"
+    },
+    {
+     "text": "Pescadero & Pigeon Point Lighthouse",
+     "placeId": "pescadero-and-pigeon-point-lighthouse"
+    },
+    {
+     "text": "Half Moon Bay for lunch",
+     "placeId": "half-moon-bay"
+    }
+   ],
+   "season": "Best Dec–Feb for peak seal activity; reserve the guided walk in advance."
+  },
+  {
+   "id": "santa-cruz-beach-and-redwoods-day",
+   "name": "Santa Cruz Beach & Redwoods Day",
+   "tier": "Day Trips",
+   "stops": [
+    {
+     "text": "Santa Cruz Beach Boardwalk",
+     "placeId": "santa-cruz-beach-boardwalk"
+    },
+    {
+     "text": "West Cliff Drive",
+     "placeId": "west-cliff-drive"
+    },
+    {
+     "text": "Henry Cowell Redwoods or Roaring Camp Railroad"
+    }
+   ],
+   "season": "Best Sept–Oct for warm, fog-free weather and thinner crowds."
+  },
+  {
+   "id": "marin-coast-day",
+   "name": "Marin Coast Day",
+   "tier": "Day Trips",
+   "stops": [
+    {
+     "text": "Muir Woods",
+     "placeId": "muir-woods-national-monument"
+    },
+    {
+     "text": "Stinson Beach",
+     "placeId": "stinson-beach"
+    },
+    {
+     "text": "Point Reyes lighthouse and elk"
+    }
+   ],
+   "season": "Spring through fall; winter storms can close roads and socked-in views."
+  },
+  {
+   "id": "east-bay-explorer",
+   "name": "East Bay Explorer",
+   "tier": "Day Trips",
+   "stops": [
+    {
+     "text": "UC Berkeley campus & Rose Garden"
+    },
+    {
+     "text": "Tilden Park"
+    },
+    {
+     "text": "Lake Merritt & Oakland Museum",
+     "placeId": "lake-merritt"
+    }
+   ],
+   "season": "Year-round."
+  },
+  {
+   "id": "south-bay-science-and-gardens",
+   "name": "South Bay Science & Gardens",
+   "tier": "Day Trips",
+   "stops": [
+    {
+     "text": "The Tech Interactive or Winchester Mystery House (San Jose)",
+     "placeId": "the-tech-interactive"
+    },
+    {
+     "text": "Stanford campus"
+    },
+    {
+     "text": "Hakone Gardens (Saratoga)",
+     "placeId": "hakone-gardens"
+    }
+   ],
+   "season": "Year-round."
+  },
+  {
+   "id": "napa-wine-and-balloon-morning",
+   "name": "Napa Wine & Balloon Morning",
+   "tier": "Day Trips",
+   "stops": [
+    {
+     "text": "Sunrise hot air balloon ride"
+    },
+    {
+     "text": "Oxbow Public Market",
+     "placeId": "oxbow-public-market"
+    },
+    {
+     "text": "an afternoon of tasting rooms that aren't Castello di Amorosa"
+    }
+   ],
+   "season": "Spring or fall mornings are calmest for ballooning."
+  },
+  {
+   "id": "sonoma-coast-and-redwoods",
+   "name": "Sonoma Coast & Redwoods",
+   "tier": "Day Trips",
+   "stops": [
+    {
+     "text": "Armstrong Redwoods",
+     "placeId": "armstrong-redwoods-state-natural-reserve"
+    },
+    {
+     "text": "Korbel Champagne Cellars",
+     "placeId": "korbel-champagne-cellars"
+    },
+    {
+     "text": "Bodega Bay",
+     "placeId": "bodega-bay"
+    }
+   ],
+   "season": "Year-round."
+  },
+  {
+   "id": "lake-tahoe-emerald-bay-day",
+   "name": "Lake Tahoe Emerald Bay Day",
+   "tier": "Day Trips",
+   "stops": [
+    {
+     "text": "Emerald Bay & D.L. Bliss State Park",
+     "placeId": "d-l-bliss-state-park"
+    },
+    {
+     "text": "Vikingsholm Castle",
+     "placeId": "vikingsholm-castle"
+    },
+    {
+     "text": "Tahoe City",
+     "placeId": "tahoe-city"
+    }
+   ],
+   "season": "Summer for swimming/hiking; note this is a separate-season trip from Tahoe skiing."
+  },
+  {
+   "id": "mono-lake-and-bodie-ghost-town",
+   "name": "Mono Lake & Bodie Ghost Town",
+   "tier": "Day Trips",
+   "stops": [
+    {
+     "text": "via Tioga Pass"
+    }
+   ],
+   "season": "Summer/early fall only — Tioga Road is closed by snow most of the year, typically late May/June through Oct/Nov."
+  },
+  {
+   "id": "norcal-waterfalls-and-dark-skies",
+   "name": "NorCal Waterfalls & Dark Skies",
+   "tier": "Weekend Trips",
+   "stops": [
+    {
+     "text": "McArthur-Burney Falls",
+     "placeId": "mcarthur-burney-falls-memorial-state-park"
+    },
+    {
+     "text": "Bumpass Hell Trail (Lassen)",
+     "placeId": "bumpass-hell-trail"
+    },
+    {
+     "text": "stargaze at Lassen overnight (Bortle Class 1, Dark Sky Festival late July/early Aug)"
+    }
+   ],
+   "season": "Summer only — this whole loop depends on Bumpass Hell being snow-free, roughly July–Sept. All three stops are within about 45 minutes of each other."
+  },
+  {
+   "id": "redwood-coast-road-trip",
+   "name": "Redwood Coast Road Trip",
+   "tier": "Weekend Trips",
+   "stops": [
+    {
+     "text": "Avenue of the Giants",
+     "placeId": "avenue-of-the-giants"
+    },
+    {
+     "text": "Founders Grove",
+     "placeId": "founders-grove"
+    },
+    {
+     "text": "Fern Canyon",
+     "placeId": "fern-canyon"
+    },
+    {
+     "text": "Trees of Mystery (Klamath)",
+     "placeId": "trees-of-mystery"
+    }
+   ],
+   "season": "Best June or September for weather; open year-round otherwise."
+  },
+  {
+   "id": "bishop-creek-fall-color-weekend",
+   "name": "Bishop Creek Fall Color Weekend",
+   "tier": "Weekend Trips",
+   "stops": [
+    {
+     "text": "Bishop Creek Canyon (North Lake, South Lake, Lake Sabrina)",
+     "placeId": "bishop-creek-canyon"
+    },
+    {
+     "text": "Alabama Hills",
+     "placeId": "alabama-hills"
+    },
+    {
+     "text": "Manzanar",
+     "placeId": "manzanar-national-historic-site"
+    }
+   ],
+   "season": "Late September–mid October only — this is a tight, weather-dependent window, so check a live fall color report the week before you leave."
+  },
+  {
+   "id": "catalina-island-getaway",
+   "name": "Catalina Island Getaway",
+   "tier": "Weekend Trips",
+   "stops": [
+    {
+     "text": "Ferry to Avalon, snorkeling or a glass-bottom boat tour, hiking, dinner on the water"
+    }
+   ],
+   "season": "Best Apr–May or Sept–Oct for mild weather and manageable crowds; add a winter trip (Dec–Mar) instead if whale watching is the priority."
+  },
+  {
+   "id": "solvang-and-santa-ynez-wine-weekend",
+   "name": "Solvang & Santa Ynez Wine Weekend",
+   "tier": "Weekend Trips",
+   "stops": [
+    {
+     "text": "Solvang village",
+     "placeId": "solvang"
+    },
+    {
+     "text": "Mission Santa Inés",
+     "placeId": "mission-santa-ines"
+    },
+    {
+     "text": "Santa Ynez Valley wineries",
+     "placeId": "santa-ynez-valley-wineries"
+    },
+    {
+     "text": "La Purisima Mission",
+     "placeId": "la-purisima-mission-state-historic-park"
+    }
+   ],
+   "season": "Best Sept 18–20, 2026 for Danish Days, or Apr–May for quieter mild weather."
+  },
+  {
+   "id": "central-coast-mission-and-wine-trail",
+   "name": "Central Coast Mission & Wine Trail",
+   "tier": "Weekend Trips",
+   "stops": [
+    {
+     "text": "Mission San Miguel Arcángel",
+     "placeId": "mission-san-miguel-arcangel"
+    },
+    {
+     "text": "Mission San Antonio de Padua",
+     "placeId": "mission-san-antonio-de-padua"
+    },
+    {
+     "text": "Paso Robles wine country",
+     "placeId": "paso-robles-wine-country"
+    },
+    {
+     "text": "Hearst Castle",
+     "placeId": "hearst-castle"
+    }
+   ],
+   "season": "Spring or fall — the inland missions get hot in summer."
+  },
+  {
+   "id": "desert-escape-joshua-tree-and-death-valley",
+   "name": "Desert Escape: Joshua Tree & Death Valley",
+   "tier": "Weekend Trips",
+   "stops": [
+    {
+     "text": "Joshua Tree National Park",
+     "placeId": "joshua-tree-national-park"
+    },
+    {
+     "text": "Salvation Mountain",
+     "placeId": "salvation-mountain"
+    },
+    {
+     "text": "Death Valley National Park",
+     "placeId": "death-valley-national-park"
+    }
+   ],
+   "season": "Winter only, roughly Nov–Mar. This isn't a preference, it's a safety call — summer highs regularly top 110–120°F."
+  },
+  {
+   "id": "southern-california-missions-loop",
+   "name": "Southern California Missions Loop",
+   "tier": "Weekend Trips",
+   "stops": [
+    {
+     "text": "Mission San Fernando Rey",
+     "placeId": "mission-san-fernando-rey-de-espana"
+    },
+    {
+     "text": "Mission San Gabriel Arcángel",
+     "placeId": "mission-san-gabriel-arcangel"
+    },
+    {
+     "text": "Mission San Juan Capistrano",
+     "placeId": "mission-san-juan-capistrano"
+    },
+    {
+     "text": "Mission San Luis Rey de Francia",
+     "placeId": "mission-san-luis-rey-de-francia"
+    }
+   ],
+   "season": "Year-round, but spring/fall is more comfortable for the inland stops."
+  },
+  {
+   "id": "eastern-sierra-grand-loop",
+   "name": "Eastern Sierra Grand Loop",
+   "tier": "Weekend Trips",
+   "stops": [
+    {
+     "text": "Mono Lake",
+     "placeId": "mono-lake"
+    },
+    {
+     "text": "Bodie",
+     "placeId": "bodie-state-historic-park"
+    },
+    {
+     "text": "June Lake Loop",
+     "placeId": "june-lake-loop"
+    },
+    {
+     "text": "Convict Lake",
+     "placeId": "convict-lake"
+    },
+    {
+     "text": "Bishop Creek",
+     "placeId": "bishop-creek-canyon"
+    },
+    {
+     "text": "Alabama Hills",
+     "placeId": "alabama-hills"
+    },
+    {
+     "text": "Mount Whitney/Whitney Portal",
+     "placeId": "mount-whitney-whitney-portal"
+    }
+   ],
+   "season": "A multi-day version of trips 15 and 18 combined — best late Sept/early Oct for fall color on top of everything else, though the non-Bishop-Creek stops are great all summer too."
+  }
+ ]
+}
