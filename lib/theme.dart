@@ -52,7 +52,7 @@ ThemeData poppyTheme(Brightness b) {
       surface: bg,
       primary: P.poppy,
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: card,
       elevation: 0,
       shape: RoundedRectangleBorder(
