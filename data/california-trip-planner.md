@@ -17,50 +17,29 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 
 ## 1. Modesto & the Central Valley
 
-- **McHenry Mansion** — Victorian-era historic house museum, downtown Modesto
-- **Gallo Center for the Arts** — concerts, theater, touring Broadway shows
-- **McHenry Museum** — local history in a restored Carnegie library
-- **Graceada Park** — shaded park with rose garden and playgrounds
-- **Modesto Arch** — iconic "Water Wealth Contentment Health" downtown landmark
-- **Tuolumne River Regional Park** — riverside trails and picnic areas
-- **Dry Creek Regional Park** — trails and disc golf course
-- **Vintage Faire Mall** — shopping and dining
-- **Oakdale** — self-proclaimed "Cowboy Capital of the World"
-- **Hershey's Chocolate Visitor Center** (Oakdale) — free tours and tastings
+*Cut everything that's actually in Modesto — your own city isn't a day trip. This starts at the first place worth driving to.*
+
 - **Knights Ferry Covered Bridge** — historic 1863 bridge over the Stanislaus River
-- **Woodward Reservoir Regional Park** — boating, camping, off-roading *(seasonal — summer)*
-- **Modesto Reservoir Regional Park** — swimming, camping, water sports *(seasonal — summer)*
-- **Turlock Lake State Recreation Area** — swimming and fishing *(seasonal — summer)*
-- **Hilmar Cheese Company Visitor Center** — cheese-making tours and tastings
-- **George J. Hatfield State Recreation Area** (Newman) — river access and camping
-- **Caswell Memorial State Park** (Ripon) — riparian oak forest along the Stanislaus
-- **Stanislaus County Fair** (Turlock) — annual summer county fair *(seasonal — July)*
 - **La Grange** — small historic Gold Rush–era river town
-- **Great Wolf Lodge** (Manteca) — indoor water park resort
 - **Fresno Blossom Trail** — 62-mile orchard bloom driving route *(seasonal — late Feb)*
-- **Merced** — Applegate Park & Zoo
-- **Merced County Courthouse Museum**
-- **Castle Air Museum** (Atwater) — vintage military aircraft collection
 - **Forestiere Underground Gardens** (Fresno) — hand-dug underground rooms and gardens
 - **Fresno Chaffee Zoo**
+- **Fresno Art Museum**
 - **Woodward Park & Shinzen Japanese Garden** (Fresno)
 - **Kearney Mansion Museum** (Fresno)
-- **Millerton Lake State Recreation Area** — boating near Fresno *(seasonal — summer)*
-- **Bass Lake** — mountain resort lake near Yosemite's south entrance *(seasonal — summer)*
-- **World Ag Expo** (Tulare) — huge annual agriculture expo *(seasonal — February)*
-- **Oakwood Lake Water Park** (Manteca) *(seasonal — summer)*
-- **Haggin Museum** (Stockton) — art and history
-- **Bob Hope Theatre** (Stockton) — historic 1920s movie palace
-- **Oak Grove Regional Park** (Stockton)
-- **Lodi Lake Park**
-- **Lodi Wine Country** — family-run wineries known for Zinfandel *(harvest season Sept–Oct is best)*
+- **Old Town Clovis** — historic downtown, antique shops, restaurants
+- **Downtown Visalia** — historic Fox Theatre, walkable shops and restaurants
+- **Kern County Museum** (Bakersfield) — outdoor museum of historic buildings
+- **CALM (California Living Museum)** (Bakersfield) — zoo and botanical garden
 - **Micke Grove Regional Park** (Lodi/Lockeford) — zoo, Japanese garden, museum
 - **Old Sacramento Waterfront** — historic Gold Rush–era district
 - **California State Capitol & Museum** (Sacramento)
 - **Crocker Art Museum** (Sacramento) — oldest public art museum in the West
 - **Sutter's Fort State Historic Park** (Sacramento)
 - **California State Railroad Museum** (Sacramento)
-- **Sacramento River Delta backroads loop** — houseboats, historic Locke *(seasonal — summer)*
+- **Yolo Causeway bat colony** (West Sacramento) — roughly 250,000 free-tailed bats pour out from under the causeway in one column at dusk *(seasonal — Jun–Sept, guided viewings)*
+- **Gold Rush Days** (Old Sacramento) — streets buried in dirt, stagecoaches and re-enactors for four days *(seasonal — Labor Day weekend)*
+- **The Big Fresno Fair** — the valley's biggest, with horse racing and a midway *(seasonal — Oct)*
 
 ## 2. Greater Bay Area
 
@@ -115,15 +94,20 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Blackhawk Museum** (Danville)
 - **Livermore Valley Wine Country**
 - **Bay Area Discovery Museum** (Sausalito)
+- **Alcatraz** — the cellhouse audio tour is one of the best anywhere, and the ferry makes it a half-day *(book weeks out)*
+- **Farallon Islands wildlife cruise** — full day by boat 27 miles offshore to whales, sea lions and seabird colonies *(seasonal — whales best Jun–Nov; genuinely rough water)*
+- **Nike Missile Site SF-88** (Marin Headlands) — go down into the silo, and volunteers raise an actual missile up the launch elevator *(open limited days)*
+- **USS Hornet** (Alameda) — hours of decks, hangar and island on the carrier that recovered Apollo 11 and 12
+- **Tomales Point Trail** (Point Reyes) — a narrow spit with a free-roaming tule elk herd on it *(rut and bugling Aug–Oct)*
+- **Alamere Falls** (Point Reyes) — one of the few waterfalls in the state that drops straight onto the beach *(best Jan–Apr; time the tide)*
+- **Point Reyes Lighthouse & Chimney Rock** — 313 steps down to the light, elephant seals below, gray whales offshore *(seasonal — Dec–Mar for all three)*
+- **Mount Diablo tarantula migration** — males wander the trails by the hundreds looking for mates; strange and completely harmless *(seasonal — Sept–Oct, late afternoon)*
+- **San Francisco Fleet Week & the Blue Angels** — the airshow runs right over the bay, visible free from any north-facing shoreline *(seasonal — Oct)*
 
-## 3. Yosemite High Country & the Sierra Nevada
+## 3. The Eastern Sierra & Southern Sequoia/Kings Canyon
 
-*Skipping Yosemite Valley itself and Sequoia's Giant Forest/General Sherman Tree since you've done the "big trees." Everything below is a different experience.*
+*All Yosemite entries removed — noted you've been to the park as a whole, not just the Valley. Sequoia's Giant Forest/General Sherman Tree is also out since you've done the "big trees." Everything below is outside Yosemite entirely.*
 
-- **Tioga Pass / Tioga Road scenic drive** — the high-country route through Yosemite *(seasonal — typically open only late May/June–Oct/Nov, closed by snow the rest of the year)*
-- **Olmsted Point** (Tioga Road) — dramatic granite viewpoint
-- **Sentinel Dome** (Yosemite) — panoramic 360° summit hike
-- **Yosemite Mountain Sugar Pine Railroad** (Fish Camp) — vintage steam train near the south entrance
 - **Bishop Creek Canyon** (North Lake, South Lake, Lake Sabrina) — widely considered California's best fall color *(seasonal — peaks late Sept–mid Oct, higher lakes first)*
 - **Mammoth Lakes** — hiking, hot springs, alpine scenery
 - **Mammoth Mountain** *(seasonal — skiing Nov–Apr, wildflower hiking July–Aug)*
@@ -143,14 +127,21 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Kings Canyon Scenic Byway**
 - **Crystal Cave** (Sequoia National Park) *(seasonal — open roughly May–Sept)*
 - **Trail of 100 Giants** (Sequoia National Forest) — a different sequoia grove, further south
+- **Ancient Bristlecone Pine Forest** (White Mountains) — the oldest living things on earth, past 4,800 years, in a grove you walk through at 10,000 ft *(seasonal — road open roughly late May–Oct)*
+- **Big Pine Lakes** — glacier-fed lakes an unreal turquoise from rock flour, under the Palisades *(seasonal — Jul–Oct; a real 10-mile day)*
+- **Little Lakes Valley** (Rock Creek) — the easiest way into high alpine lake country anywhere in the Sierra; the trailhead itself starts at 10,300 ft *(seasonal — Jul–Oct)*
+- **Boyden Cavern** (Kings Canyon) — marble cave tour inside the deepest canyon in the country *(seasonal — roughly May–Oct)*
+- **Mono Lake tufa kayak & canoe tours** — paddle out among the towers at sunrise instead of viewing them from the shore *(seasonal — summer mornings, book ahead)*
+- **Travertine Hot Springs** (Bridgeport) — free rock soaking pools on an orange travertine ridge facing the Sierra crest
+- **Bishop Mule Days** — 700 mules, a five-day rodeo and the longest non-motorized parade in the country *(seasonal — Memorial Day weekend; the town books out a year ahead)*
 
 ## 4. Lake Tahoe
 
 - **Emerald Bay State Park**
-- **South Lake Tahoe beaches** *(seasonal — summer for swimming)*
+- **South Lake Tahoe shoreline** — walking paths and mountain views, no swimming required
 - **Heavenly Mountain Resort** — skiing and scenic gondola *(seasonal — skiing Nov–Apr)*
 - **Palisades Tahoe** — 1960 Winter Olympics site *(seasonal — skiing Nov–Apr)*
-- **Sand Harbor** (Nevada side) *(seasonal — summer)*
+- **Sand Harbor** (Nevada side) — famously clear water and granite boulders; also hosts the Lake Tahoe Shakespeare Festival *(summer)*
 - **Tahoe Rim Trail**
 - **D.L. Bliss State Park**
 - **Vikingsholm Castle**
@@ -170,6 +161,11 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Spooner Lake**
 - **Van Sickle Bi-State Park**
 - **Nevada Beach**
+- **Rubicon Trail** (D.L. Bliss to Emerald Bay) — cliffside path a few feet above water clear enough to see the bottom the whole way
+- **Emerald Bay kayak to Fannette Island** — paddle out and land on the only island in the lake *(seasonal — summer; rentals nearby)*
+- **Grover Hot Springs State Park** (Markleeville) — hot mineral pools in an open meadow ringed by peaks, best in falling snow
+- **Hope Valley** (Highway 88) — the best aspen color on the west slope, and a drive-and-stop rather than a hike *(seasonal — early–mid Oct)*
+- **Virginia City, Nevada & the V&T Railroad** — a full-day silver-boom town with mine tours and boardwalks, plus a steam train down the Comstock grade; ~3.5 hrs *(train seasonal, roughly May–Oct)*
 
 ## 5. Gold Country / Sierra Foothills
 
@@ -191,10 +187,14 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Malakoff Diggins State Historic Park**
 - **Amador Wine Country** (Shenandoah Valley) *(harvest season Sept–Oct)*
 - **Folsom Powerhouse & historic downtown Folsom**
-- **Folsom Lake State Recreation Area** *(seasonal — summer)*
+- **Folsom Lake Trail** — paved lakeside walking and biking path with foothill views
 - **Apple Hill** (Camino/Placerville) — orchards and farm stands *(seasonal — Sept–Dec harvest)*
 - **Daffodil Hill** (Volcano) — hillside daffodil bloom *(seasonal — March)*
 - **Indian Grinding Rock State Historic Park** (Pine Grove)
+- **Sutter Gold Mine** (Amador City) — hardhat and headlamp, walk deep into a real hard-rock gold mine, not a museum version *(tours seasonal)*
+- **Yosemite Mountain Sugar Pine Railroad** (Fish Camp) — narrow-gauge steam through the pines, with moonlight dinner runs *(seasonal — roughly Apr–Oct)*
+- **Nevada City Victorian Christmas** — the whole downtown closed to cars, gaslit, in costume *(seasonal — Wed and Sun evenings in Dec)*
+- **Amador Vintners' Big Crush** — harvest weekend across 40 Shenandoah Valley wineries *(seasonal — Oct)*
 
 ## 6. Napa & Sonoma Wine Country
 
@@ -227,6 +227,10 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **di Rosa Center for Contemporary Art** (Napa)
 - **Cornerstone Sonoma** — gardens and artisan shops
 - **Occidental** — small Sonoma coast redwood town
+- **Sonoma Canopy Tours** (Occidental) — seven ziplines and two sky bridges through redwood canopy, ending on a spiral staircase descent
+- **Guerneville & the Russian River** — canoe or kayak downriver, river town at both ends, Armstrong Redwoods above it *(seasonal — paddling Jun–Sept)*
+- **Robert Ferguson Observatory** (Sugarloaf Ridge SP) — the largest observatory in the West built purely for public use; ticketed star parties year-round
+- **BottleRock Napa Valley** — the big one, on the Napa Expo grounds *(seasonal — Memorial Day weekend; lodging triples)*
 
 ## 7. Santa Cruz & Monterey Bay
 
@@ -240,7 +244,7 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Capitola Village**
 - **Roaring Camp Railroads** (Felton) — steam trains through redwoods
 - **Pacific Grove** — Lovers Point, monarch butterfly sanctuary *(butterflies: Oct–Feb)*
-- **Elkhorn Slough** — kayaking with sea otters
+- **Elkhorn Slough** — guided pontoon boat eco-tour to see sea otters and shorebirds (no paddling required)
 - **Moss Landing wildlife tours**
 - **Henry Cowell Redwoods State Park**
 - **Big Basin Redwoods State Park**
@@ -249,6 +253,11 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Wilder Ranch State Park**
 - **Mission San Juan Bautista & San Juan Bautista State Historic Park** — mission plus a preserved Old West town square
 - **Pinnacles National Park** — your safe, certified dark-sky spot: a **Gold Tier International Dark Sky Park** with an actual campground and ranger-led night programs, ~2.5 hrs away *(best for stargazing: summer, when the Milky Way core is high; best for hiking: spring/fall — it gets very hot midday in summer)*
+- **Mount Hermon Redwood Canopy Tours** (Felton) — ziplines between platforms built into old-growth redwoods, 150 ft up
+- **Bear Gulch & Balconies talus caves** (Pinnacles) — headlamp required; you climb up through boulder caves with a creek running underneath *(Bear Gulch partly closed mid-May–mid-Jul for bat pupping)*
+- **Berry Creek Falls** (Big Basin) — 65-ft falls at the end of a long redwood loop *(best flow Dec–May; check trail access, the park is still rebuilding from the 2020 fire)*
+- **Monterey Car Week & the Pebble Beach Concours** — the whole peninsula turns into a car show, much of it free to watch from the roadside *(seasonal — mid-Aug; book lodging months out)*
+- **Watsonville Strawberry Festival** — the crop this whole valley runs on *(seasonal — Aug)*
 
 ## 8. Big Sur & the Central Coast
 
@@ -274,6 +283,10 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Oceano Dunes**
 - **Edna Valley wineries**
 - **Estero Bluffs State Park**
+- **Carrizo Plain National Monument** — 250,000 acres with the San Andreas Fault running visibly across it; in a wet year the hills go solid yellow and purple to the horizon *(seasonal — bloom Mar–May and only some years; no services, fill the tank)*
+- **Pismo Monarch Butterfly Grove** — tens of thousands of monarchs clustered in the eucalyptus, hanging in sheets; free, right off the 1 *(seasonal — late Oct–Feb)*
+- **Sensorio Field of Light** (Paso Robles) — 100,000 solar fiber-optic stems changing color across a hillside you walk into *(after dark; timed tickets)*
+- **Paso Robles Harvest Wine Weekend** — 200+ wineries open at once, many with barrel tastings *(seasonal — Oct)*
 
 ## 9. Santa Barbara, Solvang & the Channel Islands
 
@@ -295,6 +308,11 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **El Capitan State Beach**
 - **Gaviota State Park**
 - **Lotusland** (Montecito) — botanical estate garden
+- **Painted Cave** (Santa Cruz Island) — among the largest sea caves in the world, a quarter mile deep; boats go inside it *(seasonal — spring, calm water only)*
+- **Scorpion Anchorage sea cave kayaking** (Santa Cruz Island) — guided paddle into a coastline honeycombed with caves *(seasonal — best Jun–Sept)*
+- **Figueroa Mountain** — the most reliable wildflower drive in the state, and an easy add to a Solvang weekend *(seasonal — Mar–Apr)*
+- **Solvang Julefest** — the whole town lit and decorated, tree lighting and a Nordic market *(seasonal — mid-Nov–early Jan)*
+- **Old Spanish Days Fiesta** (Santa Barbara) — five days of parades, including one of horses and carriages down State Street *(seasonal — Aug)*
 
 ## 10. Los Angeles
 
@@ -371,6 +389,10 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Leo Carrillo State Park**
 - **Eaton Canyon Natural Area** (Pasadena)
 - **Vasquez Rocks Natural Area Park**
+- **Antelope Valley California Poppy Reserve** (Lancaster) — entire hillsides solid orange in a good year *(seasonal — mid-Mar–Apr; check the bloom hotline before driving)*
+- **Catalina's interior & the bison herd** — the island past Avalon, with descendants of 14 bison left behind by a 1924 film crew *(Hummer or jeep tour from Avalon)*
+- **Tournament of Roses Parade** (Pasadena) — floats built entirely from flowers; you can also view them up close for two days after *(seasonal — Jan 1)*
+- **Día de los Muertos at Hollywood Forever** — thousands of altars and full costume across the cemetery grounds *(seasonal — early Nov)*
 
 ## 11. Orange County
 
@@ -394,6 +416,8 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Sherman Library & Gardens** (Corona del Mar)
 - **Aliso Beach Park**
 - **Tucker Wildlife Sanctuary** (Modjeska Canyon)
+- **Pageant of the Masters & Sawdust Art Festival** (Laguna Beach) — live actors posed inside recreations of famous paintings, full orchestra; nothing else like it in the country *(seasonal — Jul–Aug, tickets go early)*
+- **OC Fair** (Costa Mesa) — one of the largest fairs in the state *(seasonal — Jul)*
 
 ## 12. San Diego
 
@@ -416,7 +440,7 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Legoland California** (Carlsbad)
 - **Carlsbad Flower Fields** *(seasonal — ranunculus bloom Mar–May)*
 - **Del Mar beach & racetrack**
-- **Encinitas surf beaches & Self-Realization Fellowship gardens**
+- **Encinitas beaches** (great for a walk and watching surfers) **& Self-Realization Fellowship gardens**
 - **Julian** — mountain town known for apple pie *(apple harvest Sept–Oct)*
 - **Mission San Luis Rey de Francia** — largest of the California missions
 - **Living Coast Discovery Center** (Chula Vista)
@@ -433,6 +457,9 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Presidio Park**
 - **Border Field State Park**
 - **Mission Trails Regional Park**
+- **Sunny Jim's Sea Cave** (La Jolla) — 145 hand-dug steps down a tunnel through the cliff into a sea cave, cut in 1903
+- **La Jolla sea cave kayak tour** — paddle the Seven Caves and through leopard shark shallows *(sharks summer; caves calm-water only)*
+- **Palomar Observatory** — the 200-inch Hale Telescope, largest in the world for 45 years, in a dome the size of the Pantheon *(90 min from town; road can close for snow)*
 
 ## 13. Palm Springs & the Deserts
 
@@ -459,6 +486,17 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Whitewater Preserve** *(seasonal — spring wildflowers)*
 - **Tahquitz Canyon**
 - **Noah Purifoy Outdoor Desert Art Museum**
+- **Painted Canyon & Ladder Canyon** (Mecca Hills) — a slot canyon you climb up through on bolted wooden ladders, looping out onto a ridge of banded red and gold rock; ~1 hr east of Palm Springs *(seasonal — Nov–Mar only, dangerous heat otherwise; last 4 miles are washboard dirt, and it floods)*
+- **Titus Canyon** (Death Valley) — 27 miles of one-way dirt through a ghost town and out a slot canyon so narrow the walls nearly touch *(high clearance; Oct–Apr)*
+- **Mesquite Flat Sand Dunes** (Death Valley) — walk straight out into them from the road, best at sunrise *(Oct–Apr)*
+- **Artist's Drive & Artist's Palette** (Death Valley) — nine-mile one-way loop through hills streaked green, pink and purple *(best late afternoon; Oct–Apr)*
+- **Ubehebe Crater** (Death Valley) — a 600-ft volcanic crater you can walk down into, and regret *(Oct–Apr)*
+- **Dante's View** (Death Valley) — 5,500 ft straight above Badwater, the whole valley in one frame *(Oct–Apr)*
+- **Darwin Falls** (Death Valley) — a spring-fed waterfall in a willow canyon in the driest place in North America *(Oct–Apr)*
+- **Hidden Valley Loop** (Joshua Tree) — a mile inside a rock-walled bowl that cattle rustlers used as a natural corral *(Oct–Apr)*
+- **Ryan Mountain** (Joshua Tree) — the park's best summit for the effort, 360 degrees over the whole basin *(Oct–Apr)*
+- **Lost Palms Oasis** (Joshua Tree, south end) — seven miles round trip to the park's largest fan palm grove, in a canyon almost nobody visits *(Oct–Apr)*
+- **Palm Springs Modernism Week** — mid-century houses normally closed to the public, opened for eleven days *(seasonal — Feb; a smaller preview runs in Oct)*
 
 ## 14. Northern California (Redwoods, Shasta, Lassen, Mendocino)
 
@@ -479,7 +517,6 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Bumpass Hell Trail** (Lassen) — the park's largest hydrothermal basin, boiling pools and mud pots *(seasonal — trail is snowed in most of the year; typically open only early July–October, best mid-July–late Sept)*
 - **Manzanita Lake** (Lassen)
 - **Lava Beds National Monument**
-- **Shasta Lake houseboating** *(seasonal — summer)*
 - **Castle Crags State Park**
 - **Trinity Lake**
 - **Trinity Alps Wilderness**
@@ -499,10 +536,23 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Confusion Hill** (Piercy)
 - **Fort Humboldt State Historic Park**
 - **Arcata Marsh and Wildlife Sanctuary**
+- **Cinder Cone & the Painted Dunes** (Lassen) — climb a perfect black volcanic cone and look down on multicolored ash dunes and a lava field *(seasonal — Jun–Oct)*
+- **Devils Kitchen** (Lassen) — the park's second hydrothermal basin, boiling pools and roaring fumaroles, with a fraction of Bumpass Hell's crowd *(seasonal — Jun–Oct)*
+- **Sulphur Works** (Lassen) — steam vents and mudpots right at the roadside; the hydrothermal fallback when Bumpass Hell is still under snow
+- **Lassen Peak summit trail** — 2,000 ft up the largest plug dome volcano on earth, the whole Cascade chain from the top *(seasonal — Jul–Oct)*
+- **Subway Cave Lava Tubes** (Old Station) — a free, pitch-black third-mile lava tube you walk through on your own flashlight *(seasonal — Apr–Oct)*
+- **Skull Cave & Golden Dome** (Lava Beds) — the two best walk-in lava tubes in the park, one with a permanent ice floor
+- **Feather Falls** (Oroville) — 410 ft, among the tallest in the country, at the end of a real 9-mile loop *(best flow Apr–Jun)*
+- **North Table Mountain Ecological Reserve** (Oroville) — a basalt mesa that grows wildflowers to the horizon and sprouts a dozen waterfalls at once *(seasonal — Mar–Apr)*
+- **Howland Hill Road & Stout Grove** — six unpaved miles at walking pace through the densest old-growth redwood anywhere; Avenue of the Giants without the pavement
+- **Newton B. Drury Scenic Parkway & Elk Prairie** — ten miles of old growth with a resident Roosevelt elk herd grazing beside the road
+- **Redwood Sky Walk** (Sequoia Park Zoo, Eureka) — a canopy walkway 100 ft up through the redwoods, part of it on a swaying suspended section
+- **Lost Coast & Black Sands Beach** (Shelter Cove) — the stretch of coast too rugged for Highway 1 to cross; black sand under 4,000-ft slopes *(day hikes need a tide table)*
+- **Kinetic Grand Championship** (Arcata to Ferndale) — three days of human-powered art sculptures racing over road, sand and open bay *(seasonal — Memorial Day weekend)*
 
 ## 15. Statewide Experiences & Road Trips
 
-- **Pacific Coast Highway (Highway 1)** — full coastal drive
+- **Pacific Coast Highway (Highway 1)** — full coastal drive. Drive it **north to south** so you're in the ocean-side lane and every pullout is a right turn. The Big Sur stretch reopened in full on Jan 14, 2026 after three years of landslide closures at Regent's Slide. *(Best May–Oct south of Monterey; summer mornings fog in until noon. Check Caltrans QuickMap before every leg — this road closes without much warning.)*
 - **Highway 395 Eastern Sierra scenic byway**
 - **California State Fair** (Sacramento) *(seasonal — July)*
 - **Gilroy Garlic Festival** *(seasonal — late July)*
@@ -515,134 +565,16 @@ Items marked *(seasonal)* have a real best-time window — check Part 2. Everyth
 - **Farm-to-table agritourism** — Central Valley farm stands
 - **Coastal whale watching season** *(seasonal — December–April, gray whales)*
 - **Fall color road trip** — Eastern Sierra aspens, Bishop Creek to June Lake Loop *(seasonal — late Sept–mid Oct)*
-
+- **Superbloom chasing** — Carrizo Plain, Antelope Valley and Anza-Borrego in the same window; it only really happens after a wet winter, so watch bloom reports rather than booking ahead *(seasonal — Mar–Apr)*
+- **Perseid meteor shower from a dark-sky park** — Lassen, Death Valley or Pinnacles, no moon, roughly 60 an hour *(seasonal — peaks Aug 11–13)*
 ---
 
-*This list leans toward well-known, reliably open attractions. Hours, seasonal closures, and reservation requirements (especially Año Nuevo, Pinnacles camping, Bumpass Hell, and Death Valley/Joshua Tree in summer) change — worth a quick check before you go.*
+## 16. Out of State
 
----
-
-# PART 2: When to Go — A Seasonal Calendar
-
-Most of Part 1 is genuinely good any weekend of the year — museums, historic downtowns, missions, and most wine tasting don't have a "wrong" season. What follows is everything where timing actually matters, pulled out and organized by season, so you can plan around it instead of accidentally showing up to a closed trail or a missed bloom.
-
-## Winter (December – February)
-
-- **Año Nuevo elephant seals** — guided walks Dec 15–Mar 31; peak births mid-January, peak bull fighting early February. Book through ReserveCalifornia well ahead.
-- **Ski season** — Heavenly, Palisades Tahoe, Northstar, Kirkwood, Homewood, Mammoth Mountain all running
-- **Gray whale migration** — Dana Point, Point Vicente, Point Loma, Point Reyes; peak Jan
-- **Piedras Blancas Elephant Seal Rookery** (Big Sur coast) — most active Dec–Mar
-- **Desert season begins** — Joshua Tree, Death Valley, Anza-Borrego, Palm Springs are all at their best now through spring; avoid these entirely in summer
-- **Solvang's Julefest** — late Nov through early Jan
-- **Calistoga hot springs & mud baths, Desert Hot Springs spas** — a natural pairing with cold weather
-- **Fresno Blossom Trail & almond blossoms** — begins late Feb
-- **Monarch butterflies at Pacific Grove** — Oct through Feb
-
-## Spring (March – May)
-
-- **Anza-Borrego and other desert wildflower super blooms** — Feb–Apr, timing varies year to year with winter rainfall
-- **Carlsbad Flower Fields** — ranunculus bloom, Mar–May
-- **Daffodil Hill** (Gold Country) — March
-- **Mission San Juan Capistrano swallows** — traditionally return mid-March
-- **Whitewater Preserve desert wildflowers** — spring
-- **Avenue of the Giants Marathon** — early May
-- **Solvang, Catalina Island shoulder season** — April–May, mild and uncrowded
-- **Desert season winds down** — last good window before summer heat in Joshua Tree/Death Valley/Palm Springs is roughly April
-- **Napa balloon rides** — spring mornings are calm and clear
-
-## Summer (June – August)
-
-- **Bumpass Hell Trail (Lassen)** — typically opens early July, best mid-July through late Sept; closed the rest of the year by snow
-- **Avenue of the Giants / Trees of Mystery / redwood coast** — best weather is June, just ahead of the crowded July–Aug peak
-- **Pinnacles stargazing** — Milky Way core is highest in the summer sky; warm enough for a real night out
-- **Lassen Dark Sky Festival** — late July/early August
-- **Lake Tahoe warm-weather season** — swimming, boating, beaches all in full swing
-- **Mammoth high country wildflowers** — July–Aug
-- **Tioga Pass / Tioga Road open** — the only time this high alpine drive through Yosemite is accessible
-- **Bodie & Mono Lake** — most comfortably visited via Tioga Pass in summer
-- **California State Fair** — July
-- **Gilroy Garlic Festival** — late July
-- **Central Valley reservoirs & lakes** (Modesto Reservoir, Woodward, Turlock Lake) — swimming season
-- **Catalina Island Fourth of July fireworks over Avalon Bay**
-
-## Fall (September – November)
-
-- **Bishop Creek Canyon fall color** — peaks late Sept–mid Oct at the higher lakes (North Lake, South Lake, Lake Sabrina), moving down-canyon through mid-October. Check a live fall color report the week before.
-- **Eastern Sierra fall color drive** — June Lake Loop and Rock Creek Canyon, October
-- **Solvang Danish Days** — confirmed **Sept 18–20, 2026**
-- **Wine country harvest season** — Napa, Sonoma, Paso Robles, Amador, Lodi — all at their best Sept–Oct
-- **Apple Hill harvest** — Sept through December
-- **Monterey Jazz Festival** — September
-- **Santa Cruz & Central Coast** — Sept–Oct brings the best weather of the year, less fog than summer
-- **Catalina Island shoulder season** — Sept–Oct, same appeal as spring
-- **Burney Falls** — Sept–Oct for the fall-color, low-crowd version
-- **Bumpass Hell Trail closes** — typically by October as snow returns
-- **Humboldt Redwoods Marathon** — October
-
-## Year-Round (No Bad Season)
-
-Everything else in Part 1 — missions, museums, historic Gold Rush towns, most wine tasting, aquariums, most of the Bay Area and LA/San Diego sightseeing — travels well any weekend. The one exception worth repeating: skip Palm Springs, Joshua Tree, and Death Valley in summer. It's not just uncomfortable, it's genuinely risky heat.
-
----
-
-# PART 3: Ready-Made Trips
-
-Built from Parts 1 and 2 — grouped by how much of a weekend they'll take.
-
-## Quick Trips (under 2 hrs, easy Saturday)
-
-**1. Gold Country Ramble** — Marshall Gold Discovery State Historic Park (Coloma) → Columbia State Historic Park → Railtown 1897 (Jamestown). *Year-round; nicest in spring or fall.*
-
-**2. Sacramento History Day** — Old Sacramento → State Capitol → Crocker Art Museum → Sutter's Fort. *Year-round.*
-
-**3. Lodi Wine & Lake Day** — Lodi Lake Park → Lodi wineries → Micke Grove Regional Park. *Best Sept–Oct for harvest, fine any time.*
-
-**4. Apple Hill Harvest Day** — Apple Hill orchards & farm stands → Gold Bug Park & Mine (Placerville). *Sept–Dec only — this is a harvest trip.*
-
-**5. Delta Backroads & Locke** — Sacramento River Delta loop → historic Locke → Old Sacramento if you want to extend it. *Best summer for houseboats on the water.*
-
-## Day Trips (2–3.5 hrs)
-
-**6. Pinnacles Stargazing Overnight** — Hike the High Peaks by day, camp at the certified Gold Tier Dark Sky campground, stargaze after dark. Pair with Mission San Juan Bautista on the way home. *Hiking: spring/fall (it's hot at midday in summer). Stargazing: summer for the Milky Way core, but genuinely dark year-round. Book the campground ahead.*
-
-**7. Año Nuevo Wildlife Coast Day** — Año Nuevo elephant seals → Pescadero & Pigeon Point Lighthouse → Half Moon Bay for lunch. *Best Dec–Feb for peak seal activity; reserve the guided walk in advance.*
-
-**8. Santa Cruz Beach & Redwoods Day** — Santa Cruz Beach Boardwalk → West Cliff Drive → Henry Cowell Redwoods or Roaring Camp Railroad. *Best Sept–Oct for warm, fog-free weather and thinner crowds.*
-
-**9. Marin Coast Day** — Muir Woods → Stinson Beach → Point Reyes lighthouse and elk. *Spring through fall; winter storms can close roads and socked-in views.*
-
-**10. East Bay Explorer** — UC Berkeley campus & Rose Garden → Tilden Park → Lake Merritt & Oakland Museum. *Year-round.*
-
-**11. South Bay Science & Gardens** — The Tech Interactive or Winchester Mystery House (San Jose) → Stanford campus → Hakone Gardens (Saratoga). *Year-round.*
-
-**12. Napa Wine & Balloon Morning** — Sunrise hot air balloon ride → Oxbow Public Market → an afternoon of tasting rooms that aren't Castello di Amorosa. *Spring or fall mornings are calmest for ballooning.*
-
-**13. Sonoma Coast & Redwoods** — Armstrong Redwoods → Korbel Champagne Cellars → Bodega Bay. *Year-round.*
-
-**14. Lake Tahoe Emerald Bay Day** — Emerald Bay & D.L. Bliss State Park → Vikingsholm Castle → Tahoe City. *Summer for swimming/hiking; note this is a separate-season trip from Tahoe skiing.*
-
-**15. Mono Lake & Bodie Ghost Town** — via Tioga Pass. *Summer/early fall only — Tioga Road is closed by snow most of the year, typically late May/June through Oct/Nov.*
-
-## Weekend Trips (4+ hrs, worth an overnight)
-
-**16. NorCal Waterfalls & Dark Skies** — McArthur-Burney Falls → Bumpass Hell Trail (Lassen) → stargaze at Lassen overnight (Bortle Class 1, Dark Sky Festival late July/early Aug). *Summer only — this whole loop depends on Bumpass Hell being snow-free, roughly July–Sept. All three stops are within about 45 minutes of each other.*
-
-**17. Redwood Coast Road Trip** — Avenue of the Giants → Founders Grove → Fern Canyon → Trees of Mystery (Klamath). *Best June or September for weather; open year-round otherwise.*
-
-**18. Bishop Creek Fall Color Weekend** — Bishop Creek Canyon (North Lake, South Lake, Lake Sabrina) → Alabama Hills → Manzanar. *Late September–mid October only — this is a tight, weather-dependent window, so check a live fall color report the week before you leave.*
-
-**19. Catalina Island Getaway** — Ferry to Avalon, snorkeling or a glass-bottom boat tour, hiking, dinner on the water. *Best Apr–May or Sept–Oct for mild weather and manageable crowds; add a winter trip (Dec–Mar) instead if whale watching is the priority.*
-
-**20. Solvang & Santa Ynez Wine Weekend** — Solvang village → Mission Santa Inés → Santa Ynez Valley wineries → La Purisima Mission. *Best Sept 18–20, 2026 for Danish Days, or Apr–May for quieter mild weather.*
-
-**21. Central Coast Mission & Wine Trail** — Mission San Miguel Arcángel → Mission San Antonio de Padua → Paso Robles wine country → Hearst Castle. *Spring or fall — the inland missions get hot in summer.*
-
-**22. Desert Escape: Joshua Tree & Death Valley** — Joshua Tree National Park → Salvation Mountain → Death Valley National Park. *Winter only, roughly Nov–Mar. This isn't a preference, it's a safety call — summer highs regularly top 110–120°F.*
-
-**23. Southern California Missions Loop** — Mission San Fernando Rey → Mission San Gabriel Arcángel → Mission San Juan Capistrano → Mission San Luis Rey de Francia. *Year-round, but spring/fall is more comfortable for the inland stops.*
-
-**24. Eastern Sierra Grand Loop** — Mono Lake → Bodie → June Lake Loop → Convict Lake → Bishop Creek → Alabama Hills → Mount Whitney/Whitney Portal. *A multi-day version of trips 15 and 18 combined — best late Sept/early Oct for fall color on top of everything else, though the non-Bishop-Creek stops are great all summer too.*
-
----
-
-*Quick note on logistics: Año Nuevo, Pinnacles camping, and Bumpass Hell's seasonal opening all benefit from checking official sites shortly before you go — conditions and reservation windows shift year to year.*
+- **Grand Canyon South Rim** (Arizona) — ~13 hrs / 800 miles from Modesto, so a multi-day trip, not a weekend. Open year-round; spring and fall are the sweet spot, summer is crowded and the Mojave crossing is punishing. Hermit Road is shuttle-only Mar–Nov. *(North Rim reopened May 15, 2026 after the 2025 Dragon Bravo Fire, but services are minimal — no lodge, no potable water — and it closes for winter.)*
+- **Grand Canyon Railway** (Williams, AZ) — vintage train to the rim, 2¼ hrs each way, drops at the historic depot steps from the edge; kills the parking problem *(runs year-round; Polar Express Nov–Jan sells out months ahead)*
+- **Antelope Canyon & Horseshoe Bend** (Page, AZ) — Navajo-guided walk through a glowing sandstone slot canyon, plus the Colorado's 270-degree bend from 1,000 ft up; 2½ hrs from the South Rim *(tours book months out; upper canyon light beams midday May–Sept)*
+- **Meteor Crater** (Winslow, AZ) — a mile-wide impact crater 550 ft deep, an hour east of Flagstaff on I-40
+- **Grand Canyon Caverns** (Peach Springs, AZ) — elevator 210 ft straight down into a dry cavern, on old Route 66
+- **Lowell Observatory** (Flagstaff, AZ) — where Pluto was discovered; evening telescope programs under serious dark skies *(the town is a certified Dark Sky Place)*
+- **Sunset Crater Volcano & Wupatki National Monuments** (Flagstaff, AZ) — one 35-mile loop drive: a cinder cone and lava flow at one end, red-rock pueblo ruins at the other

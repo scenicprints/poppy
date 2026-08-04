@@ -64,6 +64,7 @@ function monthsFromText(t) {
 
 const regions = [];
 const places = [];
+const usedOverrides = new Set();
 {
   const text = partText(1);
   let region = null;
@@ -91,7 +92,9 @@ const places = [];
       const desc = rest.replace(/\s*\*\(.+?\)\*\s*$/, '').trim();
       const id = slug(name);
       const o = overrides.places[id] || {};
-      if (o.season) season = o.season; // hand-tuned wins
+      usedOverrides.add(id);
+      // hand-tuned wins; season:false means "that italic note isn't a season"
+      if (o.season !== undefined) season = o.season || null;
       places.push({
         id, name: name.trim(), region: region.id,
         loc: (loc || '').trim() || undefined,
@@ -132,6 +135,22 @@ const trips = [];
   }
 }
 
+// ---- curated trips from data/trips.json (survive doc rewrites) ----
+{
+  const tj = JSON.parse(
+      fs.readFileSync(path.join(ROOT, 'data', 'trips.json'), 'utf8'));
+  const placeIds = new Set(places.map(p => p.id));
+  for (const t of tj.trips) {
+    for (const s of t.stops) {
+      if (s.placeId && !placeIds.has(s.placeId)) {
+        console.warn(`WARN trip "${t.name}": unknown placeId ${s.placeId}`);
+        delete s.placeId;
+      }
+    }
+    if (!trips.some(x => x.id === t.id)) trips.push(t);
+  }
+}
+
 const seed = {
   version: Date.now(),
   generatedFrom: 'california-trip-planner.md',
@@ -142,10 +161,12 @@ fs.writeFileSync(path.join(ROOT, 'assets', 'seed.json'), JSON.stringify(seed, nu
 
 // ---- report ----
 const seasonal = places.filter(p => p.season).length;
-const pinned = places.filter(p => p.pin).length;
+const pinned = places.filter(p => p.ll).length;
 console.log(`regions: ${regions.length}`);
 for (const r of regions) console.log(`  ${r.name}: ${places.filter(p => p.region === r.id).length}`);
-console.log(`places: ${places.length} (${seasonal} seasonal, ${pinned} with map pins)`);
+console.log(`places: ${places.length} (${seasonal} seasonal, ${pinned} with coordinates)`);
 console.log(`trips: ${trips.length}`);
 const unlinked = trips.flatMap(t => t.stops.filter(s => !s.placeId).map(s => `${t.name} :: ${s.text}`));
 console.log(`trip stops not linked to a place: ${unlinked.length}`);
+const dead = Object.keys(overrides.places).filter(k => !usedOverrides.has(k));
+if (dead.length) console.warn(`WARN dead override keys (no matching place): ${dead.join(', ')}`);

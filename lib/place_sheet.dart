@@ -138,7 +138,10 @@ class _PlaceSheetState extends State<_PlaceSheet> {
         color: context.bg,
         borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
       ),
-      child: SingleChildScrollView(
+      // SafeArea keeps the sheet's buttons above Android's own navigation bar.
+      child: SafeArea(
+        top: false,
+        child: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
@@ -311,6 +314,7 @@ class _PlaceSheetState extends State<_PlaceSheet> {
               ),
             ),
           ],
+          ),
         ),
       ),
     );

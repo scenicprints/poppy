@@ -176,8 +176,10 @@ class _WeekendSheet extends StatelessWidget {
         color: context.bg,
         borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
       ),
-      padding: const EdgeInsets.fromLTRB(18, 20, 18, 26),
-      child: FutureBuilder<List<WeekendPick>>(
+      padding: const EdgeInsets.fromLTRB(18, 20, 18, 8),
+      child: SafeArea(
+        top: false,
+        child: FutureBuilder<List<WeekendPick>>(
         future: weekendPicks(),
         builder: (context, snap) {
           return Column(
@@ -246,6 +248,7 @@ class _WeekendSheet extends StatelessWidget {
             ],
           );
         },
+        ),
       ),
     );
   }
@@ -1123,7 +1126,10 @@ class _SettingsPageState extends State<SettingsPage> {
       context: context,
       backgroundColor: context.bg,
       builder: (context) => StatefulBuilder(
-        builder: (context, setD) => ListView(
+        builder: (context, setD) => SafeArea(
+          top: false,
+          child: ListView(
+          shrinkWrap: true,
           padding: const EdgeInsets.all(16),
           children: [
             Text('Hidden places', style: serif(context, size: 18)),
@@ -1150,6 +1156,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 );
               }),
           ],
+          ),
         ),
       ),
     );

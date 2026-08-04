@@ -1,5 +1,5 @@
 {
- "version": 1785803664994,
+ "version": 1785881863325,
  "generatedFrom": "california-trip-planner.md",
  "regions": [
   {
@@ -11,8 +11,8 @@
    "name": "Greater Bay Area"
   },
   {
-   "id": "yosemite-high-country-and-the-sierra-nevada",
-   "name": "Yosemite High Country & the Sierra Nevada"
+   "id": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "name": "The Eastern Sierra & Southern Sequoia/Kings Canyon"
   },
   {
    "id": "lake-tahoe",
@@ -61,183 +61,28 @@
   {
    "id": "statewide-experiences-and-road-trips",
    "name": "Statewide Experiences & Road Trips"
+  },
+  {
+   "id": "out-of-state",
+   "name": "Out of State"
   }
  ],
  "places": [
-  {
-   "id": "mchenry-mansion",
-   "name": "McHenry Mansion",
-   "region": "modesto-and-the-central-valley",
-   "desc": "Victorian-era historic house museum, downtown Modesto"
-  },
-  {
-   "id": "gallo-center-for-the-arts",
-   "name": "Gallo Center for the Arts",
-   "region": "modesto-and-the-central-valley",
-   "desc": "concerts, theater, touring Broadway shows"
-  },
-  {
-   "id": "mchenry-museum",
-   "name": "McHenry Museum",
-   "region": "modesto-and-the-central-valley",
-   "desc": "local history in a restored Carnegie library"
-  },
-  {
-   "id": "graceada-park",
-   "name": "Graceada Park",
-   "region": "modesto-and-the-central-valley",
-   "desc": "shaded park with rose garden and playgrounds"
-  },
-  {
-   "id": "modesto-arch",
-   "name": "Modesto Arch",
-   "region": "modesto-and-the-central-valley",
-   "desc": "iconic \"Water Wealth Contentment Health\" downtown landmark"
-  },
-  {
-   "id": "tuolumne-river-regional-park",
-   "name": "Tuolumne River Regional Park",
-   "region": "modesto-and-the-central-valley",
-   "desc": "riverside trails and picnic areas"
-  },
-  {
-   "id": "dry-creek-regional-park",
-   "name": "Dry Creek Regional Park",
-   "region": "modesto-and-the-central-valley",
-   "desc": "trails and disc golf course"
-  },
-  {
-   "id": "vintage-faire-mall",
-   "name": "Vintage Faire Mall",
-   "region": "modesto-and-the-central-valley",
-   "desc": "shopping and dining"
-  },
-  {
-   "id": "oakdale",
-   "name": "Oakdale",
-   "region": "modesto-and-the-central-valley",
-   "desc": "self-proclaimed \"Cowboy Capital of the World\""
-  },
-  {
-   "id": "hersheys-chocolate-visitor-center",
-   "name": "Hershey's Chocolate Visitor Center",
-   "region": "modesto-and-the-central-valley",
-   "loc": "Oakdale",
-   "desc": "free tours and tastings",
-   "pin": [
-    110,
-    146
-   ],
-   "ll": [
-    37.766,
-    -120.847
-   ]
-  },
   {
    "id": "knights-ferry-covered-bridge",
    "name": "Knights Ferry Covered Bridge",
    "region": "modesto-and-the-central-valley",
    "desc": "historic 1863 bridge over the Stanislaus River",
-   "pin": [
-    108,
-    148
-   ],
    "ll": [
     37.819,
     -120.664
    ]
   },
   {
-   "id": "woodward-reservoir-regional-park",
-   "name": "Woodward Reservoir Regional Park",
-   "region": "modesto-and-the-central-valley",
-   "desc": "boating, camping, off-roading",
-   "season": {
-    "label": "summer",
-    "months": [
-     6,
-     7,
-     8
-    ],
-    "type": "hard"
-   }
-  },
-  {
-   "id": "modesto-reservoir-regional-park",
-   "name": "Modesto Reservoir Regional Park",
-   "region": "modesto-and-the-central-valley",
-   "desc": "swimming, camping, water sports",
-   "season": {
-    "label": "summer",
-    "months": [
-     6,
-     7,
-     8
-    ],
-    "type": "hard"
-   }
-  },
-  {
-   "id": "turlock-lake-state-recreation-area",
-   "name": "Turlock Lake State Recreation Area",
-   "region": "modesto-and-the-central-valley",
-   "desc": "swimming and fishing",
-   "season": {
-    "label": "summer",
-    "months": [
-     6,
-     7,
-     8
-    ],
-    "type": "hard"
-   }
-  },
-  {
-   "id": "hilmar-cheese-company-visitor-center",
-   "name": "Hilmar Cheese Company Visitor Center",
-   "region": "modesto-and-the-central-valley",
-   "desc": "cheese-making tours and tastings"
-  },
-  {
-   "id": "george-j-hatfield-state-recreation-area",
-   "name": "George J. Hatfield State Recreation Area",
-   "region": "modesto-and-the-central-valley",
-   "loc": "Newman",
-   "desc": "river access and camping"
-  },
-  {
-   "id": "caswell-memorial-state-park",
-   "name": "Caswell Memorial State Park",
-   "region": "modesto-and-the-central-valley",
-   "loc": "Ripon",
-   "desc": "riparian oak forest along the Stanislaus"
-  },
-  {
-   "id": "stanislaus-county-fair",
-   "name": "Stanislaus County Fair",
-   "region": "modesto-and-the-central-valley",
-   "loc": "Turlock",
-   "desc": "annual summer county fair",
-   "season": {
-    "label": "July",
-    "months": [
-     7
-    ],
-    "type": "hard"
-   }
-  },
-  {
    "id": "la-grange",
    "name": "La Grange",
    "region": "modesto-and-the-central-valley",
    "desc": "small historic Gold Rush–era river town"
-  },
-  {
-   "id": "great-wolf-lodge",
-   "name": "Great Wolf Lodge",
-   "region": "modesto-and-the-central-valley",
-   "loc": "Manteca",
-   "desc": "indoor water park resort"
   },
   {
    "id": "fresno-blossom-trail",
@@ -251,43 +96,30 @@
     ],
     "type": "hard"
    },
-   "pin": [
-    122,
-    176
-   ],
    "ll": [
     36.6,
     -119.6
    ]
   },
   {
-   "id": "merced",
-   "name": "Merced",
-   "region": "modesto-and-the-central-valley",
-   "desc": "Applegate Park & Zoo"
-  },
-  {
-   "id": "merced-county-courthouse-museum",
-   "name": "Merced County Courthouse Museum",
-   "region": "modesto-and-the-central-valley"
-  },
-  {
-   "id": "castle-air-museum",
-   "name": "Castle Air Museum",
-   "region": "modesto-and-the-central-valley",
-   "loc": "Atwater",
-   "desc": "vintage military aircraft collection"
-  },
-  {
    "id": "forestiere-underground-gardens",
    "name": "Forestiere Underground Gardens",
    "region": "modesto-and-the-central-valley",
    "loc": "Fresno",
-   "desc": "hand-dug underground rooms and gardens"
+   "desc": "hand-dug underground rooms and gardens",
+   "ll": [
+    36.807,
+    -119.883
+   ]
   },
   {
    "id": "fresno-chaffee-zoo",
    "name": "Fresno Chaffee Zoo",
+   "region": "modesto-and-the-central-valley"
+  },
+  {
+   "id": "fresno-art-museum",
+   "name": "Fresno Art Museum",
    "region": "modesto-and-the-central-valley"
   },
   {
@@ -303,100 +135,30 @@
    "loc": "Fresno"
   },
   {
-   "id": "millerton-lake-state-recreation-area",
-   "name": "Millerton Lake State Recreation Area",
+   "id": "old-town-clovis",
+   "name": "Old Town Clovis",
    "region": "modesto-and-the-central-valley",
-   "desc": "boating near Fresno",
-   "season": {
-    "label": "summer",
-    "months": [
-     6,
-     7,
-     8
-    ],
-    "type": "hard"
-   }
+   "desc": "historic downtown, antique shops, restaurants"
   },
   {
-   "id": "bass-lake",
-   "name": "Bass Lake",
+   "id": "downtown-visalia",
+   "name": "Downtown Visalia",
    "region": "modesto-and-the-central-valley",
-   "desc": "mountain resort lake near Yosemite's south entrance",
-   "season": {
-    "label": "summer",
-    "months": [
-     6,
-     7,
-     8
-    ],
-    "type": "hard"
-   }
+   "desc": "historic Fox Theatre, walkable shops and restaurants"
   },
   {
-   "id": "world-ag-expo",
-   "name": "World Ag Expo",
+   "id": "kern-county-museum",
+   "name": "Kern County Museum",
    "region": "modesto-and-the-central-valley",
-   "loc": "Tulare",
-   "desc": "huge annual agriculture expo",
-   "season": {
-    "label": "February",
-    "months": [],
-    "type": "hard"
-   }
+   "loc": "Bakersfield",
+   "desc": "outdoor museum of historic buildings"
   },
   {
-   "id": "oakwood-lake-water-park",
-   "name": "Oakwood Lake Water Park",
+   "id": "calm-california-living-museum",
+   "name": "CALM (California Living Museum)",
    "region": "modesto-and-the-central-valley",
-   "loc": "Manteca",
-   "season": {
-    "label": "summer",
-    "months": [
-     6,
-     7,
-     8
-    ],
-    "type": "hard"
-   }
-  },
-  {
-   "id": "haggin-museum",
-   "name": "Haggin Museum",
-   "region": "modesto-and-the-central-valley",
-   "loc": "Stockton",
-   "desc": "art and history"
-  },
-  {
-   "id": "bob-hope-theatre",
-   "name": "Bob Hope Theatre",
-   "region": "modesto-and-the-central-valley",
-   "loc": "Stockton",
-   "desc": "historic 1920s movie palace"
-  },
-  {
-   "id": "oak-grove-regional-park",
-   "name": "Oak Grove Regional Park",
-   "region": "modesto-and-the-central-valley",
-   "loc": "Stockton"
-  },
-  {
-   "id": "lodi-lake-park",
-   "name": "Lodi Lake Park",
-   "region": "modesto-and-the-central-valley"
-  },
-  {
-   "id": "lodi-wine-country",
-   "name": "Lodi Wine Country",
-   "region": "modesto-and-the-central-valley",
-   "desc": "family-run wineries known for Zinfandel",
-   "season": {
-    "label": "harvest season Sept–Oct is best",
-    "months": [
-     9,
-     10
-    ],
-    "type": "best"
-   }
+   "loc": "Bakersfield",
+   "desc": "zoo and botanical garden"
   },
   {
    "id": "micke-grove-regional-park",
@@ -410,10 +172,6 @@
    "name": "Old Sacramento Waterfront",
    "region": "modesto-and-the-central-valley",
    "desc": "historic Gold Rush–era district",
-   "pin": [
-    102,
-    126
-   ],
    "ll": [
     38.582,
     -121.505
@@ -445,19 +203,60 @@
    "loc": "Sacramento"
   },
   {
-   "id": "sacramento-river-delta-backroads-loop",
-   "name": "Sacramento River Delta backroads loop",
+   "id": "yolo-causeway-bat-colony",
+   "name": "Yolo Causeway bat colony",
    "region": "modesto-and-the-central-valley",
-   "desc": "houseboats, historic Locke",
+   "loc": "West Sacramento",
+   "desc": "roughly 250,000 free-tailed bats pour out from under the causeway in one column at dusk",
    "season": {
-    "label": "summer",
+    "label": "Bat flights at dusk, June–Sept",
     "months": [
      6,
      7,
-     8
+     8,
+     9
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    38.58,
+    -121.56
+   ]
+  },
+  {
+   "id": "gold-rush-days",
+   "name": "Gold Rush Days",
+   "region": "modesto-and-the-central-valley",
+   "loc": "Old Sacramento",
+   "desc": "streets buried in dirt, stagecoaches and re-enactors for four days",
+   "season": {
+    "label": "Labor Day weekend",
+    "months": [
+     9
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    38.582,
+    -121.504
+   ]
+  },
+  {
+   "id": "the-big-fresno-fair",
+   "name": "The Big Fresno Fair",
+   "region": "modesto-and-the-central-valley",
+   "desc": "the valley's biggest, with horse racing and a midway",
+   "season": {
+    "label": "October",
+    "months": [
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    36.75,
+    -119.75
+   ]
   },
   {
    "id": "sutro-baths-ruins-and-lands-end-trail",
@@ -513,10 +312,6 @@
    "region": "greater-bay-area",
    "loc": "Marin",
    "desc": "old-growth redwood grove",
-   "pin": [
-    72,
-    134
-   ],
    "ll": [
     37.897,
     -122.581
@@ -533,10 +328,6 @@
    "name": "Point Reyes National Seashore",
    "region": "greater-bay-area",
    "desc": "cliffs, tule elk, historic lighthouse",
-   "pin": [
-    64,
-    128
-   ],
    "ll": [
     38.069,
     -122.881
@@ -675,10 +466,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    72,
-    148
-   ],
    "ll": [
     37.464,
     -122.428
@@ -699,10 +486,6 @@
     ],
     "type": "hard"
    },
-   "pin": [
-    74,
-    158
-   ],
    "ll": [
     37.108,
     -122.307
@@ -783,75 +566,179 @@
    "loc": "Sausalito"
   },
   {
-   "id": "tioga-pass-tioga-road-scenic-drive",
-   "name": "Tioga Pass / Tioga Road scenic drive",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
-   "desc": "the high-country route through Yosemite",
+   "id": "alcatraz",
+   "name": "Alcatraz",
+   "region": "greater-bay-area",
+   "desc": "the cellhouse audio tour is one of the best anywhere, and the ferry makes it a half-day",
+   "ll": [
+    37.827,
+    -122.423
+   ]
+  },
+  {
+   "id": "farallon-islands-wildlife-cruise",
+   "name": "Farallon Islands wildlife cruise",
+   "region": "greater-bay-area",
+   "desc": "full day by boat 27 miles offshore to whales, sea lions and seabird colonies",
    "season": {
-    "label": "Open only ~late May/June–Oct/Nov; closed by snow otherwise",
+    "label": "Whales best June–Nov; rough water",
     "months": [
      6,
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
-    "type": "hard"
+    "type": "best"
    },
-   "pin": [
-    142,
-    146
-   ],
    "ll": [
-    37.911,
-    -119.257
+    37.808,
+    -122.41
    ]
   },
   {
-   "id": "olmsted-point",
-   "name": "Olmsted Point",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
-   "loc": "Tioga Road",
-   "desc": "dramatic granite viewpoint"
+   "id": "nike-missile-site-sf-88",
+   "name": "Nike Missile Site SF-88",
+   "region": "greater-bay-area",
+   "loc": "Marin Headlands",
+   "desc": "go down into the silo, and volunteers raise an actual missile up the launch elevator",
+   "ll": [
+    37.828,
+    -122.526
+   ]
   },
   {
-   "id": "sentinel-dome",
-   "name": "Sentinel Dome",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
-   "loc": "Yosemite",
-   "desc": "panoramic 360° summit hike"
+   "id": "uss-hornet",
+   "name": "USS Hornet",
+   "region": "greater-bay-area",
+   "loc": "Alameda",
+   "desc": "hours of decks, hangar and island on the carrier that recovered Apollo 11 and 12",
+   "ll": [
+    37.772,
+    -122.302
+   ]
   },
   {
-   "id": "yosemite-mountain-sugar-pine-railroad",
-   "name": "Yosemite Mountain Sugar Pine Railroad",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
-   "loc": "Fish Camp",
-   "desc": "vintage steam train near the south entrance"
-  },
-  {
-   "id": "bishop-creek-canyon",
-   "name": "Bishop Creek Canyon",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
-   "loc": "North Lake, South Lake, Lake Sabrina",
-   "desc": "widely considered California's best fall color",
+   "id": "tomales-point-trail",
+   "name": "Tomales Point Trail",
+   "region": "greater-bay-area",
+   "loc": "Point Reyes",
+   "desc": "a narrow spit with a free-roaming tule elk herd on it",
    "season": {
-    "label": "peaks late Sept–mid Oct, higher lakes first",
+    "label": "Elk rut and bugling Aug–Oct",
+    "months": [
+     8,
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "ll": [
+    38.19,
+    -122.955
+   ]
+  },
+  {
+   "id": "alamere-falls",
+   "name": "Alamere Falls",
+   "region": "greater-bay-area",
+   "loc": "Point Reyes",
+   "desc": "one of the few waterfalls in the state that drops straight onto the beach",
+   "season": {
+    "label": "Best flow Jan–Apr; time the tide",
+    "months": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "best"
+   },
+   "ll": [
+    37.955,
+    -122.783
+   ]
+  },
+  {
+   "id": "point-reyes-lighthouse-and-chimney-rock",
+   "name": "Point Reyes Lighthouse & Chimney Rock",
+   "region": "greater-bay-area",
+   "desc": "313 steps down to the light, elephant seals below, gray whales offshore",
+   "season": {
+    "label": "Seals, whales, and open stairs Dec–Mar",
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ],
+    "type": "best"
+   },
+   "ll": [
+    37.996,
+    -123.02
+   ]
+  },
+  {
+   "id": "mount-diablo-tarantula-migration",
+   "name": "Mount Diablo tarantula migration",
+   "region": "greater-bay-area",
+   "desc": "males wander the trails by the hundreds looking for mates; strange and completely harmless",
+   "season": {
+    "label": "Males on the move Sept–Oct, late afternoon",
     "months": [
      9,
      10
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    37.88,
+    -121.914
+   ]
+  },
+  {
+   "id": "san-francisco-fleet-week-and-the-blue-angels",
+   "name": "San Francisco Fleet Week & the Blue Angels",
+   "region": "greater-bay-area",
+   "desc": "the airshow runs right over the bay, visible free from any north-facing shoreline",
+   "season": {
+    "label": "October",
+    "months": [
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    37.81,
+    -122.42
+   ]
+  },
+  {
+   "id": "bishop-creek-canyon",
+   "name": "Bishop Creek Canyon",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "loc": "North Lake, South Lake, Lake Sabrina",
+   "desc": "widely considered California's best fall color",
+   "season": {
+    "label": "Fall color peaks late Sept–mid Oct; check a live report",
+    "months": [
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    37.243,
+    -118.607
+   ]
   },
   {
    "id": "mammoth-lakes",
    "name": "Mammoth Lakes",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "desc": "hiking, hot springs, alpine scenery",
-   "pin": [
-    158,
-    162
-   ],
    "ll": [
     37.648,
     -118.972
@@ -860,7 +747,7 @@
   {
    "id": "mammoth-mountain",
    "name": "Mammoth Mountain",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "season": {
     "label": "skiing Nov–Apr, wildflower hiking July–Aug",
     "months": [
@@ -881,7 +768,7 @@
   {
    "id": "devils-postpile-national-monument",
    "name": "Devils Postpile National Monument",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "desc": "columnar basalt formation",
    "season": {
     "label": "Road open roughly June–Oct",
@@ -894,10 +781,6 @@
     ],
     "type": "hard"
    },
-   "pin": [
-    156,
-    160
-   ],
    "ll": [
     37.625,
     -119.085
@@ -906,13 +789,13 @@
   {
    "id": "rainbow-falls",
    "name": "Rainbow Falls",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "loc": "near Devils Postpile"
   },
   {
    "id": "june-lake-loop",
    "name": "June Lake Loop",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "season": {
     "label": "Fall color mid–late Oct",
     "months": [
@@ -920,10 +803,6 @@
     ],
     "type": "hard"
    },
-   "pin": [
-    156,
-    154
-   ],
    "ll": [
     37.78,
     -119.075
@@ -932,23 +811,8 @@
   {
    "id": "mono-lake",
    "name": "Mono Lake",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "desc": "otherworldly tufa rock towers",
-   "season": {
-    "label": "Via Tioga Pass, summer–fall",
-    "months": [
-     6,
-     7,
-     8,
-     9,
-     10
-    ],
-    "type": "best"
-   },
-   "pin": [
-    154,
-    150
-   ],
    "ll": [
     38.017,
     -119.009
@@ -957,11 +821,12 @@
   {
    "id": "bodie-state-historic-park",
    "name": "Bodie State Historic Park",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "desc": "California's best-preserved Gold Rush ghost town",
    "season": {
-    "label": "Most comfortable via Tioga in summer–fall",
+    "label": "Road usually plowed only in summer–fall",
     "months": [
+     5,
      6,
      7,
      8,
@@ -970,10 +835,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    152,
-    142
-   ],
    "ll": [
     38.212,
     -119.012
@@ -982,24 +843,40 @@
   {
    "id": "convict-lake",
    "name": "Convict Lake",
-   "region": "yosemite-high-country-and-the-sierra-nevada"
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "ll": [
+    37.59,
+    -118.856
+   ]
   },
   {
    "id": "mount-whitney-whitney-portal",
    "name": "Mount Whitney / Whitney Portal",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
-   "desc": "tallest peak in the contiguous US"
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "desc": "tallest peak in the contiguous US",
+   "season": {
+    "label": "Portal road open roughly May–Oct",
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    36.587,
+    -118.24
+   ]
   },
   {
    "id": "alabama-hills",
    "name": "Alabama Hills",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "loc": "Lone Pine",
    "desc": "iconic rock formations, film history",
-   "pin": [
-    170,
-    198
-   ],
    "ll": [
     36.607,
     -118.124
@@ -1008,11 +885,7 @@
   {
    "id": "manzanar-national-historic-site",
    "name": "Manzanar National Historic Site",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
-   "pin": [
-    172,
-    192
-   ],
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "ll": [
     36.728,
     -118.154
@@ -1021,12 +894,12 @@
   {
    "id": "bridgeport-and-twin-lakes",
    "name": "Bridgeport & Twin Lakes",
-   "region": "yosemite-high-country-and-the-sierra-nevada"
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon"
   },
   {
    "id": "sonora-pass-scenic-drive",
    "name": "Sonora Pass scenic drive",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "season": {
     "label": "Closed by snow roughly Nov–May",
     "months": [
@@ -1037,37 +910,61 @@
      10
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    38.328,
+    -119.636
+   ]
   },
   {
    "id": "ansel-adams-wilderness",
    "name": "Ansel Adams Wilderness",
-   "region": "yosemite-high-country-and-the-sierra-nevada"
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon"
   },
   {
    "id": "rock-creek-canyon",
    "name": "Rock Creek Canyon",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "season": {
-    "label": "fall color early-mid Oct",
+    "label": "Fall color early–mid Oct",
     "months": [
      10
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    37.457,
+    -118.74
+   ]
   },
   {
    "id": "kings-canyon-scenic-byway",
    "name": "Kings Canyon Scenic Byway",
-   "region": "yosemite-high-country-and-the-sierra-nevada"
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "season": {
+    "label": "Road into the canyon closed in winter",
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    36.79,
+    -118.97
+   ]
   },
   {
    "id": "crystal-cave",
    "name": "Crystal Cave",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "loc": "Sequoia National Park",
    "season": {
-    "label": "open roughly May–Sept",
+    "label": "Tours roughly May–Sept",
     "months": [
      5,
      6,
@@ -1076,51 +973,170 @@
      9
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    36.587,
+    -118.83
+   ]
   },
   {
    "id": "trail-of-100-giants",
    "name": "Trail of 100 Giants",
-   "region": "yosemite-high-country-and-the-sierra-nevada",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
    "loc": "Sequoia National Forest",
-   "desc": "a different sequoia grove, further south"
+   "desc": "a different sequoia grove, further south",
+   "ll": [
+    35.977,
+    -118.586
+   ]
   },
   {
-   "id": "emerald-bay-state-park",
-   "name": "Emerald Bay State Park",
-   "region": "lake-tahoe",
+   "id": "ancient-bristlecone-pine-forest",
+   "name": "Ancient Bristlecone Pine Forest",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "loc": "White Mountains",
+   "desc": "the oldest living things on earth, past 4,800 years, in a grove you walk through at 10,000 ft",
    "season": {
-    "label": "Summer for swimming and hiking",
+    "label": "Road open roughly late May–Oct, 10,000 ft",
     "months": [
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
-    "type": "best"
+    "type": "hard"
    },
-   "pin": [
-    140,
-    116
-   ],
    "ll": [
-    38.954,
-    -120.11
+    37.385,
+    -118.178
    ]
   },
   {
-   "id": "south-lake-tahoe-beaches",
-   "name": "South Lake Tahoe beaches",
-   "region": "lake-tahoe",
+   "id": "big-pine-lakes",
+   "name": "Big Pine Lakes",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "desc": "glacier-fed lakes an unreal turquoise from rock flour, under the Palisades",
    "season": {
-    "label": "summer for swimming",
+    "label": "July–Oct; a real 10-mile day",
+    "months": [
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    37.125,
+    -118.48
+   ]
+  },
+  {
+   "id": "little-lakes-valley",
+   "name": "Little Lakes Valley",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "loc": "Rock Creek",
+   "desc": "the easiest way into high alpine lake country anywhere in the Sierra; the trailhead itself starts at 10,300 ft",
+   "season": {
+    "label": "July–Oct; trailhead at 10,300 ft",
+    "months": [
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    37.435,
+    -118.748
+   ]
+  },
+  {
+   "id": "boyden-cavern",
+   "name": "Boyden Cavern",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "loc": "Kings Canyon",
+   "desc": "marble cave tour inside the deepest canyon in the country",
+   "season": {
+    "label": "Tours roughly May–Oct",
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    36.81,
+    -118.82
+   ]
+  },
+  {
+   "id": "mono-lake-tufa-kayak-and-canoe-tours",
+   "name": "Mono Lake tufa kayak & canoe tours",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "desc": "paddle out among the towers at sunrise instead of viewing them from the shore",
+   "season": {
+    "label": "Summer mornings; book ahead",
     "months": [
      6,
      7,
      8
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    37.94,
+    -119.03
+   ]
+  },
+  {
+   "id": "travertine-hot-springs",
+   "name": "Travertine Hot Springs",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "loc": "Bridgeport",
+   "desc": "free rock soaking pools on an orange travertine ridge facing the Sierra crest",
+   "ll": [
+    38.246,
+    -119.205
+   ]
+  },
+  {
+   "id": "bishop-mule-days",
+   "name": "Bishop Mule Days",
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "desc": "700 mules, a five-day rodeo and the longest non-motorized parade in the country",
+   "season": {
+    "label": "Memorial Day weekend; town books out a year ahead",
+    "months": [
+     5
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    37.37,
+    -118.4
+   ]
+  },
+  {
+   "id": "emerald-bay-state-park",
+   "name": "Emerald Bay State Park",
+   "region": "lake-tahoe",
+   "ll": [
+    38.954,
+    -120.11
+   ]
+  },
+  {
+   "id": "south-lake-tahoe-shoreline",
+   "name": "South Lake Tahoe shoreline",
+   "region": "lake-tahoe",
+   "desc": "walking paths and mountain views, no swimming required"
   },
   {
    "id": "heavenly-mountain-resort",
@@ -1139,10 +1155,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    144,
-    120
-   ],
    "ll": [
     38.935,
     -119.94
@@ -1171,15 +1183,20 @@
    "name": "Sand Harbor",
    "region": "lake-tahoe",
    "loc": "Nevada side",
+   "desc": "famously clear water and granite boulders; also hosts the Lake Tahoe Shakespeare Festival",
    "season": {
-    "label": "summer",
+    "label": "Clear-water summer; Shakespeare Festival Jul–Aug",
     "months": [
      6,
      7,
      8
     ],
-    "type": "hard"
-   }
+    "type": "best"
+   },
+   "ll": [
+    39.198,
+    -119.93
+   ]
   },
   {
    "id": "tahoe-rim-trail",
@@ -1199,12 +1216,20 @@
   {
    "id": "donner-memorial-state-park-and-donner-lake",
    "name": "Donner Memorial State Park & Donner Lake",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    39.324,
+    -120.233
+   ]
   },
   {
    "id": "historic-downtown-truckee",
    "name": "Historic downtown Truckee",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    39.328,
+    -120.183
+   ]
   },
   {
    "id": "kirkwood-mountain-resort",
@@ -1257,11 +1282,7 @@
   {
    "id": "lake-tahoe-paddlewheeler-boat-cruises",
    "name": "Lake Tahoe paddlewheeler boat cruises",
-   "region": "lake-tahoe",
-   "ll": [
-    38.94,
-    -119.95
-   ]
+   "region": "lake-tahoe"
   },
   {
    "id": "mount-rose-tahoe-meadows",
@@ -1290,21 +1311,103 @@
    "region": "lake-tahoe"
   },
   {
+   "id": "rubicon-trail",
+   "name": "Rubicon Trail",
+   "region": "lake-tahoe",
+   "loc": "D.L. Bliss to Emerald Bay",
+   "desc": "cliffside path a few feet above water clear enough to see the bottom the whole way",
+   "ll": [
+    38.98,
+    -120.09
+   ]
+  },
+  {
+   "id": "emerald-bay-kayak-to-fannette-island",
+   "name": "Emerald Bay kayak to Fannette Island",
+   "region": "lake-tahoe",
+   "desc": "paddle out and land on the only island in the lake",
+   "season": {
+    "label": "Summer; rentals nearby",
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    38.954,
+    -120.105
+   ]
+  },
+  {
+   "id": "grover-hot-springs-state-park",
+   "name": "Grover Hot Springs State Park",
+   "region": "lake-tahoe",
+   "loc": "Markleeville",
+   "desc": "hot mineral pools in an open meadow ringed by peaks, best in falling snow",
+   "ll": [
+    38.696,
+    -119.846
+   ]
+  },
+  {
+   "id": "hope-valley",
+   "name": "Hope Valley",
+   "region": "lake-tahoe",
+   "loc": "Highway 88",
+   "desc": "the best aspen color on the west slope, and a drive-and-stop rather than a hike",
+   "season": {
+    "label": "Best aspen color on the west slope, early–mid Oct",
+    "months": [
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    38.77,
+    -119.93
+   ]
+  },
+  {
+   "id": "virginia-city-nevada-and-the-vandt-railroad",
+   "name": "Virginia City, Nevada & the V&T Railroad",
+   "region": "lake-tahoe",
+   "desc": "a full-day silver-boom town with mine tours and boardwalks, plus a steam train down the Comstock grade; ~3.5 hrs",
+   "season": {
+    "label": "Steam train roughly May–Oct",
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "ll": [
+    39.31,
+    -119.65
+   ]
+  },
+  {
    "id": "marshall-gold-discovery-state-historic-park",
    "name": "Marshall Gold Discovery State Historic Park",
    "region": "gold-country-sierra-foothills",
    "loc": "Coloma",
-   "desc": "where the Gold Rush began"
+   "desc": "where the Gold Rush began",
+   "ll": [
+    38.8,
+    -120.892
+   ]
   },
   {
    "id": "columbia-state-historic-park",
    "name": "Columbia State Historic Park",
    "region": "gold-country-sierra-foothills",
    "desc": "preserved Gold Rush town",
-   "pin": [
-    118,
-    142
-   ],
    "ll": [
     38.036,
     -120.401
@@ -1319,7 +1422,11 @@
    "id": "railtown-1897-state-historic-park",
    "name": "Railtown 1897 State Historic Park",
    "region": "gold-country-sierra-foothills",
-   "loc": "Jamestown"
+   "loc": "Jamestown",
+   "ll": [
+    37.955,
+    -120.422
+   ]
   },
   {
    "id": "calaveras-county-fairgrounds",
@@ -1346,7 +1453,11 @@
    "id": "moaning-cavern",
    "name": "Moaning Cavern",
    "region": "gold-country-sierra-foothills",
-   "loc": "Vallecito"
+   "loc": "Vallecito",
+   "ll": [
+    38.07,
+    -120.47
+   ]
   },
   {
    "id": "california-cavern",
@@ -1392,7 +1503,11 @@
    "id": "calaveras-big-trees-state-park",
    "name": "Calaveras Big Trees State Park",
    "region": "gold-country-sierra-foothills",
-   "desc": "a different giant sequoia grove"
+   "desc": "a different giant sequoia grove",
+   "ll": [
+    38.277,
+    -120.31
+   ]
   },
   {
    "id": "malakoff-diggins-state-historic-park",
@@ -1419,18 +1534,10 @@
    "region": "gold-country-sierra-foothills"
   },
   {
-   "id": "folsom-lake-state-recreation-area",
-   "name": "Folsom Lake State Recreation Area",
+   "id": "folsom-lake-trail",
+   "name": "Folsom Lake Trail",
    "region": "gold-country-sierra-foothills",
-   "season": {
-    "label": "summer",
-    "months": [
-     6,
-     7,
-     8
-    ],
-    "type": "hard"
-   }
+   "desc": "paved lakeside walking and biking path with foothill views"
   },
   {
    "id": "apple-hill",
@@ -1448,10 +1555,6 @@
     ],
     "type": "hard"
    },
-   "pin": [
-    116,
-    128
-   ],
    "ll": [
     38.737,
     -120.678
@@ -1469,7 +1572,11 @@
      3
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    38.457,
+    -120.53
+   ]
   },
   {
    "id": "indian-grinding-rock-state-historic-park",
@@ -1478,10 +1585,91 @@
    "loc": "Pine Grove"
   },
   {
+   "id": "sutter-gold-mine",
+   "name": "Sutter Gold Mine",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Amador City",
+   "desc": "hardhat and headlamp, walk deep into a real hard-rock gold mine, not a museum version",
+   "ll": [
+    38.43,
+    -120.82
+   ]
+  },
+  {
+   "id": "yosemite-mountain-sugar-pine-railroad",
+   "name": "Yosemite Mountain Sugar Pine Railroad",
+   "region": "gold-country-sierra-foothills",
+   "loc": "Fish Camp",
+   "desc": "narrow-gauge steam through the pines, with moonlight dinner runs",
+   "season": {
+    "label": "Runs roughly Apr–Oct",
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    37.455,
+    -119.635
+   ]
+  },
+  {
+   "id": "nevada-city-victorian-christmas",
+   "name": "Nevada City Victorian Christmas",
+   "region": "gold-country-sierra-foothills",
+   "desc": "the whole downtown closed to cars, gaslit, in costume",
+   "season": {
+    "label": "Wed and Sun evenings in December",
+    "months": [
+     12
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    39.262,
+    -121.016
+   ]
+  },
+  {
+   "id": "amador-vintners-big-crush",
+   "name": "Amador Vintners' Big Crush",
+   "region": "gold-country-sierra-foothills",
+   "desc": "harvest weekend across 40 Shenandoah Valley wineries",
+   "season": {
+    "label": "Harvest weekend, October",
+    "months": [
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    38.55,
+    -120.85
+   ]
+  },
+  {
    "id": "napa-valley-wineries",
    "name": "Napa Valley wineries",
    "region": "napa-and-sonoma-wine-country",
-   "loc": "beyond Castello di Amorosa"
+   "loc": "beyond Castello di Amorosa",
+   "season": {
+    "label": "Harvest Sept–Oct is best",
+    "months": [
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "ll": [
+    38.502,
+    -122.265
+   ]
   },
   {
    "id": "napa-valley-wine-train",
@@ -1498,7 +1686,11 @@
    "id": "old-faithful-geyser-of-california",
    "name": "Old Faithful Geyser of California",
    "region": "napa-and-sonoma-wine-country",
-   "loc": "Calistoga"
+   "loc": "Calistoga",
+   "ll": [
+    38.61,
+    -122.6
+   ]
   },
   {
    "id": "calistoga-hot-springs-and-mud-baths",
@@ -1567,16 +1759,16 @@
   {
    "id": "armstrong-redwoods-state-natural-reserve",
    "name": "Armstrong Redwoods State Natural Reserve",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.536,
+    -123.003
+   ]
   },
   {
    "id": "bodega-bay",
    "name": "Bodega Bay",
    "region": "napa-and-sonoma-wine-country",
-   "pin": [
-    62,
-    116
-   ],
    "ll": [
     38.333,
     -123.048
@@ -1593,10 +1785,6 @@
    "region": "napa-and-sonoma-wine-country",
    "loc": "Santa Rosa",
    "desc": "wildlife preserve safari tours",
-   "pin": [
-    72,
-    112
-   ],
    "ll": [
     38.553,
     -122.703
@@ -1652,6 +1840,65 @@
    "desc": "small Sonoma coast redwood town"
   },
   {
+   "id": "sonoma-canopy-tours",
+   "name": "Sonoma Canopy Tours",
+   "region": "napa-and-sonoma-wine-country",
+   "loc": "Occidental",
+   "desc": "seven ziplines and two sky bridges through redwood canopy, ending on a spiral staircase descent",
+   "ll": [
+    38.4,
+    -122.95
+   ]
+  },
+  {
+   "id": "guerneville-and-the-russian-river",
+   "name": "Guerneville & the Russian River",
+   "region": "napa-and-sonoma-wine-country",
+   "desc": "canoe or kayak downriver, river town at both ends, Armstrong Redwoods above it",
+   "season": {
+    "label": "Paddling June–Sept",
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    38.502,
+    -122.996
+   ]
+  },
+  {
+   "id": "robert-ferguson-observatory",
+   "name": "Robert Ferguson Observatory",
+   "region": "napa-and-sonoma-wine-country",
+   "loc": "Sugarloaf Ridge SP",
+   "desc": "the largest observatory in the West built purely for public use; ticketed star parties year-round",
+   "ll": [
+    38.437,
+    -122.513
+   ]
+  },
+  {
+   "id": "bottlerock-napa-valley",
+   "name": "BottleRock Napa Valley",
+   "region": "napa-and-sonoma-wine-country",
+   "desc": "the big one, on the Napa Expo grounds",
+   "season": {
+    "label": "Memorial Day weekend; lodging triples",
+    "months": [
+     5
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    38.31,
+    -122.29
+   ]
+  },
+  {
    "id": "santa-cruz-beach-boardwalk",
    "name": "Santa Cruz Beach Boardwalk",
    "region": "santa-cruz-and-monterey-bay",
@@ -1667,10 +1914,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    84,
-    166
-   ],
    "ll": [
     36.964,
     -122.018
@@ -1709,10 +1952,6 @@
    "region": "santa-cruz-and-monterey-bay",
    "loc": "Felton",
    "desc": "steam trains through redwoods",
-   "pin": [
-    86,
-    162
-   ],
    "ll": [
     37.041,
     -122.062
@@ -1733,17 +1972,17 @@
      2
     ],
     "type": "best"
-   }
+   },
+   "ll": [
+    36.62,
+    -121.92
+   ]
   },
   {
    "id": "elkhorn-slough",
    "name": "Elkhorn Slough",
    "region": "santa-cruz-and-monterey-bay",
-   "desc": "kayaking with sea otters",
-   "pin": [
-    92,
-    172
-   ],
+   "desc": "guided pontoon boat eco-tour to see sea otters and shorebirds (no paddling required)",
    "ll": [
     36.81,
     -121.785
@@ -1805,23 +2044,109 @@
     ],
     "type": "best"
    },
-   "pin": [
-    102,
-    184
-   ],
    "ll": [
     36.49,
     -121.18
    ]
   },
   {
+   "id": "mount-hermon-redwood-canopy-tours",
+   "name": "Mount Hermon Redwood Canopy Tours",
+   "region": "santa-cruz-and-monterey-bay",
+   "loc": "Felton",
+   "desc": "ziplines between platforms built into old-growth redwoods, 150 ft up",
+   "ll": [
+    37.05,
+    -122.06
+   ]
+  },
+  {
+   "id": "bear-gulch-and-balconies-talus-caves",
+   "name": "Bear Gulch & Balconies talus caves",
+   "region": "santa-cruz-and-monterey-bay",
+   "loc": "Pinnacles",
+   "desc": "headlamp required; you climb up through boulder caves with a creek running underneath",
+   "season": {
+    "label": "Bear Gulch partly closed mid-May–mid-July for bat pupping",
+    "months": [
+     1,
+     2,
+     3,
+     4,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "type": "best"
+   },
+   "ll": [
+    36.48,
+    -121.18
+   ]
+  },
+  {
+   "id": "berry-creek-falls",
+   "name": "Berry Creek Falls",
+   "region": "santa-cruz-and-monterey-bay",
+   "loc": "Big Basin",
+   "desc": "65-ft falls at the end of a long redwood loop",
+   "season": {
+    "label": "Best flow Dec–May; check trail access",
+    "months": [
+     12,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "type": "best"
+   },
+   "ll": [
+    37.16,
+    -122.24
+   ]
+  },
+  {
+   "id": "monterey-car-week-and-the-pebble-beach-concours",
+   "name": "Monterey Car Week & the Pebble Beach Concours",
+   "region": "santa-cruz-and-monterey-bay",
+   "desc": "the whole peninsula turns into a car show, much of it free to watch from the roadside",
+   "season": {
+    "label": "Mid-August; book lodging months out",
+    "months": [
+     8
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    36.57,
+    -121.95
+   ]
+  },
+  {
+   "id": "watsonville-strawberry-festival",
+   "name": "Watsonville Strawberry Festival",
+   "region": "santa-cruz-and-monterey-bay",
+   "desc": "the crop this whole valley runs on",
+   "season": {
+    "label": "August",
+    "months": [
+     8
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    36.91,
+    -121.76
+   ]
+  },
+  {
    "id": "bixby-creek-bridge",
    "name": "Bixby Creek Bridge",
    "region": "big-sur-and-the-central-coast",
-   "pin": [
-    90,
-    186
-   ],
    "ll": [
     36.371,
     -121.902
@@ -1831,7 +2156,11 @@
    "id": "mcway-falls",
    "name": "McWay Falls",
    "region": "big-sur-and-the-central-coast",
-   "loc": "Julia Pfeiffer Burns State Park"
+   "loc": "Julia Pfeiffer Burns State Park",
+   "ll": [
+    36.158,
+    -121.672
+   ]
   },
   {
    "id": "pfeiffer-big-sur-state-park",
@@ -1854,10 +2183,6 @@
    "name": "Hearst Castle",
    "region": "big-sur-and-the-central-coast",
    "loc": "San Simeon",
-   "pin": [
-    106,
-    206
-   ],
    "ll": [
     35.685,
     -121.168
@@ -1877,10 +2202,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    104,
-    202
-   ],
    "ll": [
     35.663,
     -121.257
@@ -1890,10 +2211,6 @@
    "id": "morro-bay-and-morro-rock",
    "name": "Morro Bay & Morro Rock",
    "region": "big-sur-and-the-central-coast",
-   "pin": [
-    108,
-    212
-   ],
    "ll": [
     35.369,
     -120.856
@@ -1920,21 +2237,6 @@
    "name": "Pismo Beach",
    "region": "big-sur-and-the-central-coast",
    "desc": "dunes and pier",
-   "season": {
-    "label": "Monarchs Oct–Feb at the grove",
-    "months": [
-     10,
-     11,
-     12,
-     1,
-     2
-    ],
-    "type": "best"
-   },
-   "pin": [
-    112,
-    218
-   ],
    "ll": [
     35.143,
     -120.641
@@ -2002,6 +2304,74 @@
    "region": "big-sur-and-the-central-coast"
   },
   {
+   "id": "carrizo-plain-national-monument",
+   "name": "Carrizo Plain National Monument",
+   "region": "big-sur-and-the-central-coast",
+   "desc": "250,000 acres with the San Andreas Fault running visibly across it; in a wet year the hills go solid yellow and purple to the horizon",
+   "season": {
+    "label": "Bloom Mar–May, and only some years; no services",
+    "months": [
+     3,
+     4,
+     5
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    35.19,
+    -119.79
+   ]
+  },
+  {
+   "id": "pismo-monarch-butterfly-grove",
+   "name": "Pismo Monarch Butterfly Grove",
+   "region": "big-sur-and-the-central-coast",
+   "desc": "tens of thousands of monarchs clustered in the eucalyptus, hanging in sheets; free, right off the 1",
+   "season": {
+    "label": "Monarchs late Oct–Feb",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    35.13,
+    -120.63
+   ]
+  },
+  {
+   "id": "sensorio-field-of-light",
+   "name": "Sensorio Field of Light",
+   "region": "big-sur-and-the-central-coast",
+   "loc": "Paso Robles",
+   "desc": "100,000 solar fiber-optic stems changing color across a hillside you walk into",
+   "ll": [
+    35.65,
+    -120.66
+   ]
+  },
+  {
+   "id": "paso-robles-harvest-wine-weekend",
+   "name": "Paso Robles Harvest Wine Weekend",
+   "region": "big-sur-and-the-central-coast",
+   "desc": "200+ wineries open at once, many with barrel tastings",
+   "season": {
+    "label": "October",
+    "months": [
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    35.63,
+    -120.69
+   ]
+  },
+  {
    "id": "solvang",
    "name": "Solvang",
    "region": "santa-barbara-solvang-and-the-channel-islands",
@@ -2018,10 +2388,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    126,
-    230
-   ],
    "ll": [
     34.596,
     -120.138
@@ -2052,10 +2418,6 @@
    "id": "old-mission-santa-barbara",
    "name": "Old Mission Santa Barbara",
    "region": "santa-barbara-solvang-and-the-channel-islands",
-   "pin": [
-    130,
-    236
-   ],
    "ll": [
     34.438,
     -119.713
@@ -2093,10 +2455,6 @@
    "name": "Channel Islands National Park",
    "region": "santa-barbara-solvang-and-the-channel-islands",
    "desc": "boat trips to Anacapa & Santa Cruz Island",
-   "pin": [
-    135,
-    245
-   ],
    "ll": [
     34.007,
     -119.771
@@ -2136,13 +2494,105 @@
    "desc": "botanical estate garden"
   },
   {
+   "id": "painted-cave",
+   "name": "Painted Cave",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "loc": "Santa Cruz Island",
+   "desc": "among the largest sea caves in the world, a quarter mile deep; boats go inside it",
+   "season": {
+    "label": "Spring, calm water only",
+    "months": [
+     3,
+     4,
+     5
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    34.07,
+    -119.88
+   ]
+  },
+  {
+   "id": "scorpion-anchorage-sea-cave-kayaking",
+   "name": "Scorpion Anchorage sea cave kayaking",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "loc": "Santa Cruz Island",
+   "desc": "guided paddle into a coastline honeycombed with caves",
+   "season": {
+    "label": "Best June–Sept",
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    34.05,
+    -119.55
+   ]
+  },
+  {
+   "id": "figueroa-mountain",
+   "name": "Figueroa Mountain",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "desc": "the most reliable wildflower drive in the state, and an easy add to a Solvang weekend",
+   "season": {
+    "label": "The state's most reliable wildflower drive, Mar–Apr",
+    "months": [
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    34.735,
+    -119.985
+   ]
+  },
+  {
+   "id": "solvang-julefest",
+   "name": "Solvang Julefest",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "desc": "the whole town lit and decorated, tree lighting and a Nordic market",
+   "season": {
+    "label": "Mid-Nov through early Jan",
+    "months": [
+     11,
+     12,
+     1
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    34.596,
+    -120.14
+   ]
+  },
+  {
+   "id": "old-spanish-days-fiesta",
+   "name": "Old Spanish Days Fiesta",
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "loc": "Santa Barbara",
+   "desc": "five days of parades, including one of horses and carriages down State Street",
+   "season": {
+    "label": "Five days in August",
+    "months": [
+     8
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    34.42,
+    -119.7
+   ]
+  },
+  {
    "id": "griffith-observatory",
    "name": "Griffith Observatory",
    "region": "los-angeles",
-   "pin": [
-    157,
-    247
-   ],
    "ll": [
     34.118,
     -118.3
@@ -2379,10 +2829,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    152,
-    264
-   ],
    "ll": [
     33.343,
     -118.325
@@ -2570,14 +3016,74 @@
    "region": "los-angeles"
   },
   {
+   "id": "antelope-valley-california-poppy-reserve",
+   "name": "Antelope Valley California Poppy Reserve",
+   "region": "los-angeles",
+   "loc": "Lancaster",
+   "desc": "entire hillsides solid orange in a good year",
+   "season": {
+    "label": "Solid orange mid-Mar–Apr in a good year; check the bloom line",
+    "months": [
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    34.726,
+    -118.395
+   ]
+  },
+  {
+   "id": "catalinas-interior-and-the-bison-herd",
+   "name": "Catalina's interior & the bison herd",
+   "region": "los-angeles",
+   "desc": "the island past Avalon, with descendants of 14 bison left behind by a 1924 film crew",
+   "ll": [
+    33.38,
+    -118.42
+   ]
+  },
+  {
+   "id": "tournament-of-roses-parade",
+   "name": "Tournament of Roses Parade",
+   "region": "los-angeles",
+   "loc": "Pasadena",
+   "desc": "floats built entirely from flowers; you can also view them up close for two days after",
+   "season": {
+    "label": "January 1",
+    "months": [
+     1
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    34.146,
+    -118.14
+   ]
+  },
+  {
+   "id": "dia-de-los-muertos-at-hollywood-forever",
+   "name": "Día de los Muertos at Hollywood Forever",
+   "region": "los-angeles",
+   "desc": "thousands of altars and full costume across the cemetery grounds",
+   "season": {
+    "label": "Early November",
+    "months": [
+     11
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    34.09,
+    -118.32
+   ]
+  },
+  {
    "id": "disneyland-park-and-disney-california-adventure",
    "name": "Disneyland Park & Disney California Adventure",
    "region": "orange-county",
    "loc": "Anaheim",
-   "pin": [
-    162,
-    252
-   ],
    "ll": [
     33.812,
     -117.919
@@ -2628,10 +3134,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    166,
-    258
-   ],
    "ll": [
     33.502,
     -117.663
@@ -2717,10 +3219,51 @@
    "loc": "Modjeska Canyon"
   },
   {
+   "id": "pageant-of-the-masters-and-sawdust-art-festival",
+   "name": "Pageant of the Masters & Sawdust Art Festival",
+   "region": "orange-county",
+   "loc": "Laguna Beach",
+   "desc": "live actors posed inside recreations of famous paintings, full orchestra; nothing else like it in the country",
+   "season": {
+    "label": "July–Aug; tickets go early",
+    "months": [
+     7,
+     8
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    33.542,
+    -117.78
+   ]
+  },
+  {
+   "id": "oc-fair",
+   "name": "OC Fair",
+   "region": "orange-county",
+   "loc": "Costa Mesa",
+   "desc": "one of the largest fairs in the state",
+   "season": {
+    "label": "July",
+    "months": [
+     7
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    33.66,
+    -117.9
+   ]
+  },
+  {
    "id": "san-diego-zoo",
    "name": "San Diego Zoo",
    "region": "san-diego",
-   "loc": "Balboa Park"
+   "loc": "Balboa Park",
+   "ll": [
+    32.735,
+    -117.149
+   ]
   },
   {
    "id": "balboa-park-museums-and-gardens",
@@ -2752,10 +3295,6 @@
    "id": "torrey-pines-state-natural-reserve",
    "name": "Torrey Pines State Natural Reserve",
    "region": "san-diego",
-   "pin": [
-    176,
-    263
-   ],
    "ll": [
     32.917,
     -117.253
@@ -2824,7 +3363,11 @@
      5
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    33.123,
+    -117.319
+   ]
   },
   {
    "id": "del-mar-beach-and-racetrack",
@@ -2832,9 +3375,11 @@
    "region": "san-diego"
   },
   {
-   "id": "encinitas-surf-beaches-and-self-realization-fellowship-gardens",
-   "name": "Encinitas surf beaches & Self-Realization Fellowship gardens",
-   "region": "san-diego"
+   "id": "encinitas-beaches",
+   "name": "Encinitas beaches",
+   "region": "san-diego",
+   "loc": "great for a walk and watching surfers",
+   "desc": "**& Self-Realization Fellowship gardens**"
   },
   {
    "id": "julian",
@@ -2842,13 +3387,17 @@
    "region": "san-diego",
    "desc": "mountain town known for apple pie",
    "season": {
-    "label": "apple harvest Sept–Oct",
+    "label": "Apple harvest Sept–Oct",
     "months": [
      9,
      10
     ],
     "type": "best"
-   }
+   },
+   "ll": [
+    33.079,
+    -116.602
+   ]
   },
   {
    "id": "mission-san-luis-rey-de-francia",
@@ -2930,6 +3479,47 @@
    "region": "san-diego"
   },
   {
+   "id": "sunny-jims-sea-cave",
+   "name": "Sunny Jim's Sea Cave",
+   "region": "san-diego",
+   "loc": "La Jolla",
+   "desc": "145 hand-dug steps down a tunnel through the cliff into a sea cave, cut in 1903",
+   "ll": [
+    32.85,
+    -117.27
+   ]
+  },
+  {
+   "id": "la-jolla-sea-cave-kayak-tour",
+   "name": "La Jolla sea cave kayak tour",
+   "region": "san-diego",
+   "desc": "paddle the Seven Caves and through leopard shark shallows",
+   "season": {
+    "label": "Leopard sharks in summer; caves calm-water only",
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "type": "best"
+   },
+   "ll": [
+    32.85,
+    -117.26
+   ]
+  },
+  {
+   "id": "palomar-observatory",
+   "name": "Palomar Observatory",
+   "region": "san-diego",
+   "desc": "the 200-inch Hale Telescope, largest in the world for 45 years, in a dome the size of the Pantheon",
+   "ll": [
+    33.356,
+    -116.865
+   ]
+  },
+  {
    "id": "palm-springs-aerial-tramway",
    "name": "Palm Springs Aerial Tramway",
    "region": "palm-springs-and-the-deserts",
@@ -2946,10 +3536,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    198,
-    248
-   ],
    "ll": [
     33.837,
     -116.613
@@ -2979,10 +3565,6 @@
     ],
     "type": "hard"
    },
-   "pin": [
-    203,
-    243
-   ],
    "ll": [
     33.881,
     -115.9
@@ -3029,10 +3611,6 @@
     ],
     "type": "hard"
    },
-   "pin": [
-    196,
-    188
-   ],
    "ll": [
     36.505,
     -117.079
@@ -3058,10 +3636,6 @@
     ],
     "type": "hard"
    },
-   "pin": [
-    196,
-    258
-   ],
    "ll": [
     33.256,
     -116.402
@@ -3133,6 +3707,261 @@
    "region": "palm-springs-and-the-deserts"
   },
   {
+   "id": "painted-canyon-and-ladder-canyon",
+   "name": "Painted Canyon & Ladder Canyon",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Mecca Hills",
+   "desc": "a slot canyon you climb up through on bolted wooden ladders, looping out onto a ridge of banded red and gold rock; ~1 hr east of Palm Springs",
+   "season": {
+    "label": "Nov–Mar only; washboard access road, floods",
+    "months": [
+     11,
+     12,
+     1,
+     2,
+     3
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    33.62,
+    -116.01
+   ]
+  },
+  {
+   "id": "titus-canyon",
+   "name": "Titus Canyon",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Death Valley",
+   "desc": "27 miles of one-way dirt through a ghost town and out a slot canyon so narrow the walls nearly touch",
+   "season": {
+    "label": "High clearance; Oct–Apr",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    36.855,
+    -117.17
+   ]
+  },
+  {
+   "id": "mesquite-flat-sand-dunes",
+   "name": "Mesquite Flat Sand Dunes",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Death Valley",
+   "desc": "walk straight out into them from the road, best at sunrise",
+   "season": {
+    "label": "Oct–Apr, best at sunrise",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    36.607,
+    -117.115
+   ]
+  },
+  {
+   "id": "artists-drive-and-artists-palette",
+   "name": "Artist's Drive & Artist's Palette",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Death Valley",
+   "desc": "nine-mile one-way loop through hills streaked green, pink and purple",
+   "season": {
+    "label": "Oct–Apr, best late afternoon",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    36.37,
+    -116.8
+   ]
+  },
+  {
+   "id": "ubehebe-crater",
+   "name": "Ubehebe Crater",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Death Valley",
+   "desc": "a 600-ft volcanic crater you can walk down into, and regret",
+   "season": {
+    "label": "Oct–Apr",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    37.01,
+    -117.45
+   ]
+  },
+  {
+   "id": "dantes-view",
+   "name": "Dante's View",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Death Valley",
+   "desc": "5,500 ft straight above Badwater, the whole valley in one frame",
+   "season": {
+    "label": "Oct–Apr",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    36.22,
+    -116.726
+   ]
+  },
+  {
+   "id": "darwin-falls",
+   "name": "Darwin Falls",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Death Valley",
+   "desc": "a spring-fed waterfall in a willow canyon in the driest place in North America",
+   "season": {
+    "label": "Oct–Apr",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    36.325,
+    -117.52
+   ]
+  },
+  {
+   "id": "hidden-valley-loop",
+   "name": "Hidden Valley Loop",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Joshua Tree",
+   "desc": "a mile inside a rock-walled bowl that cattle rustlers used as a natural corral",
+   "season": {
+    "label": "Oct–Apr",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    34.012,
+    -116.168
+   ]
+  },
+  {
+   "id": "ryan-mountain",
+   "name": "Ryan Mountain",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Joshua Tree",
+   "desc": "the park's best summit for the effort, 360 degrees over the whole basin",
+   "season": {
+    "label": "Oct–Apr",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    33.99,
+    -116.135
+   ]
+  },
+  {
+   "id": "lost-palms-oasis",
+   "name": "Lost Palms Oasis",
+   "region": "palm-springs-and-the-deserts",
+   "loc": "Joshua Tree, south end",
+   "desc": "seven miles round trip to the park's largest fan palm grove, in a canyon almost nobody visits",
+   "season": {
+    "label": "Oct–Apr",
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    33.737,
+    -115.81
+   ]
+  },
+  {
+   "id": "palm-springs-modernism-week",
+   "name": "Palm Springs Modernism Week",
+   "region": "palm-springs-and-the-deserts",
+   "desc": "mid-century houses normally closed to the public, opened for eleven days",
+   "season": {
+    "label": "Eleven days in Feb; smaller preview in Oct",
+    "months": [
+     2
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    33.83,
+    -116.55
+   ]
+  },
+  {
    "id": "avenue-of-the-giants",
    "name": "Avenue of the Giants",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
@@ -3146,10 +3975,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    50,
-    44
-   ],
    "ll": [
     40.309,
     -123.911
@@ -3166,10 +3991,6 @@
    "name": "Fern Canyon",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
    "loc": "Prairie Creek Redwoods",
-   "pin": [
-    44,
-    22
-   ],
    "ll": [
     41.401,
     -124.065
@@ -3187,10 +4008,6 @@
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
    "loc": "Klamath",
    "desc": "gondola ride through the redwood canopy",
-   "pin": [
-    46,
-    26
-   ],
    "ll": [
     41.585,
     -124.085
@@ -3212,10 +4029,6 @@
    "name": "Mendocino",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
    "desc": "coastal village and headlands trails",
-   "pin": [
-    56,
-    78
-   ],
    "ll": [
     39.307,
     -123.799
@@ -3226,10 +4039,6 @@
    "name": "Fort Bragg",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
    "desc": "Glass Beach and the Skunk Train",
-   "pin": [
-    55,
-    72
-   ],
    "ll": [
     39.445,
     -123.805
@@ -3249,10 +4058,6 @@
    "id": "mount-shasta-hiking-and-scenic-views",
    "name": "Mount Shasta hiking and scenic views",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
-   "pin": [
-    104,
-    30
-   ],
    "ll": [
     41.409,
     -122.194
@@ -3273,10 +4078,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    112,
-    42
-   ],
    "ll": [
     41.012,
     -121.652
@@ -3288,7 +4089,7 @@
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
    "desc": "also excellent dark skies, Bortle Class 1, annual Dark Sky Festival",
    "season": {
-    "label": "Dark Sky Festival late July–early Aug; high trails July–Oct",
+    "label": "Dark Sky Festival late July–early Aug; high country July–Oct",
     "months": [
      7,
      8,
@@ -3297,10 +4098,6 @@
     ],
     "type": "best"
    },
-   "pin": [
-    120,
-    60
-   ],
    "ll": [
     40.497,
     -121.42
@@ -3322,10 +4119,6 @@
     ],
     "type": "hard"
    },
-   "pin": [
-    118,
-    56
-   ],
    "ll": [
     40.458,
     -121.501
@@ -3340,28 +4133,10 @@
   {
    "id": "lava-beds-national-monument",
    "name": "Lava Beds National Monument",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
-  },
-  {
-   "id": "shasta-lake-houseboating",
-   "name": "Shasta Lake houseboating",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
-   "season": {
-    "label": "Summer",
-    "months": [
-     6,
-     7,
-     8
-    ],
-    "type": "best"
-   },
-   "pin": [
-    104,
-    38
-   ],
    "ll": [
-    40.803,
-    -122.323
+    41.714,
+    -121.51
    ]
   },
   {
@@ -3383,7 +4158,11 @@
    "id": "sundial-bridge-and-turtle-bay-exploration-park",
    "name": "Sundial Bridge & Turtle Bay Exploration Park",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
-   "loc": "Redding"
+   "loc": "Redding",
+   "ll": [
+    40.596,
+    -122.377
+   ]
   },
   {
    "id": "bidwell-park",
@@ -3401,7 +4180,11 @@
   {
    "id": "lake-shasta-caverns",
    "name": "Lake Shasta Caverns",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    40.803,
+    -122.3
+   ]
   },
   {
    "id": "humboldt-bay-national-wildlife-refuge",
@@ -3467,10 +4250,231 @@
    "region": "northern-california-redwoods-shasta-lassen-mendocino"
   },
   {
+   "id": "cinder-cone-and-the-painted-dunes",
+   "name": "Cinder Cone & the Painted Dunes",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Lassen",
+   "desc": "climb a perfect black volcanic cone and look down on multicolored ash dunes and a lava field",
+   "season": {
+    "label": "June–Oct",
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    40.55,
+    -121.32
+   ]
+  },
+  {
+   "id": "devils-kitchen",
+   "name": "Devils Kitchen",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Lassen",
+   "desc": "the park's second hydrothermal basin, boiling pools and roaring fumaroles, with a fraction of Bumpass Hell's crowd",
+   "season": {
+    "label": "June–Oct",
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    40.44,
+    -121.42
+   ]
+  },
+  {
+   "id": "sulphur-works",
+   "name": "Sulphur Works",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Lassen",
+   "desc": "steam vents and mudpots right at the roadside; the hydrothermal fallback when Bumpass Hell is still under snow",
+   "ll": [
+    40.45,
+    -121.535
+   ]
+  },
+  {
+   "id": "lassen-peak-summit-trail",
+   "name": "Lassen Peak summit trail",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "desc": "2,000 ft up the largest plug dome volcano on earth, the whole Cascade chain from the top",
+   "season": {
+    "label": "July–Oct",
+    "months": [
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    40.488,
+    -121.505
+   ]
+  },
+  {
+   "id": "subway-cave-lava-tubes",
+   "name": "Subway Cave Lava Tubes",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Old Station",
+   "desc": "a free, pitch-black third-mile lava tube you walk through on your own flashlight",
+   "season": {
+    "label": "April–Oct",
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    40.68,
+    -121.42
+   ]
+  },
+  {
+   "id": "skull-cave-and-golden-dome",
+   "name": "Skull Cave & Golden Dome",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Lava Beds",
+   "desc": "the two best walk-in lava tubes in the park, one with a permanent ice floor",
+   "ll": [
+    41.73,
+    -121.51
+   ]
+  },
+  {
+   "id": "feather-falls",
+   "name": "Feather Falls",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Oroville",
+   "desc": "410 ft, among the tallest in the country, at the end of a real 9-mile loop",
+   "season": {
+    "label": "Best flow Apr–June; 9-mile loop",
+    "months": [
+     4,
+     5,
+     6
+    ],
+    "type": "best"
+   },
+   "ll": [
+    39.61,
+    -121.27
+   ]
+  },
+  {
+   "id": "north-table-mountain-ecological-reserve",
+   "name": "North Table Mountain Ecological Reserve",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Oroville",
+   "desc": "a basalt mesa that grows wildflowers to the horizon and sprouts a dozen waterfalls at once",
+   "season": {
+    "label": "Wildflowers and waterfalls Mar–Apr",
+    "months": [
+     3,
+     4
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    39.596,
+    -121.54
+   ]
+  },
+  {
+   "id": "howland-hill-road-and-stout-grove",
+   "name": "Howland Hill Road & Stout Grove",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "desc": "six unpaved miles at walking pace through the densest old-growth redwood anywhere; Avenue of the Giants without the pavement",
+   "ll": [
+    41.765,
+    -124.09
+   ]
+  },
+  {
+   "id": "newton-b-drury-scenic-parkway-and-elk-prairie",
+   "name": "Newton B. Drury Scenic Parkway & Elk Prairie",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "desc": "ten miles of old growth with a resident Roosevelt elk herd grazing beside the road",
+   "ll": [
+    41.4,
+    -124.03
+   ]
+  },
+  {
+   "id": "redwood-sky-walk",
+   "name": "Redwood Sky Walk",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Sequoia Park Zoo, Eureka",
+   "desc": "a canopy walkway 100 ft up through the redwoods, part of it on a swaying suspended section",
+   "ll": [
+    40.78,
+    -124.15
+   ]
+  },
+  {
+   "id": "lost-coast-and-black-sands-beach",
+   "name": "Lost Coast & Black Sands Beach",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Shelter Cove",
+   "desc": "the stretch of coast too rugged for Highway 1 to cross; black sand under 4,000-ft slopes",
+   "ll": [
+    40.03,
+    -124.07
+   ]
+  },
+  {
+   "id": "kinetic-grand-championship",
+   "name": "Kinetic Grand Championship",
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "loc": "Arcata to Ferndale",
+   "desc": "three days of human-powered art sculptures racing over road, sand and open bay",
+   "season": {
+    "label": "Memorial Day weekend",
+    "months": [
+     5
+    ],
+    "type": "hard"
+   },
+   "ll": [
+    40.87,
+    -124.08
+   ]
+  },
+  {
    "id": "pacific-coast-highway-highway-1",
    "name": "Pacific Coast Highway (Highway 1)",
    "region": "statewide-experiences-and-road-trips",
-   "desc": "full coastal drive"
+   "desc": "full coastal drive. Drive it **north to south** so you're in the ocean-side lane and every pullout is a right turn. The Big Sur stretch reopened in full on Jan 14, 2026 after three years of landslide closures at Regent's Slide.",
+   "season": {
+    "label": "Best May–Oct south of Monterey; check Caltrans QuickMap every leg",
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "type": "best"
+   }
   },
   {
    "id": "highway-395-eastern-sierra-scenic-byway",
@@ -3579,16 +4583,148 @@
     ],
     "type": "hard"
    }
+  },
+  {
+   "id": "superbloom-chasing",
+   "name": "Superbloom chasing",
+   "region": "statewide-experiences-and-road-trips",
+   "desc": "Carrizo Plain, Antelope Valley and Anza-Borrego in the same window; it only really happens after a wet winter, so watch bloom reports rather than booking ahead",
+   "season": {
+    "label": "Mar–Apr, only after a wet winter; watch bloom reports",
+    "months": [
+     3,
+     4
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "perseid-meteor-shower-from-a-dark-sky-park",
+   "name": "Perseid meteor shower from a dark-sky park",
+   "region": "statewide-experiences-and-road-trips",
+   "desc": "Lassen, Death Valley or Pinnacles, no moon, roughly 60 an hour",
+   "season": {
+    "label": "Peaks Aug 11–13; want no moon",
+    "months": [
+     8
+    ],
+    "type": "hard"
+   }
+  },
+  {
+   "id": "grand-canyon-south-rim",
+   "name": "Grand Canyon South Rim",
+   "region": "out-of-state",
+   "loc": "Arizona",
+   "desc": "~13 hrs / 800 miles from Modesto, so a multi-day trip, not a weekend. Open year-round; spring and fall are the sweet spot, summer is crowded and the Mojave crossing is punishing. Hermit Road is shuttle-only Mar–Nov.",
+   "season": {
+    "label": "Spring and fall are the sweet spot; summer crowded, Mojave crossing brutal",
+    "months": [
+     3,
+     4,
+     5,
+     9,
+     10
+    ],
+    "type": "best"
+   },
+   "ll": [
+    36.057,
+    -112.14
+   ]
+  },
+  {
+   "id": "grand-canyon-railway",
+   "name": "Grand Canyon Railway",
+   "region": "out-of-state",
+   "loc": "Williams, AZ",
+   "desc": "vintage train to the rim, 2¼ hrs each way, drops at the historic depot steps from the edge; kills the parking problem",
+   "season": {
+    "label": "Year-round; Polar Express Nov–Jan sells out months ahead",
+    "months": [],
+    "type": "best"
+   },
+   "ll": [
+    35.25,
+    -112.19
+   ]
+  },
+  {
+   "id": "antelope-canyon-and-horseshoe-bend",
+   "name": "Antelope Canyon & Horseshoe Bend",
+   "region": "out-of-state",
+   "loc": "Page, AZ",
+   "desc": "Navajo-guided walk through a glowing sandstone slot canyon, plus the Colorado's 270-degree bend from 1,000 ft up; 2½ hrs from the South Rim",
+   "season": {
+    "label": "Tours book months out; light beams midday May–Sept",
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "type": "best"
+   },
+   "ll": [
+    36.9,
+    -111.47
+   ]
+  },
+  {
+   "id": "meteor-crater",
+   "name": "Meteor Crater",
+   "region": "out-of-state",
+   "loc": "Winslow, AZ",
+   "desc": "a mile-wide impact crater 550 ft deep, an hour east of Flagstaff on I-40",
+   "ll": [
+    35.03,
+    -111.02
+   ]
+  },
+  {
+   "id": "grand-canyon-caverns",
+   "name": "Grand Canyon Caverns",
+   "region": "out-of-state",
+   "loc": "Peach Springs, AZ",
+   "desc": "elevator 210 ft straight down into a dry cavern, on old Route 66",
+   "ll": [
+    35.53,
+    -113.23
+   ]
+  },
+  {
+   "id": "lowell-observatory",
+   "name": "Lowell Observatory",
+   "region": "out-of-state",
+   "loc": "Flagstaff, AZ",
+   "desc": "where Pluto was discovered; evening telescope programs under serious dark skies",
+   "ll": [
+    35.203,
+    -111.665
+   ]
+  },
+  {
+   "id": "sunset-crater-volcano-and-wupatki-national-monuments",
+   "name": "Sunset Crater Volcano & Wupatki National Monuments",
+   "region": "out-of-state",
+   "loc": "Flagstaff, AZ",
+   "desc": "one 35-mile loop drive: a cinder cone and lava flow at one end, red-rock pueblo ruins at the other",
+   "ll": [
+    35.37,
+    -111.5
+   ]
   }
  ],
  "trips": [
   {
    "id": "gold-country-ramble",
    "name": "Gold Country Ramble",
-   "tier": "Quick Trips",
+   "tier": "Quick trip · under 2h out",
+   "season": "Year-round; nicest spring or fall",
    "stops": [
     {
-     "text": "Marshall Gold Discovery State Historic Park (Coloma)",
+     "text": "Marshall Gold Discovery State Historic Park",
      "placeId": "marshall-gold-discovery-state-historic-park"
     },
     {
@@ -3599,56 +4735,37 @@
      "text": "Railtown 1897 (Jamestown)",
      "placeId": "railtown-1897-state-historic-park"
     }
-   ],
-   "season": "Year-round; nicest in spring or fall."
+   ]
   },
   {
    "id": "sacramento-history-day",
    "name": "Sacramento History Day",
-   "tier": "Quick Trips",
+   "tier": "Quick trip · ~1.5h out",
+   "season": "Year-round",
    "stops": [
     {
-     "text": "Old Sacramento",
+     "text": "Old Sacramento Waterfront",
      "placeId": "old-sacramento-waterfront"
     },
     {
-     "text": "State Capitol",
-     "placeId": "california-state-capitol-and-museum"
+     "text": "California State Railroad Museum",
+     "placeId": "california-state-railroad-museum"
     },
     {
-     "text": "Crocker Art Museum",
-     "placeId": "crocker-art-museum"
+     "text": "State Capitol & Museum",
+     "placeId": "california-state-capitol-and-museum"
     },
     {
      "text": "Sutter's Fort",
      "placeId": "sutters-fort-state-historic-park"
     }
-   ],
-   "season": "Year-round."
-  },
-  {
-   "id": "lodi-wine-and-lake-day",
-   "name": "Lodi Wine & Lake Day",
-   "tier": "Quick Trips",
-   "stops": [
-    {
-     "text": "Lodi Lake Park",
-     "placeId": "lodi-lake-park"
-    },
-    {
-     "text": "Lodi wineries"
-    },
-    {
-     "text": "Micke Grove Regional Park",
-     "placeId": "micke-grove-regional-park"
-    }
-   ],
-   "season": "Best Sept–Oct for harvest, fine any time."
+   ]
   },
   {
    "id": "apple-hill-harvest-day",
    "name": "Apple Hill Harvest Day",
-   "tier": "Quick Trips",
+   "tier": "Quick trip · ~1.5h out",
+   "season": "Sept–Dec only — this is a harvest trip",
    "stops": [
     {
      "text": "Apple Hill orchards & farm stands",
@@ -3658,44 +4775,93 @@
      "text": "Gold Bug Park & Mine (Placerville)",
      "placeId": "gold-bug-park-and-mine"
     }
-   ],
-   "season": "Sept–Dec only — this is a harvest trip."
+   ]
   },
   {
-   "id": "delta-backroads-and-locke",
-   "name": "Delta Backroads & Locke",
-   "tier": "Quick Trips",
+   "id": "caverns-and-big-trees",
+   "name": "Caverns & Big Trees",
+   "tier": "Quick trip · ~1.5h out",
+   "season": "Year-round; caverns stay 55° all year",
    "stops": [
     {
-     "text": "Sacramento River Delta loop"
+     "text": "Moaning Cavern (Vallecito)",
+     "placeId": "moaning-cavern"
     },
     {
-     "text": "historic Locke"
+     "text": "Historic Main Street, Murphys",
+     "placeId": "historic-main-street"
     },
     {
-     "text": "Old Sacramento if you want to extend it"
+     "text": "Calaveras Big Trees State Park",
+     "placeId": "calaveras-big-trees-state-park"
     }
-   ],
-   "season": "Best summer for houseboats on the water."
+   ]
+  },
+  {
+   "id": "bat-flight-evening",
+   "name": "Yolo Bat Flight Evening",
+   "tier": "Quick trip · ~1.5h out",
+   "season": "June–Sept, dusk; pair with dinner in Old Sac",
+   "stops": [
+    {
+     "text": "Dinner at Old Sacramento Waterfront",
+     "placeId": "old-sacramento-waterfront"
+    },
+    {
+     "text": "Yolo Causeway bat colony at dusk",
+     "placeId": "yolo-causeway-bat-colony"
+    }
+   ]
+  },
+  {
+   "id": "gold-mine-underground",
+   "name": "Real Gold Mine Underground",
+   "tier": "Quick trip · ~1.5h out",
+   "season": "Check tour days ahead",
+   "stops": [
+    {
+     "text": "Sutter Gold Mine hardhat tour",
+     "placeId": "sutter-gold-mine"
+    },
+    {
+     "text": "Amador City & Sutter Creek antiques",
+     "placeId": "amador-city-and-sutter-creek"
+    },
+    {
+     "text": "Volcano village",
+     "placeId": "volcano"
+    }
+   ]
   },
   {
    "id": "pinnacles-stargazing-overnight",
    "name": "Pinnacles Stargazing Overnight",
-   "tier": "Day Trips",
+   "tier": "Day trip+night · ~2.5h out",
+   "season": "Hike spring/fall; stars best in summer; book the campground",
    "stops": [
     {
-     "text": "Hike the High Peaks by day, camp at the certified Gold Tier Dark Sky campground, stargaze after dark. Pair with Mission San Juan Bautista on the way home"
+     "text": "Bear Gulch talus caves (bring headlamps)",
+     "placeId": "bear-gulch-and-balconies-talus-caves"
+    },
+    {
+     "text": "Camp + Milky Way at the dark-sky campground",
+     "placeId": "pinnacles-national-park"
+    },
+    {
+     "text": "Mission San Juan Bautista on the way home",
+     "placeId": "mission-san-juan-bautista-and-san-juan-bautista-state-historic-park"
     }
-   ],
-   "season": "Hiking: spring/fall (it's hot at midday in summer). Stargazing: summer for the Milky Way core, but genuinely dark year-round. Book the campground ahead."
+   ]
   },
   {
-   "id": "ano-nuevo-wildlife-coast-day",
-   "name": "Año Nuevo Wildlife Coast Day",
-   "tier": "Day Trips",
+   "id": "ano-nuevo-wildlife-coast",
+   "name": "Año Nuevo Wildlife Coast",
+   "tier": "Day trip · ~2.5h out",
+   "season": "Dec–Mar for the seal walks; reserve ahead",
    "stops": [
     {
-     "text": "Año Nuevo elephant seals"
+     "text": "Año Nuevo guided elephant seal walk",
+     "placeId": "ano-nuevo-state-park"
     },
     {
      "text": "Pescadero & Pigeon Point Lighthouse",
@@ -3705,16 +4871,16 @@
      "text": "Half Moon Bay for lunch",
      "placeId": "half-moon-bay"
     }
-   ],
-   "season": "Best Dec–Feb for peak seal activity; reserve the guided walk in advance."
+   ]
   },
   {
-   "id": "santa-cruz-beach-and-redwoods-day",
-   "name": "Santa Cruz Beach & Redwoods Day",
-   "tier": "Day Trips",
+   "id": "santa-cruz-beach-redwoods",
+   "name": "Santa Cruz Beach & Redwoods",
+   "tier": "Day trip · ~1.75h out",
+   "season": "Best Sept–Oct: warm, fog-free, thin crowds",
    "stops": [
     {
-     "text": "Santa Cruz Beach Boardwalk",
+     "text": "Beach Boardwalk",
      "placeId": "santa-cruz-beach-boardwalk"
     },
     {
@@ -3722,18 +4888,59 @@
      "placeId": "west-cliff-drive"
     },
     {
-     "text": "Henry Cowell Redwoods or Roaring Camp Railroad"
+     "text": "Roaring Camp steam train",
+     "placeId": "roaring-camp-railroads"
     }
-   ],
-   "season": "Best Sept–Oct for warm, fog-free weather and thinner crowds."
+   ]
+  },
+  {
+   "id": "redwood-ziplines-mystery",
+   "name": "Ziplines & the Mystery Spot",
+   "tier": "Day trip · ~2h out",
+   "season": "Year-round",
+   "stops": [
+    {
+     "text": "Mount Hermon redwood canopy ziplines",
+     "placeId": "mount-hermon-redwood-canopy-tours"
+    },
+    {
+     "text": "The Mystery Spot",
+     "placeId": "the-mystery-spot"
+    },
+    {
+     "text": "Henry Cowell Redwoods",
+     "placeId": "henry-cowell-redwoods-state-park"
+    }
+   ]
+  },
+  {
+   "id": "otters-of-elkhorn-slough",
+   "name": "Otters of Elkhorn Slough",
+   "tier": "Day trip · ~2h out",
+   "season": "Year-round; book the pontoon tour",
+   "stops": [
+    {
+     "text": "Elkhorn Slough pontoon eco-tour",
+     "placeId": "elkhorn-slough"
+    },
+    {
+     "text": "Moss Landing wildlife tours",
+     "placeId": "moss-landing-wildlife-tours"
+    },
+    {
+     "text": "Watsonville strawberry stands",
+     "placeId": "watsonville"
+    }
+   ]
   },
   {
    "id": "marin-coast-day",
    "name": "Marin Coast Day",
-   "tier": "Day Trips",
+   "tier": "Day trip · ~2h out",
+   "season": "Winter (Dec–Mar) stacks the lighthouse, seals, and whales",
    "stops": [
     {
-     "text": "Muir Woods",
+     "text": "Muir Woods (reserve parking)",
      "placeId": "muir-woods-national-monument"
     },
     {
@@ -3741,140 +4948,136 @@
      "placeId": "stinson-beach"
     },
     {
-     "text": "Point Reyes lighthouse and elk"
+     "text": "Point Reyes Lighthouse & Chimney Rock",
+     "placeId": "point-reyes-lighthouse-and-chimney-rock"
     }
-   ],
-   "season": "Spring through fall; winter storms can close roads and socked-in views."
+   ]
   },
   {
-   "id": "east-bay-explorer",
-   "name": "East Bay Explorer",
-   "tier": "Day Trips",
+   "id": "bay-military-day",
+   "name": "Alcatraz & the Hornet",
+   "tier": "Day trip · ~1.75h out",
+   "season": "Book Alcatraz weeks out",
    "stops": [
     {
-     "text": "UC Berkeley campus & Rose Garden"
+     "text": "Alcatraz cellhouse audio tour",
+     "placeId": "alcatraz"
     },
     {
-     "text": "Tilden Park"
-    },
-    {
-     "text": "Lake Merritt & Oakland Museum",
-     "placeId": "lake-merritt"
+     "text": "USS Hornet (Alameda)",
+     "placeId": "uss-hornet"
     }
-   ],
-   "season": "Year-round."
+   ]
   },
   {
-   "id": "south-bay-science-and-gardens",
-   "name": "South Bay Science & Gardens",
-   "tier": "Day Trips",
+   "id": "napa-balloon-morning",
+   "name": "Napa Balloon Morning",
+   "tier": "Day trip · ~2h out",
+   "season": "Spring/fall mornings are calmest",
    "stops": [
     {
-     "text": "The Tech Interactive or Winchester Mystery House (San Jose)",
-     "placeId": "the-tech-interactive"
-    },
-    {
-     "text": "Stanford campus"
-    },
-    {
-     "text": "Hakone Gardens (Saratoga)",
-     "placeId": "hakone-gardens"
-    }
-   ],
-   "season": "Year-round."
-  },
-  {
-   "id": "napa-wine-and-balloon-morning",
-   "name": "Napa Wine & Balloon Morning",
-   "tier": "Day Trips",
-   "stops": [
-    {
-     "text": "Sunrise hot air balloon ride"
+     "text": "Sunrise hot air balloon",
+     "placeId": "napa-valley-hot-air-balloon-rides"
     },
     {
      "text": "Oxbow Public Market",
      "placeId": "oxbow-public-market"
     },
     {
-     "text": "an afternoon of tasting rooms that aren't Castello di Amorosa"
+     "text": "Sterling Vineyards aerial tram",
+     "placeId": "sterling-vineyards"
     }
-   ],
-   "season": "Spring or fall mornings are calmest for ballooning."
+   ]
   },
   {
-   "id": "sonoma-coast-and-redwoods",
-   "name": "Sonoma Coast & Redwoods",
-   "tier": "Day Trips",
+   "id": "emerald-bay-paddle-day",
+   "name": "Emerald Bay Paddle Day",
+   "tier": "Day trip · ~2.5h out",
+   "season": "Summer for the kayak; Rubicon is great into fall",
    "stops": [
     {
-     "text": "Armstrong Redwoods",
-     "placeId": "armstrong-redwoods-state-natural-reserve"
+     "text": "Rubicon Trail along the clear water",
+     "placeId": "rubicon-trail"
     },
     {
-     "text": "Korbel Champagne Cellars",
-     "placeId": "korbel-champagne-cellars"
-    },
-    {
-     "text": "Bodega Bay",
-     "placeId": "bodega-bay"
-    }
-   ],
-   "season": "Year-round."
-  },
-  {
-   "id": "lake-tahoe-emerald-bay-day",
-   "name": "Lake Tahoe Emerald Bay Day",
-   "tier": "Day Trips",
-   "stops": [
-    {
-     "text": "Emerald Bay & D.L. Bliss State Park",
-     "placeId": "d-l-bliss-state-park"
+     "text": "Kayak to Fannette Island",
+     "placeId": "emerald-bay-kayak-to-fannette-island"
     },
     {
      "text": "Vikingsholm Castle",
      "placeId": "vikingsholm-castle"
+    }
+   ]
+  },
+  {
+   "id": "hope-valley-gold-and-soak",
+   "name": "Hope Valley Gold & a Hot Soak",
+   "tier": "Day trip · ~2.5h out",
+   "season": "Early–mid Oct for peak aspen color",
+   "stops": [
+    {
+     "text": "Hope Valley aspens (Highway 88)",
+     "placeId": "hope-valley"
     },
     {
-     "text": "Tahoe City",
-     "placeId": "tahoe-city"
+     "text": "Grover Hot Springs meadow pools",
+     "placeId": "grover-hot-springs-state-park"
     }
-   ],
-   "season": "Summer for swimming/hiking; note this is a separate-season trip from Tahoe skiing."
+   ]
   },
   {
-   "id": "mono-lake-and-bodie-ghost-town",
-   "name": "Mono Lake & Bodie Ghost Town",
-   "tier": "Day Trips",
-   "stops": [
-    {
-     "text": "via Tioga Pass"
-    }
-   ],
-   "season": "Summer/early fall only — Tioga Road is closed by snow most of the year, typically late May/June through Oct/Nov."
-  },
-  {
-   "id": "norcal-waterfalls-and-dark-skies",
+   "id": "norcal-waterfalls-dark-skies",
    "name": "NorCal Waterfalls & Dark Skies",
-   "tier": "Weekend Trips",
+   "tier": "Weekend · ~4h out",
+   "season": "July–Sept only — hinges on Bumpass Hell being snow-free",
    "stops": [
     {
-     "text": "McArthur-Burney Falls",
+     "text": "Burney Falls",
      "placeId": "mcarthur-burney-falls-memorial-state-park"
     },
     {
-     "text": "Bumpass Hell Trail (Lassen)",
+     "text": "Bumpass Hell Trail",
      "placeId": "bumpass-hell-trail"
     },
     {
-     "text": "stargaze at Lassen overnight (Bortle Class 1, Dark Sky Festival late July/early Aug)"
+     "text": "Manzanita Lake at sunset",
+     "placeId": "manzanita-lake"
+    },
+    {
+     "text": "Stargazing overnight at Lassen (Bortle 1)",
+     "placeId": "lassen-volcanic-national-park"
     }
-   ],
-   "season": "Summer only — this whole loop depends on Bumpass Hell being snow-free, roughly July–Sept. All three stops are within about 45 minutes of each other."
+   ]
+  },
+  {
+   "id": "lassen-volcano-weekend",
+   "name": "Lassen Volcano Weekend",
+   "tier": "Weekend · ~4h out",
+   "season": "July–Oct; Sulphur Works is the early-season fallback",
+   "stops": [
+    {
+     "text": "Sulphur Works roadside vents",
+     "placeId": "sulphur-works"
+    },
+    {
+     "text": "Lassen Peak summit trail",
+     "placeId": "lassen-peak-summit-trail"
+    },
+    {
+     "text": "Cinder Cone & the Painted Dunes",
+     "placeId": "cinder-cone-and-the-painted-dunes"
+    },
+    {
+     "text": "Subway Cave lava tube (bring flashlights)",
+     "placeId": "subway-cave-lava-tubes"
+    }
+   ]
   },
   {
    "id": "redwood-coast-road-trip",
    "name": "Redwood Coast Road Trip",
-   "tier": "Weekend Trips",
+   "tier": "Weekend · ~5h out",
+   "season": "Best June or September",
    "stops": [
     {
      "text": "Avenue of the Giants",
@@ -3885,24 +5088,56 @@
      "placeId": "founders-grove"
     },
     {
+     "text": "Howland Hill Road & Stout Grove",
+     "placeId": "howland-hill-road-and-stout-grove"
+    },
+    {
      "text": "Fern Canyon",
      "placeId": "fern-canyon"
     },
     {
-     "text": "Trees of Mystery (Klamath)",
+     "text": "Trees of Mystery gondola",
      "placeId": "trees-of-mystery"
     }
-   ],
-   "season": "Best June or September for weather; open year-round otherwise."
+   ]
   },
   {
-   "id": "bishop-creek-fall-color-weekend",
-   "name": "Bishop Creek Fall Color Weekend",
-   "tier": "Weekend Trips",
+   "id": "lost-coast-detour",
+   "name": "Lost Coast & Victorian Ferndale",
+   "tier": "Weekend · ~5h out",
+   "season": "Summer/fall; check a tide table for Black Sands",
    "stops": [
     {
-     "text": "Bishop Creek Canyon (North Lake, South Lake, Lake Sabrina)",
+     "text": "Black Sands Beach (Shelter Cove)",
+     "placeId": "lost-coast-and-black-sands-beach"
+    },
+    {
+     "text": "Ferndale",
+     "placeId": "ferndale"
+    },
+    {
+     "text": "Redwood Sky Walk (Eureka)",
+     "placeId": "redwood-sky-walk"
+    },
+    {
+     "text": "Old Town Eureka",
+     "placeId": "old-town-eureka"
+    }
+   ]
+  },
+  {
+   "id": "bishop-creek-fall-color",
+   "name": "Bishop Creek Fall Color Weekend",
+   "tier": "Weekend · ~5h out",
+   "season": "Late Sept–mid Oct only; check a live color report first",
+   "stops": [
+    {
+     "text": "Bishop Creek Canyon lakes",
      "placeId": "bishop-creek-canyon"
+    },
+    {
+     "text": "Rock Creek Canyon color",
+     "placeId": "rock-creek-canyon"
     },
     {
      "text": "Alabama Hills",
@@ -3912,24 +5147,57 @@
      "text": "Manzanar",
      "placeId": "manzanar-national-historic-site"
     }
-   ],
-   "season": "Late September–mid October only — this is a tight, weather-dependent window, so check a live fall color report the week before you leave."
+   ]
   },
   {
-   "id": "catalina-island-getaway",
-   "name": "Catalina Island Getaway",
-   "tier": "Weekend Trips",
+   "id": "eastern-sierra-bucket",
+   "name": "Eastern Sierra Bucket Weekend",
+   "tier": "Weekend · ~5h out",
+   "season": "July–Oct; Bristlecone road and Big Pine are snow-gated",
    "stops": [
     {
-     "text": "Ferry to Avalon, snorkeling or a glass-bottom boat tour, hiking, dinner on the water"
+     "text": "Ancient Bristlecone Pine Forest",
+     "placeId": "ancient-bristlecone-pine-forest"
+    },
+    {
+     "text": "Big Pine Lakes (the real 10-mile day)",
+     "placeId": "big-pine-lakes"
+    },
+    {
+     "text": "Travertine Hot Springs at sunset",
+     "placeId": "travertine-hot-springs"
     }
-   ],
-   "season": "Best Apr–May or Sept–Oct for mild weather and manageable crowds; add a winter trip (Dec–Mar) instead if whale watching is the priority."
+   ]
   },
   {
-   "id": "solvang-and-santa-ynez-wine-weekend",
-   "name": "Solvang & Santa Ynez Wine Weekend",
-   "tier": "Weekend Trips",
+   "id": "mono-bodie-sonora-pass",
+   "name": "Mono Lake & Bodie via Sonora Pass",
+   "tier": "Weekend · ~3.5h out",
+   "season": "Summer–early fall; the pass closes with snow",
+   "stops": [
+    {
+     "text": "Sonora Pass scenic drive",
+     "placeId": "sonora-pass-scenic-drive"
+    },
+    {
+     "text": "Bodie ghost town",
+     "placeId": "bodie-state-historic-park"
+    },
+    {
+     "text": "Mono Lake tufa (or the sunrise kayak tour)",
+     "placeId": "mono-lake"
+    },
+    {
+     "text": "Travertine Hot Springs (Bridgeport)",
+     "placeId": "travertine-hot-springs"
+    }
+   ]
+  },
+  {
+   "id": "solvang-wine-weekend",
+   "name": "Solvang & Santa Ynez Weekend",
+   "tier": "Weekend · ~4.5h out",
+   "season": "Danish Days Sept 18–20, 2026; Figueroa flowers Mar–Apr; Julefest in Dec",
    "stops": [
     {
      "text": "Solvang village",
@@ -3940,20 +5208,20 @@
      "placeId": "mission-santa-ines"
     },
     {
-     "text": "Santa Ynez Valley wineries",
+     "text": "Figueroa Mountain (spring) or the wineries",
      "placeId": "santa-ynez-valley-wineries"
     },
     {
      "text": "La Purisima Mission",
      "placeId": "la-purisima-mission-state-historic-park"
     }
-   ],
-   "season": "Best Sept 18–20, 2026 for Danish Days, or Apr–May for quieter mild weather."
+   ]
   },
   {
-   "id": "central-coast-mission-and-wine-trail",
-   "name": "Central Coast Mission & Wine Trail",
-   "tier": "Weekend Trips",
+   "id": "central-coast-missions-lights",
+   "name": "Missions, Wine & a Field of Light",
+   "tier": "Weekend · ~3h out",
+   "season": "Spring/fall; Sensorio is after dark, timed tickets",
    "stops": [
     {
      "text": "Mission San Miguel Arcángel",
@@ -3964,95 +5232,154 @@
      "placeId": "mission-san-antonio-de-padua"
     },
     {
-     "text": "Paso Robles wine country",
+     "text": "Paso Robles tasting rooms",
      "placeId": "paso-robles-wine-country"
     },
     {
-     "text": "Hearst Castle",
+     "text": "Sensorio Field of Light after dark",
+     "placeId": "sensorio-field-of-light"
+    },
+    {
+     "text": "Hearst Castle on the way home",
      "placeId": "hearst-castle"
     }
-   ],
-   "season": "Spring or fall — the inland missions get hot in summer."
+   ]
   },
   {
-   "id": "desert-escape-joshua-tree-and-death-valley",
-   "name": "Desert Escape: Joshua Tree & Death Valley",
-   "tier": "Weekend Trips",
+   "id": "death-valley-grand-loop",
+   "name": "Death Valley Grand Loop",
+   "tier": "Multi-day · ~6.5h out",
+   "season": "Nov–Mar. Not a preference — a safety call",
    "stops": [
     {
-     "text": "Joshua Tree National Park",
+     "text": "Mesquite Flat dunes at sunrise",
+     "placeId": "mesquite-flat-sand-dunes"
+    },
+    {
+     "text": "Artist's Drive & Palette late afternoon",
+     "placeId": "artists-drive-and-artists-palette"
+    },
+    {
+     "text": "Dante's View",
+     "placeId": "dantes-view"
+    },
+    {
+     "text": "Ubehebe Crater",
+     "placeId": "ubehebe-crater"
+    },
+    {
+     "text": "Titus Canyon (high clearance)",
+     "placeId": "titus-canyon"
+    }
+   ]
+  },
+  {
+   "id": "joshua-tree-sampler",
+   "name": "Joshua Tree Sampler",
+   "tier": "Weekend · ~6h out",
+   "season": "Oct–Apr; dark skies are half the point",
+   "stops": [
+    {
+     "text": "Hidden Valley loop",
+     "placeId": "hidden-valley-loop"
+    },
+    {
+     "text": "Ryan Mountain summit",
+     "placeId": "ryan-mountain"
+    },
+    {
+     "text": "Keys View & Cholla Garden",
      "placeId": "joshua-tree-national-park"
     },
     {
-     "text": "Salvation Mountain",
-     "placeId": "salvation-mountain"
-    },
-    {
-     "text": "Death Valley National Park",
-     "placeId": "death-valley-national-park"
+     "text": "Pappy & Harriet's (Pioneertown)",
+     "placeId": "pioneertown-and-pappy-and-harriets"
     }
-   ],
-   "season": "Winter only, roughly Nov–Mar. This isn't a preference, it's a safety call — summer highs regularly top 110–120°F."
+   ]
   },
   {
-   "id": "southern-california-missions-loop",
-   "name": "Southern California Missions Loop",
-   "tier": "Weekend Trips",
+   "id": "superbloom-chase",
+   "name": "Superbloom Chase",
+   "tier": "Weekend · varies",
+   "season": "Mar–Apr, wet winters only — watch bloom reports, don't pre-book",
    "stops": [
     {
-     "text": "Mission San Fernando Rey",
-     "placeId": "mission-san-fernando-rey-de-espana"
+     "text": "Carrizo Plain (fill the tank first)",
+     "placeId": "carrizo-plain-national-monument"
     },
     {
-     "text": "Mission San Gabriel Arcángel",
-     "placeId": "mission-san-gabriel-arcangel"
+     "text": "Antelope Valley Poppy Reserve",
+     "placeId": "antelope-valley-california-poppy-reserve"
     },
     {
-     "text": "Mission San Juan Capistrano",
-     "placeId": "mission-san-juan-capistrano"
-    },
-    {
-     "text": "Mission San Luis Rey de Francia",
-     "placeId": "mission-san-luis-rey-de-francia"
+     "text": "Anza-Borrego if the desert hit too",
+     "placeId": "anza-borrego-desert-state-park"
     }
-   ],
-   "season": "Year-round, but spring/fall is more comfortable for the inland stops."
+   ]
   },
   {
-   "id": "eastern-sierra-grand-loop",
-   "name": "Eastern Sierra Grand Loop",
-   "tier": "Weekend Trips",
+   "id": "catalina-getaway",
+   "name": "Catalina Island Getaway",
+   "tier": "Weekend · ferry from Long Beach",
+   "season": "Apr–May or Sept–Oct; whales Dec–Mar",
    "stops": [
     {
-     "text": "Mono Lake",
-     "placeId": "mono-lake"
+     "text": "Ferry to Avalon, snorkel or glass-bottom boat",
+     "placeId": "catalina-island-avalon"
     },
     {
-     "text": "Bodie",
-     "placeId": "bodie-state-historic-park"
-    },
-    {
-     "text": "June Lake Loop",
-     "placeId": "june-lake-loop"
-    },
-    {
-     "text": "Convict Lake",
-     "placeId": "convict-lake"
-    },
-    {
-     "text": "Bishop Creek",
-     "placeId": "bishop-creek-canyon"
-    },
-    {
-     "text": "Alabama Hills",
-     "placeId": "alabama-hills"
-    },
-    {
-     "text": "Mount Whitney/Whitney Portal",
-     "placeId": "mount-whitney-whitney-portal"
+     "text": "Interior jeep tour to the bison herd",
+     "placeId": "catalinas-interior-and-the-bison-herd"
     }
-   ],
-   "season": "A multi-day version of trips 15 and 18 combined — best late Sept/early Oct for fall color on top of everything else, though the non-Bishop-Creek stops are great all summer too."
+   ]
+  },
+  {
+   "id": "channel-islands-sea-caves",
+   "name": "Channel Islands Sea Caves",
+   "tier": "Weekend · ~5h out",
+   "season": "June–Sept for calm water; book the boat and kayak tour",
+   "stops": [
+    {
+     "text": "Boat to Santa Cruz Island",
+     "placeId": "channel-islands-national-park"
+    },
+    {
+     "text": "Scorpion Anchorage sea cave kayaking",
+     "placeId": "scorpion-anchorage-sea-cave-kayaking"
+    },
+    {
+     "text": "Mission San Buenaventura & Ventura pier",
+     "placeId": "mission-san-buenaventura-and-ventura-pier"
+    }
+   ]
+  },
+  {
+   "id": "grand-canyon-expedition",
+   "name": "Grand Canyon Expedition",
+   "tier": "Multi-day · ~13h out",
+   "season": "Spring or fall; book Antelope Canyon months out",
+   "stops": [
+    {
+     "text": "Grand Canyon Railway from Williams",
+     "placeId": "grand-canyon-railway"
+    },
+    {
+     "text": "South Rim (Hermit Road by shuttle)",
+     "placeId": "grand-canyon-south-rim"
+    },
+    {
+     "text": "Antelope Canyon & Horseshoe Bend (Page)",
+     "placeId": "antelope-canyon-and-horseshoe-bend"
+    },
+    {
+     "text": "Meteor Crater on I-40",
+     "placeId": "meteor-crater"
+    },
+    {
+     "text": "Lowell Observatory dark-sky evening (Flagstaff)",
+     "placeId": "lowell-observatory"
+    }
+   ]
   }
  ]
 }

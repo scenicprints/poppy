@@ -1,0 +1,173 @@
+{
+  "comment": "Curated trips, kept separate from the markdown doc so list edits never wipe them. stops[].placeId links to a place slug when one exists; text-only stops are fine. Tiers: 'Quick trip' (<2h out), 'Day trip' (2-3.5h), 'Weekend' (4h+ or overnight), 'Multi-day'.",
+  "trips": [
+    { "id": "gold-country-ramble", "name": "Gold Country Ramble", "tier": "Quick trip · under 2h out", "season": "Year-round; nicest spring or fall",
+      "stops": [
+        { "text": "Marshall Gold Discovery State Historic Park", "placeId": "marshall-gold-discovery-state-historic-park" },
+        { "text": "Columbia State Historic Park", "placeId": "columbia-state-historic-park" },
+        { "text": "Railtown 1897 (Jamestown)", "placeId": "railtown-1897-state-historic-park" } ] },
+    { "id": "sacramento-history-day", "name": "Sacramento History Day", "tier": "Quick trip · ~1.5h out", "season": "Year-round",
+      "stops": [
+        { "text": "Old Sacramento Waterfront", "placeId": "old-sacramento-waterfront" },
+        { "text": "California State Railroad Museum", "placeId": "california-state-railroad-museum" },
+        { "text": "State Capitol & Museum", "placeId": "california-state-capitol-and-museum" },
+        { "text": "Sutter's Fort", "placeId": "sutters-fort-state-historic-park" } ] },
+    { "id": "apple-hill-harvest-day", "name": "Apple Hill Harvest Day", "tier": "Quick trip · ~1.5h out", "season": "Sept–Dec only — this is a harvest trip",
+      "stops": [
+        { "text": "Apple Hill orchards & farm stands", "placeId": "apple-hill" },
+        { "text": "Gold Bug Park & Mine (Placerville)", "placeId": "gold-bug-park-and-mine" } ] },
+    { "id": "caverns-and-big-trees", "name": "Caverns & Big Trees", "tier": "Quick trip · ~1.5h out", "season": "Year-round; caverns stay 55° all year",
+      "stops": [
+        { "text": "Moaning Cavern (Vallecito)", "placeId": "moaning-cavern" },
+        { "text": "Historic Main Street, Murphys", "placeId": "historic-main-street" },
+        { "text": "Calaveras Big Trees State Park", "placeId": "calaveras-big-trees-state-park" } ] },
+    { "id": "bat-flight-evening", "name": "Yolo Bat Flight Evening", "tier": "Quick trip · ~1.5h out", "season": "June–Sept, dusk; pair with dinner in Old Sac",
+      "stops": [
+        { "text": "Dinner at Old Sacramento Waterfront", "placeId": "old-sacramento-waterfront" },
+        { "text": "Yolo Causeway bat colony at dusk", "placeId": "yolo-causeway-bat-colony" } ] },
+    { "id": "gold-mine-underground", "name": "Real Gold Mine Underground", "tier": "Quick trip · ~1.5h out", "season": "Check tour days ahead",
+      "stops": [
+        { "text": "Sutter Gold Mine hardhat tour", "placeId": "sutter-gold-mine" },
+        { "text": "Amador City & Sutter Creek antiques", "placeId": "amador-city-and-sutter-creek" },
+        { "text": "Volcano village", "placeId": "volcano" } ] },
+
+    { "id": "pinnacles-stargazing-overnight", "name": "Pinnacles Stargazing Overnight", "tier": "Day trip+night · ~2.5h out", "season": "Hike spring/fall; stars best in summer; book the campground",
+      "stops": [
+        { "text": "Bear Gulch talus caves (bring headlamps)", "placeId": "bear-gulch-and-balconies-talus-caves" },
+        { "text": "Camp + Milky Way at the dark-sky campground", "placeId": "pinnacles-national-park" },
+        { "text": "Mission San Juan Bautista on the way home", "placeId": "mission-san-juan-bautista-and-san-juan-bautista-state-historic-park" } ] },
+    { "id": "ano-nuevo-wildlife-coast", "name": "Año Nuevo Wildlife Coast", "tier": "Day trip · ~2.5h out", "season": "Dec–Mar for the seal walks; reserve ahead",
+      "stops": [
+        { "text": "Año Nuevo guided elephant seal walk", "placeId": "ano-nuevo-state-park" },
+        { "text": "Pescadero & Pigeon Point Lighthouse", "placeId": "pescadero-and-pigeon-point-lighthouse" },
+        { "text": "Half Moon Bay for lunch", "placeId": "half-moon-bay" } ] },
+    { "id": "santa-cruz-beach-redwoods", "name": "Santa Cruz Beach & Redwoods", "tier": "Day trip · ~1.75h out", "season": "Best Sept–Oct: warm, fog-free, thin crowds",
+      "stops": [
+        { "text": "Beach Boardwalk", "placeId": "santa-cruz-beach-boardwalk" },
+        { "text": "West Cliff Drive", "placeId": "west-cliff-drive" },
+        { "text": "Roaring Camp steam train", "placeId": "roaring-camp-railroads" } ] },
+    { "id": "redwood-ziplines-mystery", "name": "Ziplines & the Mystery Spot", "tier": "Day trip · ~2h out", "season": "Year-round",
+      "stops": [
+        { "text": "Mount Hermon redwood canopy ziplines", "placeId": "mount-hermon-redwood-canopy-tours" },
+        { "text": "The Mystery Spot", "placeId": "the-mystery-spot" },
+        { "text": "Henry Cowell Redwoods", "placeId": "henry-cowell-redwoods-state-park" } ] },
+    { "id": "otters-of-elkhorn-slough", "name": "Otters of Elkhorn Slough", "tier": "Day trip · ~2h out", "season": "Year-round; book the pontoon tour",
+      "stops": [
+        { "text": "Elkhorn Slough pontoon eco-tour", "placeId": "elkhorn-slough" },
+        { "text": "Moss Landing wildlife tours", "placeId": "moss-landing-wildlife-tours" },
+        { "text": "Watsonville strawberry stands", "placeId": "watsonville" } ] },
+    { "id": "marin-coast-day", "name": "Marin Coast Day", "tier": "Day trip · ~2h out", "season": "Winter (Dec–Mar) stacks the lighthouse, seals, and whales",
+      "stops": [
+        { "text": "Muir Woods (reserve parking)", "placeId": "muir-woods-national-monument" },
+        { "text": "Stinson Beach", "placeId": "stinson-beach" },
+        { "text": "Point Reyes Lighthouse & Chimney Rock", "placeId": "point-reyes-lighthouse-and-chimney-rock" } ] },
+    { "id": "bay-military-day", "name": "Alcatraz & the Hornet", "tier": "Day trip · ~1.75h out", "season": "Book Alcatraz weeks out",
+      "stops": [
+        { "text": "Alcatraz cellhouse audio tour", "placeId": "alcatraz" },
+        { "text": "USS Hornet (Alameda)", "placeId": "uss-hornet" } ] },
+    { "id": "napa-balloon-morning", "name": "Napa Balloon Morning", "tier": "Day trip · ~2h out", "season": "Spring/fall mornings are calmest",
+      "stops": [
+        { "text": "Sunrise hot air balloon", "placeId": "napa-valley-hot-air-balloon-rides" },
+        { "text": "Oxbow Public Market", "placeId": "oxbow-public-market" },
+        { "text": "Sterling Vineyards aerial tram", "placeId": "sterling-vineyards" } ] },
+    { "id": "emerald-bay-paddle-day", "name": "Emerald Bay Paddle Day", "tier": "Day trip · ~2.5h out", "season": "Summer for the kayak; Rubicon is great into fall",
+      "stops": [
+        { "text": "Rubicon Trail along the clear water", "placeId": "rubicon-trail" },
+        { "text": "Kayak to Fannette Island", "placeId": "emerald-bay-kayak-to-fannette-island" },
+        { "text": "Vikingsholm Castle", "placeId": "vikingsholm-castle" } ] },
+    { "id": "hope-valley-gold-and-soak", "name": "Hope Valley Gold & a Hot Soak", "tier": "Day trip · ~2.5h out", "season": "Early–mid Oct for peak aspen color",
+      "stops": [
+        { "text": "Hope Valley aspens (Highway 88)", "placeId": "hope-valley" },
+        { "text": "Grover Hot Springs meadow pools", "placeId": "grover-hot-springs-state-park" } ] },
+
+    { "id": "norcal-waterfalls-dark-skies", "name": "NorCal Waterfalls & Dark Skies", "tier": "Weekend · ~4h out", "season": "July–Sept only — hinges on Bumpass Hell being snow-free",
+      "stops": [
+        { "text": "Burney Falls", "placeId": "mcarthur-burney-falls-memorial-state-park" },
+        { "text": "Bumpass Hell Trail", "placeId": "bumpass-hell-trail" },
+        { "text": "Manzanita Lake at sunset", "placeId": "manzanita-lake" },
+        { "text": "Stargazing overnight at Lassen (Bortle 1)", "placeId": "lassen-volcanic-national-park" } ] },
+    { "id": "lassen-volcano-weekend", "name": "Lassen Volcano Weekend", "tier": "Weekend · ~4h out", "season": "July–Oct; Sulphur Works is the early-season fallback",
+      "stops": [
+        { "text": "Sulphur Works roadside vents", "placeId": "sulphur-works" },
+        { "text": "Lassen Peak summit trail", "placeId": "lassen-peak-summit-trail" },
+        { "text": "Cinder Cone & the Painted Dunes", "placeId": "cinder-cone-and-the-painted-dunes" },
+        { "text": "Subway Cave lava tube (bring flashlights)", "placeId": "subway-cave-lava-tubes" } ] },
+    { "id": "redwood-coast-road-trip", "name": "Redwood Coast Road Trip", "tier": "Weekend · ~5h out", "season": "Best June or September",
+      "stops": [
+        { "text": "Avenue of the Giants", "placeId": "avenue-of-the-giants" },
+        { "text": "Founders Grove", "placeId": "founders-grove" },
+        { "text": "Howland Hill Road & Stout Grove", "placeId": "howland-hill-road-and-stout-grove" },
+        { "text": "Fern Canyon", "placeId": "fern-canyon" },
+        { "text": "Trees of Mystery gondola", "placeId": "trees-of-mystery" } ] },
+    { "id": "lost-coast-detour", "name": "Lost Coast & Victorian Ferndale", "tier": "Weekend · ~5h out", "season": "Summer/fall; check a tide table for Black Sands",
+      "stops": [
+        { "text": "Black Sands Beach (Shelter Cove)", "placeId": "lost-coast-and-black-sands-beach" },
+        { "text": "Ferndale", "placeId": "ferndale" },
+        { "text": "Redwood Sky Walk (Eureka)", "placeId": "redwood-sky-walk" },
+        { "text": "Old Town Eureka", "placeId": "old-town-eureka" } ] },
+    { "id": "bishop-creek-fall-color", "name": "Bishop Creek Fall Color Weekend", "tier": "Weekend · ~5h out", "season": "Late Sept–mid Oct only; check a live color report first",
+      "stops": [
+        { "text": "Bishop Creek Canyon lakes", "placeId": "bishop-creek-canyon" },
+        { "text": "Rock Creek Canyon color", "placeId": "rock-creek-canyon" },
+        { "text": "Alabama Hills", "placeId": "alabama-hills" },
+        { "text": "Manzanar", "placeId": "manzanar-national-historic-site" } ] },
+    { "id": "eastern-sierra-bucket", "name": "Eastern Sierra Bucket Weekend", "tier": "Weekend · ~5h out", "season": "July–Oct; Bristlecone road and Big Pine are snow-gated",
+      "stops": [
+        { "text": "Ancient Bristlecone Pine Forest", "placeId": "ancient-bristlecone-pine-forest" },
+        { "text": "Big Pine Lakes (the real 10-mile day)", "placeId": "big-pine-lakes" },
+        { "text": "Travertine Hot Springs at sunset", "placeId": "travertine-hot-springs" } ] },
+    { "id": "mono-bodie-sonora-pass", "name": "Mono Lake & Bodie via Sonora Pass", "tier": "Weekend · ~3.5h out", "season": "Summer–early fall; the pass closes with snow",
+      "stops": [
+        { "text": "Sonora Pass scenic drive", "placeId": "sonora-pass-scenic-drive" },
+        { "text": "Bodie ghost town", "placeId": "bodie-state-historic-park" },
+        { "text": "Mono Lake tufa (or the sunrise kayak tour)", "placeId": "mono-lake" },
+        { "text": "Travertine Hot Springs (Bridgeport)", "placeId": "travertine-hot-springs" } ] },
+    { "id": "solvang-wine-weekend", "name": "Solvang & Santa Ynez Weekend", "tier": "Weekend · ~4.5h out", "season": "Danish Days Sept 18–20, 2026; Figueroa flowers Mar–Apr; Julefest in Dec",
+      "stops": [
+        { "text": "Solvang village", "placeId": "solvang" },
+        { "text": "Mission Santa Inés", "placeId": "mission-santa-ines" },
+        { "text": "Figueroa Mountain (spring) or the wineries", "placeId": "santa-ynez-valley-wineries" },
+        { "text": "La Purisima Mission", "placeId": "la-purisima-mission-state-historic-park" } ] },
+    { "id": "central-coast-missions-lights", "name": "Missions, Wine & a Field of Light", "tier": "Weekend · ~3h out", "season": "Spring/fall; Sensorio is after dark, timed tickets",
+      "stops": [
+        { "text": "Mission San Miguel Arcángel", "placeId": "mission-san-miguel-arcangel" },
+        { "text": "Mission San Antonio de Padua", "placeId": "mission-san-antonio-de-padua" },
+        { "text": "Paso Robles tasting rooms", "placeId": "paso-robles-wine-country" },
+        { "text": "Sensorio Field of Light after dark", "placeId": "sensorio-field-of-light" },
+        { "text": "Hearst Castle on the way home", "placeId": "hearst-castle" } ] },
+    { "id": "death-valley-grand-loop", "name": "Death Valley Grand Loop", "tier": "Multi-day · ~6.5h out", "season": "Nov–Mar. Not a preference — a safety call",
+      "stops": [
+        { "text": "Mesquite Flat dunes at sunrise", "placeId": "mesquite-flat-sand-dunes" },
+        { "text": "Artist's Drive & Palette late afternoon", "placeId": "artists-drive-and-artists-palette" },
+        { "text": "Dante's View", "placeId": "dantes-view" },
+        { "text": "Ubehebe Crater", "placeId": "ubehebe-crater" },
+        { "text": "Titus Canyon (high clearance)", "placeId": "titus-canyon" } ] },
+    { "id": "joshua-tree-sampler", "name": "Joshua Tree Sampler", "tier": "Weekend · ~6h out", "season": "Oct–Apr; dark skies are half the point",
+      "stops": [
+        { "text": "Hidden Valley loop", "placeId": "hidden-valley-loop" },
+        { "text": "Ryan Mountain summit", "placeId": "ryan-mountain" },
+        { "text": "Keys View & Cholla Garden", "placeId": "joshua-tree-national-park" },
+        { "text": "Pappy & Harriet's (Pioneertown)", "placeId": "pioneertown-and-pappy-and-harriets" } ] },
+    { "id": "superbloom-chase", "name": "Superbloom Chase", "tier": "Weekend · varies", "season": "Mar–Apr, wet winters only — watch bloom reports, don't pre-book",
+      "stops": [
+        { "text": "Carrizo Plain (fill the tank first)", "placeId": "carrizo-plain-national-monument" },
+        { "text": "Antelope Valley Poppy Reserve", "placeId": "antelope-valley-california-poppy-reserve" },
+        { "text": "Anza-Borrego if the desert hit too", "placeId": "anza-borrego-desert-state-park" } ] },
+    { "id": "catalina-getaway", "name": "Catalina Island Getaway", "tier": "Weekend · ferry from Long Beach", "season": "Apr–May or Sept–Oct; whales Dec–Mar",
+      "stops": [
+        { "text": "Ferry to Avalon, snorkel or glass-bottom boat", "placeId": "catalina-island-avalon" },
+        { "text": "Interior jeep tour to the bison herd", "placeId": "catalinas-interior-and-the-bison-herd" } ] },
+    { "id": "channel-islands-sea-caves", "name": "Channel Islands Sea Caves", "tier": "Weekend · ~5h out", "season": "June–Sept for calm water; book the boat and kayak tour",
+      "stops": [
+        { "text": "Boat to Santa Cruz Island", "placeId": "channel-islands-national-park" },
+        { "text": "Scorpion Anchorage sea cave kayaking", "placeId": "scorpion-anchorage-sea-cave-kayaking" },
+        { "text": "Mission San Buenaventura & Ventura pier", "placeId": "mission-san-buenaventura-and-ventura-pier" } ] },
+    { "id": "grand-canyon-expedition", "name": "Grand Canyon Expedition", "tier": "Multi-day · ~13h out", "season": "Spring or fall; book Antelope Canyon months out",
+      "stops": [
+        { "text": "Grand Canyon Railway from Williams", "placeId": "grand-canyon-railway" },
+        { "text": "South Rim (Hermit Road by shuttle)", "placeId": "grand-canyon-south-rim" },
+        { "text": "Antelope Canyon & Horseshoe Bend (Page)", "placeId": "antelope-canyon-and-horseshoe-bend" },
+        { "text": "Meteor Crater on I-40", "placeId": "meteor-crater" },
+        { "text": "Lowell Observatory dark-sky evening (Flagstaff)", "placeId": "lowell-observatory" } ] }
+  ]
+}

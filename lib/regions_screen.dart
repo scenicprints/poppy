@@ -10,7 +10,8 @@ import 'trips_screen.dart' show TripDetailPage;
 const Map<String, (String, int)> kRegionArt = {
   'modesto-and-the-central-valley': ('🌾', 0xFF8A6D3B),
   'greater-bay-area': ('🌉', 0xFF31556B),
-  'yosemite-high-country-and-the-sierra-nevada': ('⛰️', 0xFF4A6B4F),
+  'the-eastern-sierra-and-southern-sequoia-kings-canyon': ('⛰️', 0xFF4A6B4F),
+  'out-of-state': ('🏜️', 0xFF8C4A2A),
   'lake-tahoe': ('🏔️', 0xFF2F6B74),
   'gold-country-sierra-foothills': ('⛏️', 0xFFA1762C),
   'napa-and-sonoma-wine-country': ('🍇', 0xFF6D3B62),

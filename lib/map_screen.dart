@@ -20,9 +20,17 @@ Offset projectLL(double lat, double lon) =>
     Offset((lon - _lonMin) * _kX, (_latMax - lat) * _kY);
 
 Offset? pinPos(Place p) {
-  if (p.ll != null) return projectLL(p.ll![0], p.ll![1]);
-  if (p.pin != null) return Offset(p.pin![0], p.pin![1]);
-  return null;
+  Offset? o;
+  if (p.ll != null) {
+    o = projectLL(p.ll![0], p.ll![1]);
+  } else if (p.pin != null) {
+    o = Offset(p.pin![0], p.pin![1]);
+  }
+  if (o == null) return null;
+  // Out-of-state places (Grand Canyon leg) fall off the California canvas —
+  // they keep weather and drive times but don't draw a pin.
+  if (o.dx < 0 || o.dx > kMapW || o.dy < 0 || o.dy > kMapH) return null;
+  return o;
 }
 
 /// California border as real coordinates, clockwise from the Oregon coast.
