@@ -54,14 +54,14 @@ jobs:
           # flutter_local_notifications needs core library desugaring.
           GK=android/app/build.gradle.kts
           if [ -f "$GK" ]; then
-            sed -i 's/targetCompatibility = JavaVersion.VERSION_11/targetCompatibility = JavaVersion.VERSION_11\n        isCoreLibraryDesugaringEnabled = true/' "$GK"
+            sed -i 's/compileOptions {/compileOptions {\n        isCoreLibraryDesugaringEnabled = true/' "$GK"
             printf '\ndependencies {\n    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")\n}\n' >> "$GK"
-            echo "--- gradle kts patched ---"; grep -n -A1 Desugaring "$GK" || true
+            echo "--- gradle kts patched ---"; grep -n -B1 -A4 'compileOptions {' "$GK"; grep -n coreLibraryDesugaring "$GK"
           else
             G=android/app/build.gradle
-            sed -i 's/targetCompatibility JavaVersion.VERSION_1_8/&\n        coreLibraryDesugaringEnabled true/' "$G"
+            sed -i 's/compileOptions {/compileOptions {\n        coreLibraryDesugaringEnabled true/' "$G"
             printf '\ndependencies {\n    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.1.4"\n}\n' >> "$G"
-            echo "--- gradle patched ---"; grep -n -A1 -i desugar "$G" || true
+            echo "--- gradle patched ---"; grep -n -B1 -A4 'compileOptions {' "$G"; grep -n coreLibraryDesugaring "$G"
           fi
 
       - name: Get packages
