@@ -118,7 +118,14 @@ class _NavShellState extends State<NavShell> {
           MoreScreen(),
         ],
       ),
-      bottomNavigationBar: NavigationBar(
+      // Wrapped so the app's bar sits ABOVE Android's own navigation bar
+      // (back / home / recents) instead of underneath it, and the card color
+      // extends behind the system bar area.
+      bottomNavigationBar: Container(
+        color: context.card,
+        child: SafeArea(
+          top: false,
+          child: NavigationBar(
         selectedIndex: _tab,
         onDestinationSelected: (i) => setState(() => _tab = i),
         backgroundColor: context.card,
@@ -142,6 +149,8 @@ class _NavShellState extends State<NavShell> {
               icon: Text('🎒', style: TextStyle(fontSize: 18)),
               label: 'More'),
         ],
+          ),
+        ),
       ),
     );
   }
