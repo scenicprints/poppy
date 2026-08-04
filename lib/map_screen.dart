@@ -6,9 +6,42 @@ import 'place_sheet.dart';
 import 'store.dart';
 import 'theme.dart';
 
-/// The poster map. All pin coords live in a 300x330 design space
-/// (data/overrides.json) and are scaled to fit.
-const double kMapW = 300, kMapH = 330;
+/// The poster map. Everything — the state border, the home star, every pin —
+/// is projected from real lat/lon, so geography is correct by construction.
+const double kMapW = 300, kMapH = 336;
+
+// Equirectangular projection fitted to California:
+// lat 32.4–42.1, lon -124.5 eastward, x squeezed by cos(mid-latitude).
+const double _latMax = 42.1, _lonMin = -124.5;
+const double _kY = 34.0; // kMapH / lat span
+const double _kX = 27.05; // _kY * cos(~37.3°)
+
+Offset projectLL(double lat, double lon) =>
+    Offset((lon - _lonMin) * _kX, (_latMax - lat) * _kY);
+
+Offset? pinPos(Place p) {
+  if (p.ll != null) return projectLL(p.ll![0], p.ll![1]);
+  if (p.pin != null) return Offset(p.pin![0], p.pin![1]);
+  return null;
+}
+
+/// California border as real coordinates, clockwise from the Oregon coast.
+const List<double> _border = [
+  42.00, -124.21, // Oregon line meets the Pacific
+  41.74, -124.18, 41.06, -124.14, 40.44, -124.40, // Cape Mendocino
+  39.75, -123.83, 38.95, -123.74, 38.31, -123.06, // Point Arena, Bodega
+  37.81, -122.47, 37.60, -122.50, 37.11, -122.33, // Golden Gate, Año Nuevo
+  36.95, -122.03, 36.80, -121.79, 36.60, -121.90, // Monterey Bay
+  36.24, -121.81, 35.66, -121.28, 35.37, -120.86, // Big Sur, Morro
+  35.15, -120.65, 34.45, -120.47, 34.41, -119.69, // Conception, Santa Barbara
+  34.03, -118.85, 33.77, -118.42, 33.60, -117.90, // Malibu, Palos Verdes
+  33.38, -117.59, 32.53, -117.12, // to the Mexico border
+  32.72, -114.72, // east along the border to the Colorado River
+  33.40, -114.73, 34.00, -114.44, 34.30, -114.14, // river wiggles north
+  35.00, -114.63, // Needles corner
+  39.00, -120.00, // the long Nevada diagonal to Tahoe
+  42.00, -120.00, // due north, then the top edge closes it
+];
 
 class MapScreen extends StatefulWidget {
   const MapScreen({super.key});
@@ -258,17 +291,15 @@ class _MapScreenState extends State<MapScreen>
     final box = context.findRenderObject() as RenderBox?;
     final size = box?.size;
     if (size == null) return;
-    // Same fit math as the painter.
-    final mapSize = Size(size.width, size.height - 0); // stack fills
-    final scale = _fitScale(mapSize);
-    final off = _fitOffset(mapSize, scale);
+    final scale = _fitScale(size);
+    final off = _fitOffset(size, scale);
     Place? best;
-    double bestD = 18; // touch slop in px
+    double bestD = 18;
     for (final p in AppState.instance.allPlaces) {
-      if (p.pin == null) continue;
-      final px = off.dx + p.pin![0] * scale;
-      final py = off.dy + p.pin![1] * scale;
-      final d = (Offset(px, py) - pos).distance;
+      final pp = pinPos(p);
+      if (pp == null) continue;
+      final d = (Offset(off.dx + pp.dx * scale, off.dy + pp.dy * scale) - pos)
+          .distance;
       if (d < bestD) {
         bestD = d;
         best = p;
@@ -283,8 +314,8 @@ double _fitScale(Size s) {
   return sx < sy ? sx : sy;
 }
 
-Offset _fitOffset(Size s, double scale) => Offset(
-    (s.width - kMapW * scale) / 2, (s.height - kMapH * scale) / 2);
+Offset _fitOffset(Size s, double scale) =>
+    Offset((s.width - kMapW * scale) / 2, (s.height - kMapH * scale) / 2);
 
 class _ClosingTicker extends StatelessWidget {
   final Place place;
@@ -330,7 +361,7 @@ class _ClosingTicker extends StatelessWidget {
   }
 }
 
-/// Hand-drawn California in the national-park-poster register.
+/// National-park-poster California, drawn from real geography.
 class PosterMapPainter extends CustomPainter {
   final List<Place> places;
   final Set<String> doneIds;
@@ -346,29 +377,32 @@ class PosterMapPainter extends CustomPainter {
     required this.dark,
   });
 
-  static final Path _statePath = Path()
-    ..moveTo(32, 12)
-    ..lineTo(150, 12)
-    ..lineTo(150, 96)
-    ..lineTo(253, 224)
-    ..lineTo(256, 236)
-    ..lineTo(249, 243)
-    ..lineTo(254, 252)
-    ..lineTo(250, 262)
-    ..lineTo(178, 274)
-    ..lineTo(156, 251)
-    ..lineTo(138, 244)
-    ..lineTo(122, 236)
-    ..lineTo(108, 214)
-    ..lineTo(94, 188)
-    ..lineTo(88, 170)
-    ..lineTo(80, 158)
-    ..lineTo(74, 140)
-    ..lineTo(64, 116)
-    ..lineTo(52, 82)
-    ..lineTo(44, 58)
-    ..lineTo(36, 34)
-    ..close();
+  static final Path _statePath = _buildStatePath();
+  static final List<Offset> _coast = _buildCoast();
+
+  static List<Offset> _buildCoast() {
+    // Border points down to the Mexico corner are the coastline.
+    final pts = <Offset>[];
+    for (var i = 0; i < _border.length; i += 2) {
+      pts.add(projectLL(_border[i], _border[i + 1]));
+      if (_border[i] == 32.53) break; // last coastal point
+    }
+    return pts;
+  }
+
+  static Path _buildStatePath() {
+    final path = Path();
+    for (var i = 0; i < _border.length; i += 2) {
+      final o = projectLL(_border[i], _border[i + 1]);
+      if (i == 0) {
+        path.moveTo(o.dx, o.dy);
+      } else {
+        path.lineTo(o.dx, o.dy);
+      }
+    }
+    path.close();
+    return path;
+  }
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -378,28 +412,64 @@ class PosterMapPainter extends CustomPainter {
     canvas.translate(off.dx, off.dy);
     canvas.scale(scale);
 
-    // soft drop shadow
+    // ---- ocean: everything west of the coastline ----
+    final ocean = Path()..moveTo(_coast.first.dx, _coast.first.dy);
+    for (final c in _coast.skip(1)) {
+      ocean.lineTo(c.dx, c.dy);
+    }
+    ocean
+      ..lineTo(_coast.last.dx, kMapH + 6)
+      ..lineTo(-6, kMapH + 6)
+      ..lineTo(-6, _coast.first.dy)
+      ..close();
     canvas.drawPath(
-        _statePath.shift(const Offset(3, 4)),
+        ocean,
         Paint()
-          ..color = Colors.black.withOpacity(dark ? 0.5 : 0.18)
-          ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 6));
+          ..shader = LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: dark
+                ? const [Color(0xFF16242A), Color(0xFF1A2E33)]
+                : const [Color(0xFFBFD9D4), Color(0xFFA8CBC9)],
+          ).createShader(const Rect.fromLTWH(0, 0, kMapW, kMapH)));
+    // faint wave strokes
+    final wave = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 1
+      ..strokeCap = StrokeCap.round
+      ..color = (dark ? Colors.white : const Color(0xFF5E8A86))
+          .withOpacity(0.18);
+    for (final w in const [
+      (14.0, 120.0, 34.0), (8.0, 175.0, 26.0), (30.0, 226.0, 30.0),
+      (55.0, 268.0, 26.0), (90.0, 300.0, 30.0), (20.0, 62.0, 24.0),
+    ]) {
+      canvas.drawLine(
+          Offset(w.$1, w.$2), Offset(w.$1 + w.$3, w.$2), wave);
+    }
+    _rotatedText(canvas, 'PACIFIC  OCEAN', const Offset(38, 205), 0.95,
+        8.5, (dark ? Colors.white : const Color(0xFF4E7A76)).withOpacity(0.5));
 
-    // land
-    final land = Paint()
-      ..shader = LinearGradient(
-        begin: Alignment.topLeft,
-        end: Alignment.bottomRight,
-        colors: dark
-            ? const [Color(0xFF2C4431), Color(0xFF3A4F33), Color(0xFF54502E)]
-            : const [
-                Color(0xFF7FA06A),
-                Color(0xFFA8B578),
-                Color(0xFFC9B878),
-                Color(0xFFD8A95F)
-              ],
-      ).createShader(const Rect.fromLTWH(0, 0, kMapW, kMapH));
-    canvas.drawPath(_statePath, land);
+    // ---- state ----
+    canvas.drawPath(
+        _statePath.shift(const Offset(2.5, 3.5)),
+        Paint()
+          ..color = Colors.black.withOpacity(dark ? 0.5 : 0.2)
+          ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 5));
+    canvas.drawPath(
+        _statePath,
+        Paint()
+          ..shader = LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: dark
+                ? const [Color(0xFF2C4431), Color(0xFF3A4F33), Color(0xFF54502E)]
+                : const [
+                    Color(0xFF7FA06A),
+                    Color(0xFFA8B578),
+                    Color(0xFFC9B878),
+                    Color(0xFFD8A95F)
+                  ],
+          ).createShader(const Rect.fromLTWH(0, 0, kMapW, kMapH)));
     canvas.drawPath(
         _statePath,
         Paint()
@@ -408,65 +478,86 @@ class PosterMapPainter extends CustomPainter {
           ..strokeJoin = StrokeJoin.round
           ..color = dark ? const Color(0xFF11190F) : const Color(0xFF5F7350));
 
-    // Sierra ridge + coast range hints
+    // ---- ranges, from real crest coordinates ----
     final ridge = Paint()
       ..style = PaintingStyle.stroke
       ..strokeCap = StrokeCap.round
+      ..strokeJoin = StrokeJoin.round
       ..color = (dark ? const Color(0xFF1E2C1C) : const Color(0xFF6B7A4F))
           .withOpacity(0.5)
       ..strokeWidth = 5;
-    canvas.drawPath(
-        Path()
-          ..moveTo(138, 30)
-          ..lineTo(146, 60)
-          ..lineTo(156, 96)
-          ..lineTo(172, 130)
-          ..lineTo(190, 168),
-        ridge);
-    canvas.drawPath(
-        Path()
-          ..moveTo(60, 40)
-          ..quadraticBezierTo(80, 90, 96, 150),
-        ridge
-          ..strokeWidth = 4
-          ..color = ridge.color.withOpacity(0.35));
+    _geoPolyline(canvas, ridge, const [
+      36.58, -118.29, 37.20, -118.70, 37.90, -119.30, 38.70, -120.05,
+      39.40, -120.60, 40.20, -121.20, // Sierra crest up toward Lassen
+    ]);
+    _geoPolyline(
+        canvas,
+        Paint()
+          ..style = PaintingStyle.stroke
+          ..strokeCap = StrokeCap.round
+          ..color = ridge.color.withOpacity(0.3)
+          ..strokeWidth = 3.5,
+        const [40.60, -123.40, 39.40, -123.30, 38.40, -122.90]);
+    _rotatedText(
+        canvas,
+        'SIERRA NEVADA',
+        projectLL(38.15, -119.35) + const Offset(6, 0),
+        1.0,
+        7.5,
+        (dark ? const Color(0xFFB9C9A8) : const Color(0xFF4A5A38))
+            .withOpacity(0.55));
 
-    // home
-    _emoji(canvas, '🏠', const Offset(97, 148), 11);
-    _text(canvas, 'MODESTO', const Offset(97, 158), 6.5,
+    // ---- home ----
+    final home = projectLL(kHomeLat, kHomeLon);
+    _emoji(canvas, '🏠', home - const Offset(0, 1), 10);
+    _text(canvas, 'MODESTO', home + const Offset(0, 6), 6.2,
         dark ? const Color(0xFFB9C9A8) : const Color(0xFF3C4A2F));
 
-    // pins
+    // ---- pins ----
     for (final p in places) {
-      if (p.pin == null) continue;
-      final c = Offset(p.pin![0], p.pin![1]);
-      final inSeason =
-          p.season != null && p.season!.inMonth(month) && !doneIds.contains(p.id);
+      final pp = pinPos(p);
+      if (pp == null) continue;
+      final inSeason = p.season != null &&
+          p.season!.inMonth(month) &&
+          !doneIds.contains(p.id);
       final color = doneIds.contains(p.id)
           ? P.doneGreen
           : inSeason
               ? P.poppy
               : const Color(0xFF8F8F80);
       if (inSeason) {
-        final r = 5 + pulseT * 7;
         canvas.drawCircle(
-            c,
-            r,
+            pp,
+            4.5 + pulseT * 7,
             Paint()
               ..style = PaintingStyle.stroke
               ..strokeWidth = 2
               ..color = P.poppy.withOpacity((1 - pulseT) * 0.7));
       }
-      canvas.drawCircle(c, 4.4, Paint()..color = color);
+      canvas.drawCircle(pp, 4.2, Paint()..color = color);
       canvas.drawCircle(
-          c,
-          4.4,
+          pp,
+          4.2,
           Paint()
             ..style = PaintingStyle.stroke
             ..strokeWidth = 1.4
-            ..color = dark ? const Color(0xFF141B15) : const Color(0xFFFFFDF2));
+            ..color =
+                dark ? const Color(0xFF141B15) : const Color(0xFFFFFDF2));
     }
     canvas.restore();
+  }
+
+  void _geoPolyline(Canvas canvas, Paint paint, List<double> latLons) {
+    final path = Path();
+    for (var i = 0; i < latLons.length; i += 2) {
+      final o = projectLL(latLons[i], latLons[i + 1]);
+      if (i == 0) {
+        path.moveTo(o.dx, o.dy);
+      } else {
+        path.lineTo(o.dx, o.dy);
+      }
+    }
+    canvas.drawPath(path, paint);
   }
 
   void _text(Canvas canvas, String s, Offset center, double size, Color color) {
@@ -481,6 +572,26 @@ class PosterMapPainter extends CustomPainter {
       textDirection: TextDirection.ltr,
     )..layout();
     tp.paint(canvas, center - Offset(tp.width / 2, 0));
+  }
+
+  void _rotatedText(Canvas canvas, String s, Offset at, double angle,
+      double size, Color color) {
+    canvas.save();
+    canvas.translate(at.dx, at.dy);
+    canvas.rotate(angle);
+    final tp = TextPainter(
+      text: TextSpan(
+          text: s,
+          style: TextStyle(
+              fontSize: size,
+              color: color,
+              fontWeight: FontWeight.w600,
+              letterSpacing: 2.5,
+              fontStyle: FontStyle.italic)),
+      textDirection: TextDirection.ltr,
+    )..layout();
+    tp.paint(canvas, Offset(-tp.width / 2, -tp.height / 2));
+    canvas.restore();
   }
 
   void _emoji(Canvas canvas, String s, Offset center, double size) {
