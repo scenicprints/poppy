@@ -51,6 +51,18 @@ jobs:
               sed -i "s|<application|<uses-permission android:name=\"android.permission.$P\"/>\n    <application|" "$M"
           done
           echo "--- manifest head ---"; head -n 10 "$M"
+          # flutter_local_notifications needs core library desugaring.
+          GK=android/app/build.gradle.kts
+          if [ -f "$GK" ]; then
+            sed -i 's/targetCompatibility = JavaVersion.VERSION_11/targetCompatibility = JavaVersion.VERSION_11\n        isCoreLibraryDesugaringEnabled = true/' "$GK"
+            printf '\ndependencies {\n    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")\n}\n' >> "$GK"
+            echo "--- gradle kts patched ---"; grep -n -A1 Desugaring "$GK" || true
+          else
+            G=android/app/build.gradle
+            sed -i 's/targetCompatibility JavaVersion.VERSION_1_8/&\n        coreLibraryDesugaringEnabled true/' "$G"
+            printf '\ndependencies {\n    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.1.4"\n}\n' >> "$G"
+            echo "--- gradle patched ---"; grep -n -A1 -i desugar "$G" || true
+          fi
 
       - name: Get packages
         run: flutter pub get
