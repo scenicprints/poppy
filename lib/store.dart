@@ -32,6 +32,7 @@ class AppState extends ChangeNotifier {
   final List<Plan> plans = [];
   final List<Reservation> reservations = [];
   final Map<String, bool> tripStopDone = {}; // "$tripId/$index" -> true
+  final Map<String, List<String>> tripExtras = {}; // tripId -> added placeIds
 
   // settings
   bool alertsOn = true;
@@ -126,6 +127,10 @@ class AppState extends ChangeNotifier {
     tripStopDone
       ..clear()
       ..addAll((j['tripStopDone'] as Map? ?? {}).cast<String, bool>());
+    tripExtras.clear();
+    (j['tripExtras'] as Map? ?? {}).forEach((k, v) {
+      tripExtras[k as String] = (v as List).cast<String>();
+    });
     final s = j['settings'] as Map<String, dynamic>? ?? {};
     alertsOn = s['alertsOn'] as bool? ?? true;
     digestOn = s['digestOn'] as bool? ?? true;
@@ -147,6 +152,7 @@ class AppState extends ChangeNotifier {
         'plans': plans.map((p) => p.toJson()).toList(),
         'reservations': reservations.map((r) => r.toJson()).toList(),
         'tripStopDone': tripStopDone,
+        'tripExtras': tripExtras,
         'settings': {
           'alertsOn': alertsOn,
           'digestOn': digestOn,
@@ -297,6 +303,27 @@ class AppState extends ChangeNotifier {
     save();
   }
 
+  /// A trip's stops including any places the user added to it.
+  List<TripStop> stopsOf(Trip t) => [
+        ...t.stops,
+        for (final id in tripExtras[t.id] ?? const <String>[])
+          TripStop(text: place(id)?.name ?? id, placeId: id),
+      ];
+
+  void addTripExtra(String tripId, String placeId) {
+    final list = tripExtras.putIfAbsent(tripId, () => []);
+    if (!list.contains(placeId)) list.add(placeId);
+    save();
+  }
+
+  void removeTripExtra(String tripId, String placeId) {
+    tripExtras[tripId]?.remove(placeId);
+    save();
+  }
+
+  bool tripHasPlace(Trip t, String placeId) =>
+      stopsOf(t).any((s) => s.placeId == placeId);
+
   void toggleStop(String tripId, int index) {
     final key = '$tripId/$index';
     if (tripStopDone[key] == true) {
@@ -305,10 +332,13 @@ class AppState extends ChangeNotifier {
       tripStopDone[key] = true;
       // Checking a stop that maps to a place marks the place done too.
       final t = trip(tripId);
-      if (t != null && index < t.stops.length) {
-        final pid = t.stops[index].placeId;
-        if (pid != null && !done.containsKey(pid)) {
-          done[pid] = DateTime.now().toIso8601String().substring(0, 10);
+      if (t != null) {
+        final stops = stopsOf(t);
+        if (index < stops.length) {
+          final pid = stops[index].placeId;
+          if (pid != null && !done.containsKey(pid)) {
+            done[pid] = DateTime.now().toIso8601String().substring(0, 10);
+          }
         }
       }
     }
@@ -319,7 +349,8 @@ class AppState extends ChangeNotifier {
 
   int tripProgress(Trip t) {
     var n = 0;
-    for (var i = 0; i < t.stops.length; i++) {
+    final total = stopsOf(t).length;
+    for (var i = 0; i < total; i++) {
       if (stopDone(t.id, i)) n++;
     }
     return n;

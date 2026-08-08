@@ -181,22 +181,27 @@ class _MapScreenState extends State<MapScreen>
             ),
           ),
           Expanded(
-            child: Stack(
+            child: LayoutBuilder(builder: (context, cons) {
+              final mapSize = Size(cons.maxWidth, cons.maxHeight);
+              return Stack(
               children: [
                 Positioned.fill(
-                  child: GestureDetector(
-                    onTapUp: (d) => _onMapTap(context, d.localPosition),
-                    child: AnimatedBuilder(
-                      animation: _pulse,
-                      builder: (_, __) => CustomPaint(
-                        painter: PosterMapPainter(
-                          places: app.allPlaces,
-                          doneIds: app.done.keys.toSet(),
-                          month: DateTime.now().month,
-                          pulseT: _pulse.value,
-                          dark: context.isDark,
+                  child: InteractiveViewer(
+                    maxScale: 6,
+                    child: GestureDetector(
+                      onTapUp: (d) => _onMapTap(d.localPosition, mapSize),
+                      child: AnimatedBuilder(
+                        animation: _pulse,
+                        builder: (_, __) => CustomPaint(
+                          painter: PosterMapPainter(
+                            places: app.allPlaces,
+                            doneIds: app.done.keys.toSet(),
+                            month: DateTime.now().month,
+                            pulseT: _pulse.value,
+                            dark: context.isDark,
+                          ),
+                          size: mapSize,
                         ),
-                        size: Size.infinite,
                       ),
                     ),
                   ),
@@ -275,7 +280,8 @@ class _MapScreenState extends State<MapScreen>
                   ),
                 ),
               ],
-            ),
+              );
+            }),
           ),
         ],
       ),
@@ -295,12 +301,9 @@ class _MapScreenState extends State<MapScreen>
         ]),
       );
 
-  void _onMapTap(BuildContext context, Offset pos) {
-    final box = context.findRenderObject() as RenderBox?;
-    final size = box?.size;
-    if (size == null) return;
-    final scale = _fitScale(size);
-    final off = _fitOffset(size, scale);
+  void _onMapTap(Offset pos, Size size) {
+    final scale = mapFitScale(size);
+    final off = mapFitOffset(size, scale);
     Place? best;
     double bestD = 18;
     for (final p in AppState.instance.allPlaces) {
@@ -317,12 +320,12 @@ class _MapScreenState extends State<MapScreen>
   }
 }
 
-double _fitScale(Size s) {
+double mapFitScale(Size s) {
   final sx = s.width / kMapW, sy = s.height / kMapH;
   return sx < sy ? sx : sy;
 }
 
-Offset _fitOffset(Size s, double scale) =>
+Offset mapFitOffset(Size s, double scale) =>
     Offset((s.width - kMapW * scale) / 2, (s.height - kMapH * scale) / 2);
 
 class _ClosingTicker extends StatelessWidget {
@@ -376,6 +379,9 @@ class PosterMapPainter extends CustomPainter {
   final int month;
   final double pulseT;
   final bool dark;
+  final String? highlightId; // focused place: glow ring + label
+  final List<String>? routeIds; // ordered stop placeIds: polyline + numbers
+  final bool dimOthers; // fade pins that aren't part of the focus
 
   PosterMapPainter({
     required this.places,
@@ -383,6 +389,9 @@ class PosterMapPainter extends CustomPainter {
     required this.month,
     required this.pulseT,
     required this.dark,
+    this.highlightId,
+    this.routeIds,
+    this.dimOthers = false,
   });
 
   static final Path _statePath = _buildStatePath();
@@ -521,19 +530,50 @@ class PosterMapPainter extends CustomPainter {
     _text(canvas, 'MODESTO', home + const Offset(0, 6), 6.2,
         dark ? const Color(0xFFB9C9A8) : const Color(0xFF3C4A2F));
 
+    // ---- route line under the pins ----
+    final routePts = <Offset>[];
+    if (routeIds != null) {
+      for (final id in routeIds!) {
+        for (final p in places) {
+          if (p.id == id) {
+            final pp = pinPos(p);
+            if (pp != null) routePts.add(pp);
+          }
+        }
+      }
+      if (routePts.length > 1) {
+        final rp = Path()..moveTo(routePts.first.dx, routePts.first.dy);
+        for (final o in routePts.skip(1)) {
+          rp.lineTo(o.dx, o.dy);
+        }
+        canvas.drawPath(
+            rp,
+            Paint()
+              ..style = PaintingStyle.stroke
+              ..strokeWidth = 2.6
+              ..strokeJoin = StrokeJoin.round
+              ..strokeCap = StrokeCap.round
+              ..color = P.poppy.withOpacity(0.85));
+      }
+    }
+
     // ---- pins ----
     for (final p in places) {
       final pp = pinPos(p);
       if (pp == null) continue;
+      final isFocus = p.id == highlightId ||
+          (routeIds?.contains(p.id) ?? false);
+      final faded = dimOthers && !isFocus;
       final inSeason = p.season != null &&
           p.season!.inMonth(month) &&
           !doneIds.contains(p.id);
-      final color = doneIds.contains(p.id)
+      var color = doneIds.contains(p.id)
           ? P.doneGreen
           : inSeason
               ? P.poppy
               : const Color(0xFF8F8F80);
-      if (inSeason) {
+      if (faded) color = color.withOpacity(0.45);
+      if (inSeason && !faded && routeIds == null) {
         canvas.drawCircle(
             pp,
             4.5 + pulseT * 7,
@@ -549,8 +589,49 @@ class PosterMapPainter extends CustomPainter {
           Paint()
             ..style = PaintingStyle.stroke
             ..strokeWidth = 1.4
-            ..color =
-                dark ? const Color(0xFF141B15) : const Color(0xFFFFFDF2));
+            ..color = (dark ? const Color(0xFF141B15) : const Color(0xFFFFFDF2))
+                .withOpacity(faded ? 0.45 : 1));
+    }
+
+    // ---- numbered route stops on top ----
+    for (var i = 0; i < routePts.length; i++) {
+      canvas.drawCircle(routePts[i], 7, Paint()..color = P.pine);
+      canvas.drawCircle(
+          routePts[i],
+          7,
+          Paint()
+            ..style = PaintingStyle.stroke
+            ..strokeWidth = 1.6
+            ..color = Colors.white);
+      _text(canvas, '${i + 1}', routePts[i] - const Offset(0, 3.4), 7,
+          Colors.white);
+    }
+
+    // ---- highlighted place on top of everything ----
+    if (highlightId != null) {
+      for (final p in places) {
+        if (p.id != highlightId) continue;
+        final pp = pinPos(p);
+        if (pp == null) continue;
+        canvas.drawCircle(
+            pp,
+            10 + pulseT * 5,
+            Paint()
+              ..style = PaintingStyle.stroke
+              ..strokeWidth = 2.5
+              ..color = P.poppy.withOpacity((1 - pulseT) * 0.9));
+        canvas.drawCircle(pp, 6.5, Paint()..color = P.poppy);
+        canvas.drawCircle(
+            pp,
+            6.5,
+            Paint()
+              ..style = PaintingStyle.stroke
+              ..strokeWidth = 2
+              ..color = Colors.white);
+        final label = p.name.length > 26 ? '${p.name.substring(0, 24)}…' : p.name;
+        _text(canvas, label, pp + const Offset(0, 9), 7.5,
+            dark ? const Color(0xFFEDE6D2) : const Color(0xFF26331F));
+      }
     }
     canvas.restore();
   }
@@ -615,5 +696,8 @@ class PosterMapPainter extends CustomPainter {
       old.pulseT != pulseT ||
       old.doneIds.length != doneIds.length ||
       old.dark != dark ||
-      old.places.length != places.length;
+      old.places.length != places.length ||
+      old.highlightId != highlightId ||
+      old.dimOthers != dimOthers ||
+      (old.routeIds?.length ?? -1) != (routeIds?.length ?? -1);
 }

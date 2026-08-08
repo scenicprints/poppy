@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'focus_map.dart';
 import 'models.dart';
 import 'notifications.dart';
 import 'place_sheet.dart';
@@ -99,6 +100,7 @@ class _TripsScreenState extends State<TripsScreen> {
   Widget _tripCard(BuildContext context, Trip t) {
     final app = AppState.instance;
     final prog = app.tripProgress(t);
+    final stops = app.stopsOf(t);
     Plan? plan;
     for (final p in app.plans) {
       if (p.tripId == t.id) plan = p;
@@ -148,7 +150,7 @@ class _TripsScreenState extends State<TripsScreen> {
                             TextStyle(fontSize: 11.5, color: context.ink2)),
                     const SizedBox(height: 10),
                     Row(children: [
-                      for (var i = 0; i < t.stops.length; i++) ...[
+                      for (var i = 0; i < stops.length; i++) ...[
                         Container(
                           width: 9,
                           height: 9,
@@ -159,7 +161,7 @@ class _TripsScreenState extends State<TripsScreen> {
                                 : P.pine.withOpacity(0.75),
                           ),
                         ),
-                        if (i < t.stops.length - 1)
+                        if (i < stops.length - 1)
                           Expanded(
                               child: Container(
                                   height: 2, color: context.line)),
@@ -169,7 +171,7 @@ class _TripsScreenState extends State<TripsScreen> {
                 ),
               ),
               LinearProgressIndicator(
-                value: t.stops.isEmpty ? 0 : prog / t.stops.length,
+                value: stops.isEmpty ? 0 : prog / stops.length,
                 minHeight: 5,
                 backgroundColor: context.line,
                 valueColor:
@@ -201,9 +203,11 @@ class _TripDetailPageState extends State<TripDetailPage> {
     for (final p in app.plans) {
       if (p.tripId == t.id) plan = p;
     }
+    final stops = app.stopsOf(t);
     // Weekend trips read as two days; everything else one.
-    final twoDays = t.tier.toLowerCase().contains('weekend');
-    final splitAt = twoDays ? (t.stops.length / 2).ceil() : t.stops.length;
+    final twoDays = t.tier.toLowerCase().contains('weekend') ||
+        t.tier.toLowerCase().contains('multi');
+    final splitAt = twoDays ? (stops.length / 2).ceil() : stops.length;
 
     return Scaffold(
       backgroundColor: context.bg,
@@ -244,6 +248,22 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   SeasonPill(_fmtRange(plan.start, plan.end), 'now'),
               ]),
             ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(14, 12, 14, 0),
+              child: SizedBox(
+                width: double.infinity,
+                child: FilledButton.tonal(
+                  onPressed: () async {
+                    await Navigator.of(context).push(MaterialPageRoute(
+                        builder: (_) => FocusMapPage(trip: t)));
+                    setState(() {});
+                  },
+                  child: const Text(
+                      '🗺️ Map & route · find stops to add',
+                      style: TextStyle(fontSize: 13)),
+                ),
+              ),
+            ),
             for (var day = 0; day < (twoDays ? 2 : 1); day++) ...[
               Padding(
                 padding: const EdgeInsets.fromLTRB(18, 16, 18, 6),
@@ -255,9 +275,9 @@ class _TripDetailPageState extends State<TripDetailPage> {
                         color: P.pine)),
               ),
               for (var i = day == 0 ? 0 : splitAt;
-                  i < (day == 0 ? splitAt : t.stops.length);
+                  i < (day == 0 ? splitAt : stops.length);
                   i++)
-                _stopRow(context, t, i),
+                _stopRow(context, t, stops, i),
             ],
             Padding(
               padding: const EdgeInsets.fromLTRB(14, 16, 14, 0),
@@ -311,9 +331,10 @@ class _TripDetailPageState extends State<TripDetailPage> {
     );
   }
 
-  Widget _stopRow(BuildContext context, Trip t, int i) {
+  Widget _stopRow(BuildContext context, Trip t, List<TripStop> stops, int i) {
     final app = AppState.instance;
-    final stop = t.stops[i];
+    final stop = stops[i];
+    final isExtra = i >= t.stops.length;
     final done = app.stopDone(t.id, i);
     final place = stop.placeId == null ? null : app.place(stop.placeId!);
     return Padding(
@@ -346,15 +367,34 @@ class _TripDetailPageState extends State<TripDetailPage> {
               ),
               const SizedBox(width: 12),
               Expanded(
-                child: Text(stop.text,
-                    style: TextStyle(
-                      fontSize: 14,
-                      fontWeight: FontWeight.w700,
-                      color: done ? context.ink2 : context.ink,
-                      decoration:
-                          done ? TextDecoration.lineThrough : null,
-                    )),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(stop.text,
+                        style: TextStyle(
+                          fontSize: 14,
+                          fontWeight: FontWeight.w700,
+                          color: done ? context.ink2 : context.ink,
+                          decoration:
+                              done ? TextDecoration.lineThrough : null,
+                        )),
+                    if (isExtra)
+                      Text('added by you',
+                          style: TextStyle(
+                              fontSize: 10.5, color: context.ink2)),
+                  ],
+                ),
               ),
+              if (isExtra)
+                IconButton(
+                  icon: Icon(Icons.close, size: 16, color: context.ink2),
+                  onPressed: () {
+                    if (stop.placeId != null) {
+                      app.removeTripExtra(t.id, stop.placeId!);
+                    }
+                    setState(() {});
+                  },
+                ),
               DoneCircle(
                 on: done,
                 size: 24,
@@ -408,6 +448,7 @@ class _TripDayPageState extends State<TripDayPage> {
     final app = AppState.instance;
     final t = app.trip(widget.tripId);
     if (t == null) return const Scaffold(body: SizedBox());
+    final stops = app.stopsOf(t);
     final doneCount = app.tripProgress(t);
 
     return Scaffold(
@@ -452,7 +493,7 @@ class _TripDayPageState extends State<TripDayPage> {
                       style: serif(context, size: 18, color: Colors.white)),
                   const SizedBox(height: 4),
                   Text(
-                      '$doneCount of ${t.stops.length} stops done · check them off as you go',
+                      '$doneCount of ${stops.length} stops done · check them off as you go',
                       style: TextStyle(
                           fontSize: 12,
                           color: Colors.white.withOpacity(0.9))),
@@ -460,7 +501,7 @@ class _TripDayPageState extends State<TripDayPage> {
               ),
             ),
             const SizedBox(height: 12),
-            for (var i = 0; i < t.stops.length; i++)
+            for (var i = 0; i < stops.length; i++)
               Padding(
                 padding: const EdgeInsets.fromLTRB(14, 0, 14, 8),
                 child: Card(
@@ -485,7 +526,7 @@ class _TripDayPageState extends State<TripDayPage> {
                       ),
                       const SizedBox(width: 12),
                       Expanded(
-                        child: Text(t.stops[i].text,
+                        child: Text(stops[i].text,
                             style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w700,

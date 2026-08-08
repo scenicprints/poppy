@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:url_launcher/url_launcher.dart';
 
+import 'focus_map.dart';
+import 'map_screen.dart' show pinPos;
 import 'models.dart';
 import 'services.dart';
 import 'store.dart';
@@ -224,6 +226,19 @@ class _PlaceSheetState extends State<_PlaceSheet> {
                           style: TextStyle(fontSize: 12)),
                     )),
                   ]),
+                  if (pinPos(p) != null) ...[
+                    const SizedBox(height: 12),
+                    SizedBox(
+                      width: double.infinity,
+                      child: FilledButton.tonal(
+                        onPressed: () => Navigator.of(context).push(
+                            MaterialPageRoute(
+                                builder: (_) => FocusMapPage(place: p))),
+                        child: const Text('🗺️ Show on map · what\'s nearby',
+                            style: TextStyle(fontSize: 13)),
+                      ),
+                    ),
+                  ],
                   const SizedBox(height: 12),
                   Card(
                     child: Padding(
