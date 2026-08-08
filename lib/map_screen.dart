@@ -381,6 +381,7 @@ class PosterMapPainter extends CustomPainter {
   final bool dark;
   final String? highlightId; // focused place: glow ring + label
   final List<String>? routeIds; // ordered stop placeIds: polyline + numbers
+  final Set<String>? emphasizeIds; // e.g. a region's places: kept vivid
   final bool dimOthers; // fade pins that aren't part of the focus
 
   PosterMapPainter({
@@ -391,6 +392,7 @@ class PosterMapPainter extends CustomPainter {
     required this.dark,
     this.highlightId,
     this.routeIds,
+    this.emphasizeIds,
     this.dimOthers = false,
   });
 
@@ -562,7 +564,8 @@ class PosterMapPainter extends CustomPainter {
       final pp = pinPos(p);
       if (pp == null) continue;
       final isFocus = p.id == highlightId ||
-          (routeIds?.contains(p.id) ?? false);
+          (routeIds?.contains(p.id) ?? false) ||
+          (emphasizeIds?.contains(p.id) ?? false);
       final faded = dimOthers && !isFocus;
       final inSeason = p.season != null &&
           p.season!.inMonth(month) &&
@@ -699,5 +702,6 @@ class PosterMapPainter extends CustomPainter {
       old.places.length != places.length ||
       old.highlightId != highlightId ||
       old.dimOthers != dimOthers ||
-      (old.routeIds?.length ?? -1) != (routeIds?.length ?? -1);
+      (old.routeIds?.length ?? -1) != (routeIds?.length ?? -1) ||
+      (old.emphasizeIds?.length ?? -1) != (emphasizeIds?.length ?? -1);
 }

@@ -1,5 +1,5 @@
 {
- "version": 1785882072612,
+ "version": 1786164662474,
  "generatedFrom": "california-trip-planner.md",
  "regions": [
   {
@@ -82,7 +82,11 @@
    "id": "la-grange",
    "name": "La Grange",
    "region": "modesto-and-the-central-valley",
-   "desc": "small historic Gold Rush–era river town"
+   "desc": "small historic Gold Rush–era river town",
+   "ll": [
+    37.664,
+    -120.464
+   ]
   },
   {
    "id": "fresno-blossom-trail",
@@ -115,57 +119,93 @@
   {
    "id": "fresno-chaffee-zoo",
    "name": "Fresno Chaffee Zoo",
-   "region": "modesto-and-the-central-valley"
+   "region": "modesto-and-the-central-valley",
+   "ll": [
+    36.752,
+    -119.823
+   ]
   },
   {
    "id": "fresno-art-museum",
    "name": "Fresno Art Museum",
-   "region": "modesto-and-the-central-valley"
+   "region": "modesto-and-the-central-valley",
+   "ll": [
+    36.771,
+    -119.775
+   ]
   },
   {
    "id": "woodward-park-and-shinzen-japanese-garden",
    "name": "Woodward Park & Shinzen Japanese Garden",
    "region": "modesto-and-the-central-valley",
-   "loc": "Fresno"
+   "loc": "Fresno",
+   "ll": [
+    36.739,
+    -119.785
+   ]
   },
   {
    "id": "kearney-mansion-museum",
    "name": "Kearney Mansion Museum",
    "region": "modesto-and-the-central-valley",
-   "loc": "Fresno"
+   "loc": "Fresno",
+   "ll": [
+    36.739,
+    -119.785
+   ]
   },
   {
    "id": "old-town-clovis",
    "name": "Old Town Clovis",
    "region": "modesto-and-the-central-valley",
-   "desc": "historic downtown, antique shops, restaurants"
+   "desc": "historic downtown, antique shops, restaurants",
+   "ll": [
+    36.842,
+    -119.714
+   ]
   },
   {
    "id": "downtown-visalia",
    "name": "Downtown Visalia",
    "region": "modesto-and-the-central-valley",
-   "desc": "historic Fox Theatre, walkable shops and restaurants"
+   "desc": "historic Fox Theatre, walkable shops and restaurants",
+   "ll": [
+    36.33,
+    -119.291
+   ]
   },
   {
    "id": "kern-county-museum",
    "name": "Kern County Museum",
    "region": "modesto-and-the-central-valley",
    "loc": "Bakersfield",
-   "desc": "outdoor museum of historic buildings"
+   "desc": "outdoor museum of historic buildings",
+   "ll": [
+    35.393,
+    -119.019
+   ]
   },
   {
    "id": "calm-california-living-museum",
    "name": "CALM (California Living Museum)",
    "region": "modesto-and-the-central-valley",
    "loc": "Bakersfield",
-   "desc": "zoo and botanical garden"
+   "desc": "zoo and botanical garden",
+   "ll": [
+    35.285,
+    -119.06
+   ]
   },
   {
    "id": "micke-grove-regional-park",
    "name": "Micke Grove Regional Park",
    "region": "modesto-and-the-central-valley",
    "loc": "Lodi/Lockeford",
-   "desc": "zoo, Japanese garden, museum"
+   "desc": "zoo, Japanese garden, museum",
+   "ll": [
+    38.081,
+    -121.272
+   ]
   },
   {
    "id": "old-sacramento-waterfront",
@@ -181,26 +221,42 @@
    "id": "california-state-capitol-and-museum",
    "name": "California State Capitol & Museum",
    "region": "modesto-and-the-central-valley",
-   "loc": "Sacramento"
+   "loc": "Sacramento",
+   "ll": [
+    38.576,
+    -121.494
+   ]
   },
   {
    "id": "crocker-art-museum",
    "name": "Crocker Art Museum",
    "region": "modesto-and-the-central-valley",
    "loc": "Sacramento",
-   "desc": "oldest public art museum in the West"
+   "desc": "oldest public art museum in the West",
+   "ll": [
+    38.577,
+    -121.506
+   ]
   },
   {
    "id": "sutters-fort-state-historic-park",
    "name": "Sutter's Fort State Historic Park",
    "region": "modesto-and-the-central-valley",
-   "loc": "Sacramento"
+   "loc": "Sacramento",
+   "ll": [
+    38.573,
+    -121.471
+   ]
   },
   {
    "id": "california-state-railroad-museum",
    "name": "California State Railroad Museum",
    "region": "modesto-and-the-central-valley",
-   "loc": "Sacramento"
+   "loc": "Sacramento",
+   "ll": [
+    38.585,
+    -121.504
+   ]
   },
   {
    "id": "yolo-causeway-bat-colony",
@@ -262,49 +318,81 @@
    "id": "sutro-baths-ruins-and-lands-end-trail",
    "name": "Sutro Baths ruins & Lands End Trail",
    "region": "greater-bay-area",
-   "desc": "oceanside ruins and coastal cliff walk"
+   "desc": "oceanside ruins and coastal cliff walk",
+   "ll": [
+    37.78,
+    -122.514
+   ]
   },
   {
    "id": "grace-cathedral",
    "name": "Grace Cathedral",
    "region": "greater-bay-area",
-   "desc": "Gothic cathedral with labyrinth walks"
+   "desc": "Gothic cathedral with labyrinth walks",
+   "ll": [
+    37.792,
+    -122.413
+   ]
   },
   {
    "id": "seward-street-slides",
    "name": "Seward Street Slides",
    "region": "greater-bay-area",
-   "desc": "two concrete neighborhood slides (bring cardboard)"
+   "desc": "two concrete neighborhood slides (bring cardboard)",
+   "ll": [
+    37.758,
+    -122.44
+   ]
   },
   {
    "id": "wave-organ",
    "name": "Wave Organ",
    "region": "greater-bay-area",
-   "desc": "wave-powered acoustic sculpture on the bay"
+   "desc": "wave-powered acoustic sculpture on the bay",
+   "ll": [
+    37.808,
+    -122.44
+   ]
   },
   {
    "id": "glen-canyon-park",
    "name": "Glen Canyon Park",
    "region": "greater-bay-area",
-   "desc": "surprisingly wild canyon trail inside the city"
+   "desc": "surprisingly wild canyon trail inside the city",
+   "ll": [
+    37.74,
+    -122.442
+   ]
   },
   {
    "id": "tank-hill",
    "name": "Tank Hill",
    "region": "greater-bay-area",
-   "desc": "quiet, less-crowded skyline viewpoint"
+   "desc": "quiet, less-crowded skyline viewpoint",
+   "ll": [
+    37.76,
+    -122.448
+   ]
   },
   {
    "id": "clarion-alley",
    "name": "Clarion Alley",
    "region": "greater-bay-area",
-   "desc": "dense, rotating mural gallery in the Mission"
+   "desc": "dense, rotating mural gallery in the Mission",
+   "ll": [
+    37.763,
+    -122.421
+   ]
   },
   {
    "id": "green-apple-books",
    "name": "Green Apple Books",
    "region": "greater-bay-area",
-   "desc": "beloved sprawling independent bookstore"
+   "desc": "beloved sprawling independent bookstore",
+   "ll": [
+    37.783,
+    -122.465
+   ]
   },
   {
    "id": "muir-woods-national-monument",
@@ -321,7 +409,11 @@
    "id": "sausalito",
    "name": "Sausalito",
    "region": "greater-bay-area",
-   "desc": "waterfront art village across the bay"
+   "desc": "waterfront art village across the bay",
+   "ll": [
+    37.859,
+    -122.485
+   ]
   },
   {
    "id": "point-reyes-national-seashore",
@@ -336,123 +428,207 @@
   {
    "id": "stinson-beach",
    "name": "Stinson Beach",
-   "region": "greater-bay-area"
+   "region": "greater-bay-area",
+   "ll": [
+    37.897,
+    -122.64
+   ]
   },
   {
    "id": "angel-island-state-park",
    "name": "Angel Island State Park",
-   "region": "greater-bay-area"
+   "region": "greater-bay-area",
+   "ll": [
+    37.863,
+    -122.43
+   ]
   },
   {
    "id": "marin-headlands",
    "name": "Marin Headlands",
    "region": "greater-bay-area",
-   "desc": "historic bunkers, Golden Gate views"
+   "desc": "historic bunkers, Golden Gate views",
+   "ll": [
+    37.856,
+    -122.534
+   ]
   },
   {
    "id": "mount-tamalpais-state-park",
    "name": "Mount Tamalpais State Park",
-   "region": "greater-bay-area"
+   "region": "greater-bay-area",
+   "ll": [
+    37.897,
+    -122.614
+   ]
   },
   {
    "id": "lake-merritt",
    "name": "Lake Merritt",
    "region": "greater-bay-area",
-   "loc": "Oakland"
+   "loc": "Oakland",
+   "ll": [
+    37.805,
+    -122.256
+   ]
   },
   {
    "id": "oakland-museum-of-california",
    "name": "Oakland Museum of California",
-   "region": "greater-bay-area"
+   "region": "greater-bay-area",
+   "ll": [
+    37.799,
+    -122.264
+   ]
   },
   {
    "id": "chabot-space-and-science-center",
    "name": "Chabot Space & Science Center",
    "region": "greater-bay-area",
-   "loc": "Oakland"
+   "loc": "Oakland",
+   "ll": [
+    37.804,
+    -122.271
+   ]
   },
   {
    "id": "jack-london-square",
    "name": "Jack London Square",
    "region": "greater-bay-area",
-   "loc": "Oakland"
+   "loc": "Oakland",
+   "ll": [
+    37.796,
+    -122.275
+   ]
   },
   {
    "id": "redwood-regional-park",
    "name": "Redwood Regional Park",
    "region": "greater-bay-area",
-   "loc": "Oakland"
+   "loc": "Oakland",
+   "ll": [
+    37.803,
+    -122.176
+   ]
   },
   {
    "id": "uc-berkeley-campus-and-sather-tower-the-campanile",
    "name": "UC Berkeley campus & Sather Tower (the Campanile)",
-   "region": "greater-bay-area"
+   "region": "greater-bay-area",
+   "ll": [
+    37.872,
+    -122.258
+   ]
   },
   {
    "id": "tilden-regional-park",
    "name": "Tilden Regional Park",
    "region": "greater-bay-area",
-   "loc": "Berkeley"
+   "loc": "Berkeley",
+   "ll": [
+    37.896,
+    -122.245
+   ]
   },
   {
    "id": "berkeley-rose-garden",
    "name": "Berkeley Rose Garden",
-   "region": "greater-bay-area"
+   "region": "greater-bay-area",
+   "ll": [
+    37.885,
+    -122.263
+   ]
   },
   {
    "id": "fourth-street-shopping-district",
    "name": "Fourth Street shopping district",
    "region": "greater-bay-area",
-   "loc": "Berkeley"
+   "loc": "Berkeley",
+   "ll": [
+    37.871,
+    -122.273
+   ]
   },
   {
    "id": "the-tech-interactive",
    "name": "The Tech Interactive",
    "region": "greater-bay-area",
-   "loc": "San Jose"
+   "loc": "San Jose",
+   "ll": [
+    37.331,
+    -121.89
+   ]
   },
   {
    "id": "winchester-mystery-house",
    "name": "Winchester Mystery House",
    "region": "greater-bay-area",
-   "loc": "San Jose"
+   "loc": "San Jose",
+   "ll": [
+    37.318,
+    -121.951
+   ]
   },
   {
    "id": "rosicrucian-egyptian-museum",
    "name": "Rosicrucian Egyptian Museum",
    "region": "greater-bay-area",
-   "loc": "San Jose"
+   "loc": "San Jose",
+   "ll": [
+    37.334,
+    -121.923
+   ]
   },
   {
    "id": "happy-hollow-park-and-zoo",
    "name": "Happy Hollow Park & Zoo",
    "region": "greater-bay-area",
-   "loc": "San Jose"
+   "loc": "San Jose",
+   "ll": [
+    37.326,
+    -121.863
+   ]
   },
   {
    "id": "californias-great-america",
    "name": "California's Great America",
    "region": "greater-bay-area",
    "loc": "Santa Clara",
-   "desc": "theme park"
+   "desc": "theme park",
+   "ll": [
+    37.395,
+    -121.972
+   ]
   },
   {
    "id": "stanford-university-campus-and-hoover-tower",
    "name": "Stanford University campus & Hoover Tower",
    "region": "greater-bay-area",
-   "loc": "Palo Alto"
+   "loc": "Palo Alto",
+   "ll": [
+    37.444,
+    -122.16
+   ]
   },
   {
    "id": "computer-history-museum",
    "name": "Computer History Museum",
    "region": "greater-bay-area",
-   "loc": "Mountain View"
+   "loc": "Mountain View",
+   "ll": [
+    37.414,
+    -122.077
+   ]
   },
   {
    "id": "filoli-historic-house-and-garden",
    "name": "Filoli Historic House & Garden",
    "region": "greater-bay-area",
-   "loc": "Woodside"
+   "loc": "Woodside",
+   "ll": [
+    37.428,
+    -122.251
+   ]
   },
   {
    "id": "half-moon-bay",
@@ -494,24 +670,40 @@
   {
    "id": "pescadero-and-pigeon-point-lighthouse",
    "name": "Pescadero & Pigeon Point Lighthouse",
-   "region": "greater-bay-area"
+   "region": "greater-bay-area",
+   "ll": [
+    37.182,
+    -122.394
+   ]
   },
   {
    "id": "montara-state-beach",
    "name": "Montara State Beach",
-   "region": "greater-bay-area"
+   "region": "greater-bay-area",
+   "ll": [
+    37.55,
+    -122.514
+   ]
   },
   {
    "id": "curiodyssey",
    "name": "CuriOdyssey",
    "region": "greater-bay-area",
-   "loc": "San Mateo"
+   "loc": "San Mateo",
+   "ll": [
+    37.591,
+    -122.32
+   ]
   },
   {
    "id": "ardenwood-historic-farm",
    "name": "Ardenwood Historic Farm",
    "region": "greater-bay-area",
-   "loc": "Fremont"
+   "loc": "Fremont",
+   "ll": [
+    37.559,
+    -122.048
+   ]
   },
   {
    "id": "mission-peak",
@@ -528,42 +720,70 @@
    "id": "hakone-gardens",
    "name": "Hakone Gardens",
    "region": "greater-bay-area",
-   "loc": "Saratoga"
+   "loc": "Saratoga",
+   "ll": [
+    37.252,
+    -122.042
+   ]
   },
   {
    "id": "six-flags-discovery-kingdom",
    "name": "Six Flags Discovery Kingdom",
    "region": "greater-bay-area",
-   "loc": "Vallejo"
+   "loc": "Vallejo",
+   "ll": [
+    38.139,
+    -122.234
+   ]
   },
   {
    "id": "benicia",
    "name": "Benicia",
    "region": "greater-bay-area",
-   "desc": "historic waterfront town"
+   "desc": "historic waterfront town",
+   "ll": [
+    38.049,
+    -122.159
+   ]
   },
   {
    "id": "lindsay-wildlife-experience",
    "name": "Lindsay Wildlife Experience",
    "region": "greater-bay-area",
-   "loc": "Walnut Creek"
+   "loc": "Walnut Creek",
+   "ll": [
+    37.923,
+    -122.076
+   ]
   },
   {
    "id": "blackhawk-museum",
    "name": "Blackhawk Museum",
    "region": "greater-bay-area",
-   "loc": "Danville"
+   "loc": "Danville",
+   "ll": [
+    37.801,
+    -121.917
+   ]
   },
   {
    "id": "livermore-valley-wine-country",
    "name": "Livermore Valley Wine Country",
-   "region": "greater-bay-area"
+   "region": "greater-bay-area",
+   "ll": [
+    37.652,
+    -121.752
+   ]
   },
   {
    "id": "bay-area-discovery-museum",
    "name": "Bay Area Discovery Museum",
    "region": "greater-bay-area",
-   "loc": "Sausalito"
+   "loc": "Sausalito",
+   "ll": [
+    37.836,
+    -122.477
+   ]
   },
   {
    "id": "alcatraz",
@@ -763,7 +983,11 @@
      8
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    37.631,
+    -119.033
+   ]
   },
   {
    "id": "devils-postpile-national-monument",
@@ -790,7 +1014,11 @@
    "id": "rainbow-falls",
    "name": "Rainbow Falls",
    "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
-   "loc": "near Devils Postpile"
+   "loc": "near Devils Postpile",
+   "ll": [
+    37.602,
+    -119.084
+   ]
   },
   {
    "id": "june-lake-loop",
@@ -894,7 +1122,11 @@
   {
    "id": "bridgeport-and-twin-lakes",
    "name": "Bridgeport & Twin Lakes",
-   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon"
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "ll": [
+    38.175,
+    -119.328
+   ]
   },
   {
    "id": "sonora-pass-scenic-drive",
@@ -919,7 +1151,11 @@
   {
    "id": "ansel-adams-wilderness",
    "name": "Ansel Adams Wilderness",
-   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon"
+   "region": "the-eastern-sierra-and-southern-sequoia-kings-canyon",
+   "ll": [
+    37.627,
+    -119.22
+   ]
   },
   {
    "id": "rock-creek-canyon",
@@ -1136,7 +1372,11 @@
    "id": "south-lake-tahoe-shoreline",
    "name": "South Lake Tahoe shoreline",
    "region": "lake-tahoe",
-   "desc": "walking paths and mountain views, no swimming required"
+   "desc": "walking paths and mountain views, no swimming required",
+   "ll": [
+    38.94,
+    -119.977
+   ]
   },
   {
    "id": "heavenly-mountain-resort",
@@ -1176,7 +1416,11 @@
      4
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    39.197,
+    -120.235
+   ]
   },
   {
    "id": "sand-harbor",
@@ -1201,17 +1445,29 @@
   {
    "id": "tahoe-rim-trail",
    "name": "Tahoe Rim Trail",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    39.144,
+    -120.209
+   ]
   },
   {
    "id": "d-l-bliss-state-park",
    "name": "D.L. Bliss State Park",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    38.986,
+    -120.101
+   ]
   },
   {
    "id": "vikingsholm-castle",
    "name": "Vikingsholm Castle",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    38.952,
+    -120.107
+   ]
   },
   {
    "id": "donner-memorial-state-park-and-donner-lake",
@@ -1239,76 +1495,132 @@
     "label": "skiing",
     "months": [],
     "type": "hard"
-   }
+   },
+   "ll": [
+    38.676,
+    -120.062
+   ]
   },
   {
    "id": "northstar-california-resort",
    "name": "Northstar California Resort",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    39.275,
+    -120.121
+   ]
   },
   {
    "id": "tahoe-city",
    "name": "Tahoe City",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    39.169,
+    -120.143
+   ]
   },
   {
    "id": "fannette-island",
    "name": "Fannette Island",
    "region": "lake-tahoe",
-   "loc": "Emerald Bay"
+   "loc": "Emerald Bay",
+   "ll": [
+    38.954,
+    -120.101
+   ]
   },
   {
    "id": "zephyr-cove",
    "name": "Zephyr Cove",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    38.793,
+    -121.264
+   ]
   },
   {
    "id": "tahoe-east-shore-trail",
    "name": "Tahoe East Shore Trail",
    "region": "lake-tahoe",
-   "desc": "paved bike path"
+   "desc": "paved bike path",
+   "ll": [
+    39.196,
+    -119.928
+   ]
   },
   {
    "id": "incline-village",
    "name": "Incline Village",
    "region": "lake-tahoe",
-   "loc": "Nevada side"
+   "loc": "Nevada side",
+   "ll": [
+    39.255,
+    -119.954
+   ]
   },
   {
    "id": "homewood-mountain-resort",
    "name": "Homewood Mountain Resort",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    39.086,
+    -120.161
+   ]
   },
   {
    "id": "lake-tahoe-paddlewheeler-boat-cruises",
    "name": "Lake Tahoe paddlewheeler boat cruises",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    38.94,
+    -119.95
+   ]
   },
   {
    "id": "mount-rose-tahoe-meadows",
    "name": "Mount Rose / Tahoe Meadows",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    39.314,
+    -119.897
+   ]
   },
   {
    "id": "stateline-fire-lookout-and-sheeps-flat",
    "name": "Stateline Fire Lookout & Sheep's Flat",
    "region": "lake-tahoe",
-   "desc": "quieter, dark-sky viewpoints above south shore"
+   "desc": "quieter, dark-sky viewpoints above south shore",
+   "ll": [
+    38.98,
+    -119.94
+   ]
   },
   {
    "id": "spooner-lake",
    "name": "Spooner Lake",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    38.896,
+    -121.269
+   ]
   },
   {
    "id": "van-sickle-bi-state-park",
    "name": "Van Sickle Bi-State Park",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    38.952,
+    -119.932
+   ]
   },
   {
    "id": "nevada-beach",
    "name": "Nevada Beach",
-   "region": "lake-tahoe"
+   "region": "lake-tahoe",
+   "ll": [
+    38.982,
+    -119.945
+   ]
   },
   {
    "id": "rubicon-trail",
@@ -1416,7 +1728,11 @@
   {
    "id": "historic-downtown-sonora",
    "name": "Historic downtown Sonora",
-   "region": "gold-country-sierra-foothills"
+   "region": "gold-country-sierra-foothills",
+   "ll": [
+    37.984,
+    -120.382
+   ]
   },
   {
    "id": "railtown-1897-state-historic-park",
@@ -1440,14 +1756,22 @@
      5
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    38.07,
+    -120.541
+   ]
   },
   {
    "id": "historic-main-street",
    "name": "Historic Main Street",
    "region": "gold-country-sierra-foothills",
    "loc": "Murphys",
-   "desc": "shops and wineries"
+   "desc": "shops and wineries",
+   "ll": [
+    38.137,
+    -120.465
+   ]
   },
   {
    "id": "moaning-cavern",
@@ -1462,42 +1786,70 @@
   {
    "id": "california-cavern",
    "name": "California Cavern",
-   "region": "gold-country-sierra-foothills"
+   "region": "gold-country-sierra-foothills",
+   "ll": [
+    38.243,
+    -120.51
+   ]
   },
   {
    "id": "gold-bug-park-and-mine",
    "name": "Gold Bug Park & Mine",
    "region": "gold-country-sierra-foothills",
-   "loc": "Placerville"
+   "loc": "Placerville",
+   "ll": [
+    38.73,
+    -120.799
+   ]
   },
   {
    "id": "nevada-city",
    "name": "Nevada City",
    "region": "gold-country-sierra-foothills",
-   "desc": "Victorian Gold Rush architecture"
+   "desc": "Victorian Gold Rush architecture",
+   "ll": [
+    39.263,
+    -121.019
+   ]
   },
   {
    "id": "empire-mine-state-historic-park",
    "name": "Empire Mine State Historic Park",
    "region": "gold-country-sierra-foothills",
-   "loc": "Grass Valley"
+   "loc": "Grass Valley",
+   "ll": [
+    39.202,
+    -121.049
+   ]
   },
   {
    "id": "old-town-auburn",
    "name": "Old Town Auburn",
-   "region": "gold-country-sierra-foothills"
+   "region": "gold-country-sierra-foothills",
+   "ll": [
+    38.896,
+    -121.079
+   ]
   },
   {
    "id": "amador-city-and-sutter-creek",
    "name": "Amador City & Sutter Creek",
    "region": "gold-country-sierra-foothills",
-   "desc": "antique shopping"
+   "desc": "antique shopping",
+   "ll": [
+    38.419,
+    -120.802
+   ]
   },
   {
    "id": "volcano",
    "name": "Volcano",
    "region": "gold-country-sierra-foothills",
-   "desc": "tiny historic mountain village"
+   "desc": "tiny historic mountain village",
+   "ll": [
+    38.45,
+    -120.62
+   ]
   },
   {
    "id": "calaveras-big-trees-state-park",
@@ -1512,7 +1864,11 @@
   {
    "id": "malakoff-diggins-state-historic-park",
    "name": "Malakoff Diggins State Historic Park",
-   "region": "gold-country-sierra-foothills"
+   "region": "gold-country-sierra-foothills",
+   "ll": [
+    39.375,
+    -120.916
+   ]
   },
   {
    "id": "amador-wine-country",
@@ -1526,18 +1882,30 @@
      10
     ],
     "type": "best"
-   }
+   },
+   "ll": [
+    37.95,
+    -121.752
+   ]
   },
   {
    "id": "folsom-powerhouse-and-historic-downtown-folsom",
    "name": "Folsom Powerhouse & historic downtown Folsom",
-   "region": "gold-country-sierra-foothills"
+   "region": "gold-country-sierra-foothills",
+   "ll": [
+    38.672,
+    -121.176
+   ]
   },
   {
    "id": "folsom-lake-trail",
    "name": "Folsom Lake Trail",
    "region": "gold-country-sierra-foothills",
-   "desc": "paved lakeside walking and biking path with foothill views"
+   "desc": "paved lakeside walking and biking path with foothill views",
+   "ll": [
+    38.758,
+    -121.114
+   ]
   },
   {
    "id": "apple-hill",
@@ -1582,7 +1950,11 @@
    "id": "indian-grinding-rock-state-historic-park",
    "name": "Indian Grinding Rock State Historic Park",
    "region": "gold-country-sierra-foothills",
-   "loc": "Pine Grove"
+   "loc": "Pine Grove",
+   "ll": [
+    38.425,
+    -120.644
+   ]
   },
   {
    "id": "sutter-gold-mine",
@@ -1674,13 +2046,21 @@
   {
    "id": "napa-valley-wine-train",
    "name": "Napa Valley Wine Train",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.302,
+    -122.284
+   ]
   },
   {
    "id": "oxbow-public-market",
    "name": "Oxbow Public Market",
    "region": "napa-and-sonoma-wine-country",
-   "loc": "Napa"
+   "loc": "Napa",
+   "ll": [
+    38.302,
+    -122.282
+   ]
   },
   {
    "id": "old-faithful-geyser-of-california",
@@ -1695,66 +2075,114 @@
   {
    "id": "calistoga-hot-springs-and-mud-baths",
    "name": "Calistoga hot springs & mud baths",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.579,
+    -122.58
+   ]
   },
   {
    "id": "sterling-vineyards",
    "name": "Sterling Vineyards",
    "region": "napa-and-sonoma-wine-country",
-   "desc": "aerial tram to the tasting room"
+   "desc": "aerial tram to the tasting room",
+   "ll": [
+    38.569,
+    -122.549
+   ]
   },
   {
    "id": "robert-mondavi-winery",
    "name": "Robert Mondavi Winery",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.441,
+    -122.409
+   ]
   },
   {
    "id": "yountville",
    "name": "Yountville",
    "region": "napa-and-sonoma-wine-country",
-   "desc": "acclaimed dining destination"
+   "desc": "acclaimed dining destination",
+   "ll": [
+    38.402,
+    -122.36
+   ]
   },
   {
    "id": "downtown-st-helena",
    "name": "Downtown St. Helena",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.505,
+    -122.47
+   ]
   },
   {
    "id": "sonoma-plaza-and-sonoma-mission",
    "name": "Sonoma Plaza & Sonoma Mission",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.294,
+    -122.458
+   ]
   },
   {
    "id": "sonoma-valley-wineries",
    "name": "Sonoma Valley wineries",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.3,
+    -122.46
+   ]
   },
   {
    "id": "jack-london-state-historic-park",
    "name": "Jack London State Historic Park",
    "region": "napa-and-sonoma-wine-country",
-   "loc": "Glen Ellen"
+   "loc": "Glen Ellen",
+   "ll": [
+    38.345,
+    -122.555
+   ]
   },
   {
    "id": "bartholomew-park-winery",
    "name": "Bartholomew Park Winery",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.302,
+    -122.425
+   ]
   },
   {
    "id": "downtown-healdsburg-plaza",
    "name": "Downtown Healdsburg plaza",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.61,
+    -122.869
+   ]
   },
   {
    "id": "russian-river-valley-wineries",
    "name": "Russian River Valley wineries",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.51,
+    -122.87
+   ]
   },
   {
    "id": "korbel-champagne-cellars",
    "name": "Korbel Champagne Cellars",
    "region": "napa-and-sonoma-wine-country",
-   "loc": "Guerneville"
+   "loc": "Guerneville",
+   "ll": [
+    38.518,
+    -122.978
+   ]
   },
   {
    "id": "armstrong-redwoods-state-natural-reserve",
@@ -1777,7 +2205,11 @@
   {
    "id": "historic-downtown-petaluma",
    "name": "Historic downtown Petaluma",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.233,
+    -122.64
+   ]
   },
   {
    "id": "safari-west",
@@ -1794,18 +2226,30 @@
    "id": "charles-m-schulz-museum",
    "name": "Charles M. Schulz Museum",
    "region": "napa-and-sonoma-wine-country",
-   "loc": "Santa Rosa"
+   "loc": "Santa Rosa",
+   "ll": [
+    38.46,
+    -122.736
+   ]
   },
   {
    "id": "luther-burbank-home-and-gardens",
    "name": "Luther Burbank Home & Gardens",
    "region": "napa-and-sonoma-wine-country",
-   "loc": "Santa Rosa"
+   "loc": "Santa Rosa",
+   "ll": [
+    38.436,
+    -122.712
+   ]
   },
   {
    "id": "kenwood-wine-tasting",
    "name": "Kenwood wine tasting",
-   "region": "napa-and-sonoma-wine-country"
+   "region": "napa-and-sonoma-wine-country",
+   "ll": [
+    38.414,
+    -122.546
+   ]
   },
   {
    "id": "napa-valley-hot-air-balloon-rides",
@@ -1819,25 +2263,41 @@
      5
     ],
     "type": "best"
-   }
+   },
+   "ll": [
+    38.4,
+    -122.36
+   ]
   },
   {
    "id": "di-rosa-center-for-contemporary-art",
    "name": "di Rosa Center for Contemporary Art",
    "region": "napa-and-sonoma-wine-country",
-   "loc": "Napa"
+   "loc": "Napa",
+   "ll": [
+    38.257,
+    -122.352
+   ]
   },
   {
    "id": "cornerstone-sonoma",
    "name": "Cornerstone Sonoma",
    "region": "napa-and-sonoma-wine-country",
-   "desc": "gardens and artisan shops"
+   "desc": "gardens and artisan shops",
+   "ll": [
+    38.228,
+    -122.457
+   ]
   },
   {
    "id": "occidental",
    "name": "Occidental",
    "region": "napa-and-sonoma-wine-country",
-   "desc": "small Sonoma coast redwood town"
+   "desc": "small Sonoma coast redwood town",
+   "ll": [
+    38.401,
+    -122.931
+   ]
   },
   {
    "id": "sonoma-canopy-tours",
@@ -1922,29 +2382,49 @@
   {
    "id": "santa-cruz-wharf",
    "name": "Santa Cruz Wharf",
-   "region": "santa-cruz-and-monterey-bay"
+   "region": "santa-cruz-and-monterey-bay",
+   "ll": [
+    36.959,
+    -122.018
+   ]
   },
   {
    "id": "natural-bridges-state-beach",
    "name": "Natural Bridges State Beach",
-   "region": "santa-cruz-and-monterey-bay"
+   "region": "santa-cruz-and-monterey-bay",
+   "ll": [
+    36.952,
+    -122.057
+   ]
   },
   {
    "id": "the-mystery-spot",
    "name": "The Mystery Spot",
    "region": "santa-cruz-and-monterey-bay",
-   "loc": "Santa Cruz"
+   "loc": "Santa Cruz",
+   "ll": [
+    37.016,
+    -122.001
+   ]
   },
   {
    "id": "west-cliff-drive",
    "name": "West Cliff Drive",
    "region": "santa-cruz-and-monterey-bay",
-   "desc": "walking and biking path"
+   "desc": "walking and biking path",
+   "ll": [
+    36.953,
+    -122.038
+   ]
   },
   {
    "id": "capitola-village",
    "name": "Capitola Village",
-   "region": "santa-cruz-and-monterey-bay"
+   "region": "santa-cruz-and-monterey-bay",
+   "ll": [
+    36.973,
+    -121.952
+   ]
   },
   {
    "id": "roaring-camp-railroads",
@@ -1991,40 +2471,68 @@
   {
    "id": "moss-landing-wildlife-tours",
    "name": "Moss Landing wildlife tours",
-   "region": "santa-cruz-and-monterey-bay"
+   "region": "santa-cruz-and-monterey-bay",
+   "ll": [
+    36.804,
+    -121.787
+   ]
   },
   {
    "id": "henry-cowell-redwoods-state-park",
    "name": "Henry Cowell Redwoods State Park",
-   "region": "santa-cruz-and-monterey-bay"
+   "region": "santa-cruz-and-monterey-bay",
+   "ll": [
+    37.078,
+    -122.117
+   ]
   },
   {
    "id": "big-basin-redwoods-state-park",
    "name": "Big Basin Redwoods State Park",
-   "region": "santa-cruz-and-monterey-bay"
+   "region": "santa-cruz-and-monterey-bay",
+   "ll": [
+    37.155,
+    -122.254
+   ]
   },
   {
    "id": "watsonville",
    "name": "Watsonville",
    "region": "santa-cruz-and-monterey-bay",
-   "desc": "strawberry fields and farm tours"
+   "desc": "strawberry fields and farm tours",
+   "ll": [
+    36.909,
+    -121.756
+   ]
   },
   {
    "id": "seymour-marine-discovery-center",
    "name": "Seymour Marine Discovery Center",
    "region": "santa-cruz-and-monterey-bay",
-   "loc": "Santa Cruz"
+   "loc": "Santa Cruz",
+   "ll": [
+    36.949,
+    -122.065
+   ]
   },
   {
    "id": "wilder-ranch-state-park",
    "name": "Wilder Ranch State Park",
-   "region": "santa-cruz-and-monterey-bay"
+   "region": "santa-cruz-and-monterey-bay",
+   "ll": [
+    36.995,
+    -122.086
+   ]
   },
   {
    "id": "mission-san-juan-bautista-and-san-juan-bautista-state-historic-park",
    "name": "Mission San Juan Bautista & San Juan Bautista State Historic Park",
    "region": "santa-cruz-and-monterey-bay",
-   "desc": "mission plus a preserved Old West town square"
+   "desc": "mission plus a preserved Old West town square",
+   "ll": [
+    36.845,
+    -121.537
+   ]
   },
   {
    "id": "pinnacles-national-park",
@@ -2165,18 +2673,30 @@
   {
    "id": "pfeiffer-big-sur-state-park",
    "name": "Pfeiffer Big Sur State Park",
-   "region": "big-sur-and-the-central-coast"
+   "region": "big-sur-and-the-central-coast",
+   "ll": [
+    36.253,
+    -121.783
+   ]
   },
   {
    "id": "point-sur-lighthouse",
    "name": "Point Sur Lighthouse",
-   "region": "big-sur-and-the-central-coast"
+   "region": "big-sur-and-the-central-coast",
+   "ll": [
+    36.306,
+    -121.902
+   ]
   },
   {
    "id": "nepenthe",
    "name": "Nepenthe",
    "region": "big-sur-and-the-central-coast",
-   "desc": "iconic Big Sur restaurant and viewpoint"
+   "desc": "iconic Big Sur restaurant and viewpoint",
+   "ll": [
+    36.222,
+    -121.76
+   ]
   },
   {
    "id": "hearst-castle",
@@ -2219,18 +2739,30 @@
   {
    "id": "mission-san-luis-obispo-de-tolosa",
    "name": "Mission San Luis Obispo de Tolosa",
-   "region": "big-sur-and-the-central-coast"
+   "region": "big-sur-and-the-central-coast",
+   "ll": [
+    35.281,
+    -120.665
+   ]
   },
   {
    "id": "bubblegum-alley",
    "name": "Bubblegum Alley",
    "region": "big-sur-and-the-central-coast",
-   "loc": "San Luis Obispo"
+   "loc": "San Luis Obispo",
+   "ll": [
+    35.279,
+    -120.664
+   ]
   },
   {
    "id": "avila-beach",
    "name": "Avila Beach",
-   "region": "big-sur-and-the-central-coast"
+   "region": "big-sur-and-the-central-coast",
+   "ll": [
+    35.18,
+    -120.732
+   ]
   },
   {
    "id": "pismo-beach",
@@ -2253,55 +2785,95 @@
      10
     ],
     "type": "best"
-   }
+   },
+   "ll": [
+    35.627,
+    -120.691
+   ]
   },
   {
    "id": "mission-san-miguel-arcangel",
    "name": "Mission San Miguel Arcángel",
    "region": "big-sur-and-the-central-coast",
-   "desc": "one of the best-preserved original mission interiors in the chain"
+   "desc": "one of the best-preserved original mission interiors in the chain",
+   "ll": [
+    35.744,
+    -120.698
+   ]
   },
   {
    "id": "mission-san-antonio-de-padua",
    "name": "Mission San Antonio de Padua",
    "region": "big-sur-and-the-central-coast",
-   "desc": "remote, beautifully restored, almost no crowds"
+   "desc": "remote, beautifully restored, almost no crowds",
+   "ll": [
+    36.016,
+    -121.251
+   ]
   },
   {
    "id": "cambria-and-moonstone-beach",
    "name": "Cambria & Moonstone Beach",
-   "region": "big-sur-and-the-central-coast"
+   "region": "big-sur-and-the-central-coast",
+   "ll": [
+    35.574,
+    -121.112
+   ]
   },
   {
    "id": "montana-de-oro-state-park",
    "name": "Montaña de Oro State Park",
-   "region": "big-sur-and-the-central-coast"
+   "region": "big-sur-and-the-central-coast",
+   "ll": [
+    35.294,
+    -120.862
+   ]
   },
   {
    "id": "cayucos",
    "name": "Cayucos",
    "region": "big-sur-and-the-central-coast",
-   "desc": "small surf town"
+   "desc": "small surf town",
+   "ll": [
+    35.437,
+    -120.883
+   ]
   },
   {
    "id": "guadalupe-nipomo-dunes",
    "name": "Guadalupe-Nipomo Dunes",
-   "region": "big-sur-and-the-central-coast"
+   "region": "big-sur-and-the-central-coast",
+   "ll": [
+    35.007,
+    -120.618
+   ]
   },
   {
    "id": "oceano-dunes",
    "name": "Oceano Dunes",
-   "region": "big-sur-and-the-central-coast"
+   "region": "big-sur-and-the-central-coast",
+   "ll": [
+    35.106,
+    -120.631
+   ]
   },
   {
    "id": "edna-valley-wineries",
    "name": "Edna Valley wineries",
-   "region": "big-sur-and-the-central-coast"
+   "region": "big-sur-and-the-central-coast",
+   "ll": [
+    35.217,
+    -120.608
+   ]
   },
   {
    "id": "estero-bluffs-state-park",
    "name": "Estero Bluffs State Park",
-   "region": "big-sur-and-the-central-coast"
+   "region": "big-sur-and-the-central-coast",
+   "ll": [
+    35.456,
+    -120.959
+   ]
   },
   {
    "id": "carrizo-plain-national-monument",
@@ -2397,22 +2969,38 @@
    "id": "mission-santa-ines",
    "name": "Mission Santa Inés",
    "region": "santa-barbara-solvang-and-the-channel-islands",
-   "loc": "Solvang"
+   "loc": "Solvang",
+   "ll": [
+    34.594,
+    -120.137
+   ]
   },
   {
    "id": "santa-ynez-valley-wineries",
    "name": "Santa Ynez Valley wineries",
-   "region": "santa-barbara-solvang-and-the-channel-islands"
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "ll": [
+    34.614,
+    -120.08
+   ]
   },
   {
    "id": "nojoqui-falls-park",
    "name": "Nojoqui Falls Park",
-   "region": "santa-barbara-solvang-and-the-channel-islands"
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "ll": [
+    34.53,
+    -120.176
+   ]
   },
   {
    "id": "la-purisima-mission-state-historic-park",
    "name": "La Purisima Mission State Historic Park",
-   "region": "santa-barbara-solvang-and-the-channel-islands"
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "ll": [
+    34.684,
+    -120.424
+   ]
   },
   {
    "id": "old-mission-santa-barbara",
@@ -2426,29 +3014,49 @@
   {
    "id": "santa-barbara-county-courthouse",
    "name": "Santa Barbara County Courthouse",
-   "region": "santa-barbara-solvang-and-the-channel-islands"
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "ll": [
+    34.424,
+    -119.703
+   ]
   },
   {
    "id": "stearns-wharf",
    "name": "Stearns Wharf",
-   "region": "santa-barbara-solvang-and-the-channel-islands"
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "ll": [
+    34.41,
+    -119.686
+   ]
   },
   {
    "id": "santa-barbara-zoo",
    "name": "Santa Barbara Zoo",
-   "region": "santa-barbara-solvang-and-the-channel-islands"
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "ll": [
+    34.42,
+    -119.664
+   ]
   },
   {
    "id": "state-street",
    "name": "State Street",
    "region": "santa-barbara-solvang-and-the-channel-islands",
    "loc": "Santa Barbara",
-   "desc": "shopping and dining"
+   "desc": "shopping and dining",
+   "ll": [
+    34.412,
+    -119.689
+   ]
   },
   {
    "id": "santa-barbara-botanic-garden",
    "name": "Santa Barbara Botanic Garden",
-   "region": "santa-barbara-solvang-and-the-channel-islands"
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "ll": [
+    34.456,
+    -119.71
+   ]
   },
   {
    "id": "channel-islands-national-park",
@@ -2463,35 +3071,59 @@
   {
    "id": "mission-san-buenaventura-and-ventura-pier",
    "name": "Mission San Buenaventura & Ventura pier",
-   "region": "santa-barbara-solvang-and-the-channel-islands"
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "ll": [
+    34.28,
+    -119.293
+   ]
   },
   {
    "id": "ojai",
    "name": "Ojai",
    "region": "santa-barbara-solvang-and-the-channel-islands",
-   "desc": "artsy mountain town, famous \"Pink Moment\" sunsets"
+   "desc": "artsy mountain town, famous \"Pink Moment\" sunsets",
+   "ll": [
+    34.448,
+    -119.243
+   ]
   },
   {
    "id": "carpinteria-state-beach",
    "name": "Carpinteria State Beach",
-   "region": "santa-barbara-solvang-and-the-channel-islands"
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "ll": [
+    34.391,
+    -119.521
+   ]
   },
   {
    "id": "el-capitan-state-beach",
    "name": "El Capitan State Beach",
-   "region": "santa-barbara-solvang-and-the-channel-islands"
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "ll": [
+    34.487,
+    -120.013
+   ]
   },
   {
    "id": "gaviota-state-park",
    "name": "Gaviota State Park",
-   "region": "santa-barbara-solvang-and-the-channel-islands"
+   "region": "santa-barbara-solvang-and-the-channel-islands",
+   "ll": [
+    34.491,
+    -120.237
+   ]
   },
   {
    "id": "lotusland",
    "name": "Lotusland",
    "region": "santa-barbara-solvang-and-the-channel-islands",
    "loc": "Montecito",
-   "desc": "botanical estate garden"
+   "desc": "botanical estate garden",
+   "ll": [
+    34.444,
+    -119.657
+   ]
   },
   {
    "id": "painted-cave",
@@ -2601,93 +3233,161 @@
   {
    "id": "hollywood-walk-of-fame",
    "name": "Hollywood Walk of Fame",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.101,
+    -118.327
+   ]
   },
   {
    "id": "tcl-chinese-theatre",
    "name": "TCL Chinese Theatre",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.102,
+    -118.341
+   ]
   },
   {
    "id": "universal-studios-hollywood",
    "name": "Universal Studios Hollywood",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.139,
+    -118.354
+   ]
   },
   {
    "id": "the-getty-center",
    "name": "The Getty Center",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.077,
+    -118.474
+   ]
   },
   {
    "id": "getty-villa",
    "name": "Getty Villa",
    "region": "los-angeles",
-   "loc": "Malibu"
+   "loc": "Malibu",
+   "ll": [
+    34.045,
+    -118.565
+   ]
   },
   {
    "id": "lacma",
    "name": "LACMA",
    "region": "los-angeles",
-   "desc": "Los Angeles County Museum of Art"
+   "desc": "Los Angeles County Museum of Art",
+   "ll": [
+    34.064,
+    -118.359
+   ]
   },
   {
    "id": "the-broad",
    "name": "The Broad",
    "region": "los-angeles",
-   "desc": "museum"
+   "desc": "museum",
+   "ll": [
+    34.054,
+    -118.251
+   ]
   },
   {
    "id": "santa-monica-pier",
    "name": "Santa Monica Pier",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.009,
+    -118.497
+   ]
   },
   {
    "id": "venice-beach-and-boardwalk",
    "name": "Venice Beach & Boardwalk",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    33.987,
+    -118.474
+   ]
   },
   {
    "id": "venice-canals",
    "name": "Venice Canals",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    33.987,
+    -118.474
+   ]
   },
   {
    "id": "zuma-beach-and-el-matador-beach",
    "name": "Zuma Beach & El Matador Beach",
    "region": "los-angeles",
-   "loc": "Malibu"
+   "loc": "Malibu",
+   "ll": [
+    34.036,
+    -118.689
+   ]
   },
   {
    "id": "rodeo-drive",
    "name": "Rodeo Drive",
    "region": "los-angeles",
-   "loc": "Beverly Hills"
+   "loc": "Beverly Hills",
+   "ll": [
+    34.068,
+    -118.401
+   ]
   },
   {
    "id": "the-grove-and-original-farmers-market",
    "name": "The Grove & Original Farmers Market",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.072,
+    -118.357
+   ]
   },
   {
    "id": "hollywood-sign-viewpoints",
    "name": "Hollywood Sign viewpoints",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.131,
+    -118.319
+   ]
   },
   {
    "id": "dodger-stadium",
    "name": "Dodger Stadium",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.074,
+    -118.24
+   ]
   },
   {
    "id": "hollywood-bowl",
    "name": "Hollywood Bowl",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.112,
+    -118.339
+   ]
   },
   {
    "id": "the-huntington-library-art-museum-and-botanical-gardens",
    "name": "The Huntington Library, Art Museum & Botanical Gardens",
    "region": "los-angeles",
-   "loc": "San Marino"
+   "loc": "San Marino",
+   "ll": [
+    34.122,
+    -118.106
+   ]
   },
   {
    "id": "descanso-gardens",
@@ -2709,110 +3409,190 @@
      10
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    34.201,
+    -118.212
+   ]
   },
   {
    "id": "griffith-park-and-la-zoo",
    "name": "Griffith Park & LA Zoo",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.153,
+    -118.312
+   ]
   },
   {
    "id": "california-science-center",
    "name": "California Science Center",
    "region": "los-angeles",
-   "desc": "Space Shuttle Endeavour"
+   "desc": "Space Shuttle Endeavour",
+   "ll": [
+    34.016,
+    -118.286
+   ]
   },
   {
    "id": "natural-history-museum-of-la-county",
    "name": "Natural History Museum of LA County",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.017,
+    -118.289
+   ]
   },
   {
    "id": "olvera-street-and-el-pueblo",
    "name": "Olvera Street & El Pueblo",
    "region": "los-angeles",
-   "desc": "LA's original settlement"
+   "desc": "LA's original settlement",
+   "ll": [
+    34.057,
+    -118.238
+   ]
   },
   {
    "id": "little-tokyo",
    "name": "Little Tokyo",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.049,
+    -118.24
+   ]
   },
   {
    "id": "grand-central-market",
    "name": "Grand Central Market",
    "region": "los-angeles",
-   "loc": "Downtown LA"
+   "loc": "Downtown LA",
+   "ll": [
+    34.051,
+    -118.249
+   ]
   },
   {
    "id": "walt-disney-concert-hall",
    "name": "Walt Disney Concert Hall",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.055,
+    -118.25
+   ]
   },
   {
    "id": "the-last-bookstore",
    "name": "The Last Bookstore",
    "region": "los-angeles",
-   "loc": "Downtown LA"
+   "loc": "Downtown LA",
+   "ll": [
+    34.048,
+    -118.25
+   ]
   },
   {
    "id": "mission-san-fernando-rey-de-espana",
    "name": "Mission San Fernando Rey de España",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.273,
+    -118.462
+   ]
   },
   {
    "id": "mission-san-gabriel-arcangel",
    "name": "Mission San Gabriel Arcángel",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.097,
+    -118.107
+   ]
   },
   {
    "id": "six-flags-magic-mountain",
    "name": "Six Flags Magic Mountain",
    "region": "los-angeles",
-   "loc": "Valencia"
+   "loc": "Valencia",
+   "ll": [
+    34.425,
+    -118.597
+   ]
   },
   {
    "id": "runyon-canyon-park",
    "name": "Runyon Canyon Park",
    "region": "los-angeles",
-   "desc": "hiking with skyline views"
+   "desc": "hiking with skyline views",
+   "ll": [
+    34.112,
+    -118.35
+   ]
   },
   {
    "id": "topanga-state-park",
    "name": "Topanga State Park",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.086,
+    -118.56
+   ]
   },
   {
    "id": "will-rogers-state-historic-park-and-beach",
    "name": "Will Rogers State Historic Park & beach",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.055,
+    -118.514
+   ]
   },
   {
    "id": "palisades-park-bluffs",
    "name": "Palisades Park bluffs",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.017,
+    -118.507
+   ]
   },
   {
    "id": "manhattan-beach-and-hermosa-beach-piers",
    "name": "Manhattan Beach & Hermosa Beach piers",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    33.884,
+    -118.411
+   ]
   },
   {
    "id": "redondo-beach-pier",
    "name": "Redondo Beach Pier",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    33.84,
+    -118.393
+   ]
   },
   {
    "id": "aquarium-of-the-pacific",
    "name": "Aquarium of the Pacific",
    "region": "los-angeles",
-   "loc": "Long Beach"
+   "loc": "Long Beach",
+   "ll": [
+    33.762,
+    -118.197
+   ]
   },
   {
    "id": "the-queen-mary",
    "name": "The Queen Mary",
    "region": "los-angeles",
-   "loc": "Long Beach"
+   "loc": "Long Beach",
+   "ll": [
+    33.753,
+    -118.19
+   ]
   },
   {
    "id": "catalina-island-avalon",
@@ -2838,182 +3618,318 @@
    "id": "rose-bowl-stadium",
    "name": "Rose Bowl Stadium",
    "region": "los-angeles",
-   "loc": "Pasadena"
+   "loc": "Pasadena",
+   "ll": [
+    34.161,
+    -118.168
+   ]
   },
   {
    "id": "old-town-pasadena",
    "name": "Old Town Pasadena",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.14,
+    -118.144
+   ]
   },
   {
    "id": "norton-simon-museum",
    "name": "Norton Simon Museum",
    "region": "los-angeles",
-   "loc": "Pasadena"
+   "loc": "Pasadena",
+   "ll": [
+    34.146,
+    -118.159
+   ]
   },
   {
    "id": "warner-bros-studio-tour-hollywood",
    "name": "Warner Bros. Studio Tour Hollywood",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.151,
+    -118.336
+   ]
   },
   {
    "id": "paramount-pictures-studio-tour",
    "name": "Paramount Pictures Studio Tour",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.084,
+    -118.321
+   ]
   },
   {
    "id": "petersen-automotive-museum",
    "name": "Petersen Automotive Museum",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.062,
+    -118.361
+   ]
   },
   {
    "id": "la-brea-tar-pits",
    "name": "La Brea Tar Pits",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.063,
+    -118.356
+   ]
   },
   {
    "id": "watts-towers",
    "name": "Watts Towers",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    33.939,
+    -118.241
+   ]
   },
   {
    "id": "kidspace-childrens-museum",
    "name": "Kidspace Children's Museum",
    "region": "los-angeles",
-   "loc": "Pasadena"
+   "loc": "Pasadena",
+   "ll": [
+    34.156,
+    -118.164
+   ]
   },
   {
    "id": "angeles-national-forest",
    "name": "Angeles National Forest",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.321,
+    -117.961
+   ]
   },
   {
    "id": "mount-wilson-observatory",
    "name": "Mount Wilson Observatory",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.224,
+    -118.058
+   ]
   },
   {
    "id": "echo-park-lake",
    "name": "Echo Park Lake",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.073,
+    -118.261
+   ]
   },
   {
    "id": "silver-lake-reservoir-walking-path",
    "name": "Silver Lake Reservoir walking path",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.098,
+    -118.264
+   ]
   },
   {
    "id": "abbot-kinney-boulevard",
    "name": "Abbot Kinney Boulevard",
    "region": "los-angeles",
-   "loc": "Venice"
+   "loc": "Venice",
+   "ll": [
+    33.992,
+    -118.474
+   ]
   },
   {
    "id": "third-street-promenade",
    "name": "Third Street Promenade",
    "region": "los-angeles",
-   "loc": "Santa Monica"
+   "loc": "Santa Monica",
+   "ll": [
+    34.016,
+    -118.497
+   ]
   },
   {
    "id": "marvin-braude-south-bay-bicycle-trail",
    "name": "Marvin Braude (South Bay) Bicycle Trail",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    33.87,
+    -118.4
+   ]
   },
   {
    "id": "point-vicente-lighthouse-and-wayfarers-chapel",
    "name": "Point Vicente Lighthouse & Wayfarers Chapel",
    "region": "los-angeles",
-   "loc": "Palos Verdes"
+   "loc": "Palos Verdes",
+   "ll": [
+    33.739,
+    -118.398
+   ]
   },
   {
    "id": "la-maritime-museum-and-cabrillo-marine-aquarium",
    "name": "LA Maritime Museum & Cabrillo Marine Aquarium",
    "region": "los-angeles",
-   "loc": "San Pedro"
+   "loc": "San Pedro",
+   "ll": [
+    33.736,
+    -118.292
+   ]
   },
   {
    "id": "autry-museum-of-the-american-west",
    "name": "Autry Museum of the American West",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.149,
+    -118.281
+   ]
   },
   {
    "id": "academy-museum-of-motion-pictures",
    "name": "Academy Museum of Motion Pictures",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.064,
+    -118.361
+   ]
   },
   {
    "id": "universal-citywalk",
    "name": "Universal CityWalk",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.136,
+    -118.355
+   ]
   },
   {
    "id": "skirball-cultural-center",
    "name": "Skirball Cultural Center",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.125,
+    -118.479
+   ]
   },
   {
    "id": "museum-of-tolerance",
    "name": "Museum of Tolerance",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.054,
+    -118.402
+   ]
   },
   {
    "id": "sony-pictures-studios-tour",
    "name": "Sony Pictures Studios Tour",
    "region": "los-angeles",
-   "loc": "Culver City"
+   "loc": "Culver City",
+   "ll": [
+    34.021,
+    -118.396
+   ]
   },
   {
    "id": "grand-park",
    "name": "Grand Park",
    "region": "los-angeles",
-   "loc": "Downtown LA"
+   "loc": "Downtown LA",
+   "ll": [
+    34.056,
+    -118.246
+   ]
   },
   {
    "id": "exposition-park-rose-garden",
    "name": "Exposition Park Rose Garden",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.017,
+    -118.286
+   ]
   },
   {
    "id": "california-african-american-museum",
    "name": "California African American Museum",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.016,
+    -118.284
+   ]
   },
   {
    "id": "bradbury-building",
    "name": "Bradbury Building",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.05,
+    -118.248
+   ]
   },
   {
    "id": "griffith-park-merry-go-round",
    "name": "Griffith Park Merry-Go-Round",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.133,
+    -118.284
+   ]
   },
   {
    "id": "adamson-house",
    "name": "Adamson House",
    "region": "los-angeles",
-   "loc": "Malibu"
+   "loc": "Malibu",
+   "ll": [
+    34.034,
+    -118.68
+   ]
   },
   {
    "id": "point-dume-state-beach",
    "name": "Point Dume State Beach",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.001,
+    -118.807
+   ]
   },
   {
    "id": "leo-carrillo-state-park",
    "name": "Leo Carrillo State Park",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.061,
+    -118.933
+   ]
   },
   {
    "id": "eaton-canyon-natural-area",
    "name": "Eaton Canyon Natural Area",
    "region": "los-angeles",
-   "loc": "Pasadena"
+   "loc": "Pasadena",
+   "ll": [
+    34.148,
+    -118.144
+   ]
   },
   {
    "id": "vasquez-rocks-natural-area-park",
    "name": "Vasquez Rocks Natural Area Park",
-   "region": "los-angeles"
+   "region": "los-angeles",
+   "ll": [
+    34.487,
+    -118.32
+   ]
   },
   {
    "id": "antelope-valley-california-poppy-reserve",
@@ -3093,35 +4009,59 @@
    "id": "knotts-berry-farm",
    "name": "Knott's Berry Farm",
    "region": "orange-county",
-   "loc": "Buena Park"
+   "loc": "Buena Park",
+   "ll": [
+    33.844,
+    -118.001
+   ]
   },
   {
    "id": "huntington-beach-pier",
    "name": "Huntington Beach Pier",
    "region": "orange-county",
-   "desc": "\"Surf City USA\""
+   "desc": "\"Surf City USA\"",
+   "ll": [
+    33.655,
+    -118.005
+   ]
   },
   {
    "id": "balboa-island-and-balboa-pier",
    "name": "Balboa Island & Balboa Pier",
    "region": "orange-county",
-   "loc": "Newport Beach"
+   "loc": "Newport Beach",
+   "ll": [
+    33.617,
+    -117.929
+   ]
   },
   {
    "id": "crystal-cove-state-park",
    "name": "Crystal Cove State Park",
-   "region": "orange-county"
+   "region": "orange-county",
+   "ll": [
+    33.581,
+    -117.801
+   ]
   },
   {
    "id": "laguna-beach-art-galleries-and-coves",
    "name": "Laguna Beach art galleries & coves",
-   "region": "orange-county"
+   "region": "orange-county",
+   "ll": [
+    33.542,
+    -117.783
+   ]
   },
   {
    "id": "main-beach-and-heisler-park",
    "name": "Main Beach & Heisler Park",
    "region": "orange-county",
-   "loc": "Laguna Beach"
+   "loc": "Laguna Beach",
+   "ll": [
+    33.543,
+    -117.785
+   ]
   },
   {
    "id": "mission-san-juan-capistrano",
@@ -3154,69 +4094,117 @@
      4
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    33.609,
+    -117.847
+   ]
   },
   {
    "id": "san-clemente-pier",
    "name": "San Clemente Pier",
-   "region": "orange-county"
+   "region": "orange-county",
+   "ll": [
+    33.42,
+    -117.62
+   ]
   },
   {
    "id": "great-park-and-oc-zoo",
    "name": "Great Park & OC Zoo",
    "region": "orange-county",
-   "loc": "Irvine"
+   "loc": "Irvine",
+   "ll": [
+    33.686,
+    -117.826
+   ]
   },
   {
    "id": "discovery-cube-orange-county",
    "name": "Discovery Cube Orange County",
    "region": "orange-county",
-   "loc": "Santa Ana"
+   "loc": "Santa Ana",
+   "ll": [
+    33.77,
+    -117.868
+   ]
   },
   {
    "id": "bowers-museum",
    "name": "Bowers Museum",
    "region": "orange-county",
-   "loc": "Santa Ana"
+   "loc": "Santa Ana",
+   "ll": [
+    33.763,
+    -117.868
+   ]
   },
   {
    "id": "fashion-island",
    "name": "Fashion Island",
    "region": "orange-county",
    "loc": "Newport Beach",
-   "desc": "shopping"
+   "desc": "shopping",
+   "ll": [
+    33.616,
+    -117.875
+   ]
   },
   {
    "id": "corona-del-mar-state-beach",
    "name": "Corona del Mar State Beach",
-   "region": "orange-county"
+   "region": "orange-county",
+   "ll": [
+    33.594,
+    -117.876
+   ]
   },
   {
    "id": "seal-beach-pier",
    "name": "Seal Beach Pier",
-   "region": "orange-county"
+   "region": "orange-county",
+   "ll": [
+    33.74,
+    -118.107
+   ]
   },
   {
    "id": "laguna-coast-wilderness-park",
    "name": "Laguna Coast Wilderness Park",
-   "region": "orange-county"
+   "region": "orange-county",
+   "ll": [
+    33.577,
+    -117.776
+   ]
   },
   {
    "id": "sherman-library-and-gardens",
    "name": "Sherman Library & Gardens",
    "region": "orange-county",
-   "loc": "Corona del Mar"
+   "loc": "Corona del Mar",
+   "ll": [
+    33.602,
+    -117.874
+   ]
   },
   {
    "id": "aliso-beach-park",
    "name": "Aliso Beach Park",
-   "region": "orange-county"
+   "region": "orange-county",
+   "ll": [
+    33.51,
+    -117.752
+   ]
   },
   {
    "id": "tucker-wildlife-sanctuary",
    "name": "Tucker Wildlife Sanctuary",
    "region": "orange-county",
-   "loc": "Modjeska Canyon"
+   "loc": "Modjeska Canyon",
+   "ll": [
+    33.711,
+    -117.619
+   ]
   },
   {
    "id": "pageant-of-the-masters-and-sawdust-art-festival",
@@ -3268,28 +4256,48 @@
   {
    "id": "balboa-park-museums-and-gardens",
    "name": "Balboa Park museums & gardens",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.731,
+    -117.147
+   ]
   },
   {
    "id": "san-diego-zoo-safari-park",
    "name": "San Diego Zoo Safari Park",
    "region": "san-diego",
-   "loc": "Escondido"
+   "loc": "Escondido",
+   "ll": [
+    33.098,
+    -116.997
+   ]
   },
   {
    "id": "uss-midway-museum",
    "name": "USS Midway Museum",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.714,
+    -117.175
+   ]
   },
   {
    "id": "seaworld-san-diego",
    "name": "SeaWorld San Diego",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.766,
+    -117.226
+   ]
   },
   {
    "id": "la-jolla-cove",
    "name": "La Jolla Cove",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.851,
+    -117.273
+   ]
   },
   {
    "id": "torrey-pines-state-natural-reserve",
@@ -3303,53 +4311,93 @@
   {
    "id": "gaslamp-quarter",
    "name": "Gaslamp Quarter",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.711,
+    -117.16
+   ]
   },
   {
    "id": "old-town-san-diego-state-historic-park",
    "name": "Old Town San Diego State Historic Park",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.754,
+    -117.197
+   ]
   },
   {
    "id": "hotel-del-coronado-and-coronado-beach",
    "name": "Hotel del Coronado & Coronado Beach",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.681,
+    -117.178
+   ]
   },
   {
    "id": "cabrillo-national-monument",
    "name": "Cabrillo National Monument",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.672,
+    -117.241
+   ]
   },
   {
    "id": "sunset-cliffs-natural-park",
    "name": "Sunset Cliffs Natural Park",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.724,
+    -117.258
+   ]
   },
   {
    "id": "belmont-park-and-mission-beach",
    "name": "Belmont Park & Mission Beach",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.771,
+    -117.252
+   ]
   },
   {
    "id": "pacific-beach-boardwalk",
    "name": "Pacific Beach boardwalk",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.793,
+    -117.255
+   ]
   },
   {
    "id": "birch-aquarium-at-scripps",
    "name": "Birch Aquarium at Scripps",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.866,
+    -117.25
+   ]
   },
   {
    "id": "san-diego-natural-history-museum",
    "name": "San Diego Natural History Museum",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.732,
+    -117.147
+   ]
   },
   {
    "id": "legoland-california",
    "name": "Legoland California",
    "region": "san-diego",
-   "loc": "Carlsbad"
+   "loc": "Carlsbad",
+   "ll": [
+    33.128,
+    -117.312
+   ]
   },
   {
    "id": "carlsbad-flower-fields",
@@ -3372,14 +4420,22 @@
   {
    "id": "del-mar-beach-and-racetrack",
    "name": "Del Mar beach & racetrack",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.974,
+    -117.264
+   ]
   },
   {
    "id": "encinitas-beaches",
    "name": "Encinitas beaches",
    "region": "san-diego",
    "loc": "great for a walk and watching surfers",
-   "desc": "**& Self-Realization Fellowship gardens**"
+   "desc": "**& Self-Realization Fellowship gardens**",
+   "ll": [
+    33.045,
+    -117.294
+   ]
   },
   {
    "id": "julian",
@@ -3403,80 +4459,140 @@
    "id": "mission-san-luis-rey-de-francia",
    "name": "Mission San Luis Rey de Francia",
    "region": "san-diego",
-   "desc": "largest of the California missions"
+   "desc": "largest of the California missions",
+   "ll": [
+    33.232,
+    -117.319
+   ]
   },
   {
    "id": "living-coast-discovery-center",
    "name": "Living Coast Discovery Center",
    "region": "san-diego",
-   "loc": "Chula Vista"
+   "loc": "Chula Vista",
+   "ll": [
+    32.64,
+    -117.11
+   ]
   },
   {
    "id": "point-loma",
    "name": "Point Loma",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.727,
+    -117.244
+   ]
   },
   {
    "id": "mission-basilica-san-diego-de-alcala",
    "name": "Mission Basilica San Diego de Alcalá",
    "region": "san-diego",
-   "desc": "first of the 21 California missions"
+   "desc": "first of the 21 California missions",
+   "ll": [
+    32.785,
+    -117.106
+   ]
   },
   {
    "id": "the-new-childrens-museum",
    "name": "The New Children's Museum",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.711,
+    -117.165
+   ]
   },
   {
    "id": "san-diego-air-and-space-museum",
    "name": "San Diego Air & Space Museum",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.726,
+    -117.154
+   ]
   },
   {
    "id": "san-diego-museum-of-art",
    "name": "San Diego Museum of Art",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.732,
+    -117.15
+   ]
   },
   {
    "id": "fleet-science-center",
    "name": "Fleet Science Center",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.731,
+    -117.147
+   ]
   },
   {
    "id": "petco-park",
    "name": "Petco Park",
    "region": "san-diego",
-   "desc": "Padres games and tours"
+   "desc": "Padres games and tours",
+   "ll": [
+    32.707,
+    -117.157
+   ]
   },
   {
    "id": "ocean-beach-and-ob-pier",
    "name": "Ocean Beach & OB Pier",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.75,
+    -117.252
+   ]
   },
   {
    "id": "silver-strand-state-beach",
    "name": "Silver Strand State Beach",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.63,
+    -117.141
+   ]
   },
   {
    "id": "mount-soledad-veterans-memorial",
    "name": "Mount Soledad Veterans Memorial",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.84,
+    -117.245
+   ]
   },
   {
    "id": "presidio-park",
    "name": "Presidio Park",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.758,
+    -117.193
+   ]
   },
   {
    "id": "border-field-state-park",
    "name": "Border Field State Park",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.556,
+    -117.097
+   ]
   },
   {
    "id": "mission-trails-regional-park",
    "name": "Mission Trails Regional Park",
-   "region": "san-diego"
+   "region": "san-diego",
+   "ll": [
+    32.828,
+    -117.052
+   ]
   },
   {
    "id": "sunny-jims-sea-cave",
@@ -3545,7 +4661,11 @@
    "id": "mid-century-modern-architecture-tours",
    "name": "Mid-century modern architecture tours",
    "region": "palm-springs-and-the-deserts",
-   "loc": "Palm Springs"
+   "loc": "Palm Springs",
+   "ll": [
+    33.825,
+    -116.54
+   ]
   },
   {
    "id": "joshua-tree-national-park",
@@ -3574,24 +4694,40 @@
    "id": "indian-canyons",
    "name": "Indian Canyons",
    "region": "palm-springs-and-the-deserts",
-   "loc": "Palm Springs"
+   "loc": "Palm Springs",
+   "ll": [
+    33.782,
+    -116.534
+   ]
   },
   {
    "id": "salvation-mountain",
    "name": "Salvation Mountain",
    "region": "palm-springs-and-the-deserts",
-   "loc": "Niland"
+   "loc": "Niland",
+   "ll": [
+    33.254,
+    -115.473
+   ]
   },
   {
    "id": "the-living-desert-zoo-and-gardens",
    "name": "The Living Desert Zoo and Gardens",
    "region": "palm-springs-and-the-deserts",
-   "loc": "Palm Desert"
+   "loc": "Palm Desert",
+   "ll": [
+    33.729,
+    -116.383
+   ]
   },
   {
    "id": "palm-springs-art-museum",
    "name": "Palm Springs Art Museum",
-   "region": "palm-springs-and-the-deserts"
+   "region": "palm-springs-and-the-deserts",
+   "ll": [
+    33.824,
+    -116.55
+   ]
   },
   {
    "id": "death-valley-national-park",
@@ -3620,7 +4756,11 @@
    "id": "racetrack-playa",
    "name": "Racetrack Playa",
    "region": "palm-springs-and-the-deserts",
-   "loc": "Death Valley"
+   "loc": "Death Valley",
+   "ll": [
+    36.681,
+    -117.562
+   ]
   },
   {
    "id": "anza-borrego-desert-state-park",
@@ -3644,43 +4784,75 @@
   {
    "id": "mojave-national-preserve",
    "name": "Mojave National Preserve",
-   "region": "palm-springs-and-the-deserts"
+   "region": "palm-springs-and-the-deserts",
+   "ll": [
+    35.096,
+    -115.54
+   ]
   },
   {
    "id": "kelso-dunes",
    "name": "Kelso Dunes",
-   "region": "palm-springs-and-the-deserts"
+   "region": "palm-springs-and-the-deserts",
+   "ll": [
+    34.934,
+    -115.72
+   ]
   },
   {
    "id": "big-morongo-canyon-preserve",
    "name": "Big Morongo Canyon Preserve",
-   "region": "palm-springs-and-the-deserts"
+   "region": "palm-springs-and-the-deserts",
+   "ll": [
+    34.052,
+    -116.568
+   ]
   },
   {
    "id": "cabots-pueblo-museum",
    "name": "Cabot's Pueblo Museum",
    "region": "palm-springs-and-the-deserts",
-   "loc": "Desert Hot Springs"
+   "loc": "Desert Hot Springs",
+   "ll": [
+    33.958,
+    -116.482
+   ]
   },
   {
    "id": "desert-hot-springs-mineral-spas",
    "name": "Desert Hot Springs mineral spas",
-   "region": "palm-springs-and-the-deserts"
+   "region": "palm-springs-and-the-deserts",
+   "ll": [
+    33.961,
+    -116.502
+   ]
   },
   {
    "id": "coachella-valley-preserve",
    "name": "Coachella Valley Preserve",
-   "region": "palm-springs-and-the-deserts"
+   "region": "palm-springs-and-the-deserts",
+   "ll": [
+    33.798,
+    -116.319
+   ]
   },
   {
    "id": "pioneertown-and-pappy-and-harriets",
    "name": "Pioneertown & Pappy & Harriet's",
-   "region": "palm-springs-and-the-deserts"
+   "region": "palm-springs-and-the-deserts",
+   "ll": [
+    34.156,
+    -116.498
+   ]
   },
   {
    "id": "amboy-crater-national-natural-landmark",
    "name": "Amboy Crater National Natural Landmark",
-   "region": "palm-springs-and-the-deserts"
+   "region": "palm-springs-and-the-deserts",
+   "ll": [
+    34.555,
+    -115.783
+   ]
   },
   {
    "id": "whitewater-preserve",
@@ -3694,17 +4866,29 @@
      5
     ],
     "type": "hard"
-   }
+   },
+   "ll": [
+    33.989,
+    -116.656
+   ]
   },
   {
    "id": "tahquitz-canyon",
    "name": "Tahquitz Canyon",
-   "region": "palm-springs-and-the-deserts"
+   "region": "palm-springs-and-the-deserts",
+   "ll": [
+    33.823,
+    -116.514
+   ]
   },
   {
    "id": "noah-purifoy-outdoor-desert-art-museum",
    "name": "Noah Purifoy Outdoor Desert Art Museum",
-   "region": "palm-springs-and-the-deserts"
+   "region": "palm-springs-and-the-deserts",
+   "ll": [
+    34.196,
+    -116.288
+   ]
   },
   {
    "id": "painted-canyon-and-ladder-canyon",
@@ -3984,7 +5168,11 @@
    "id": "founders-grove",
    "name": "Founders Grove",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
-   "loc": "Humboldt Redwoods"
+   "loc": "Humboldt Redwoods",
+   "ll": [
+    40.351,
+    -123.924
+   ]
   },
   {
    "id": "fern-canyon",
@@ -4000,7 +5188,11 @@
    "id": "tall-trees-grove",
    "name": "Tall Trees Grove",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
-   "loc": "Redwood National Park"
+   "loc": "Redwood National Park",
+   "ll": [
+    41.209,
+    -124.013
+   ]
   },
   {
    "id": "trees-of-mystery",
@@ -4016,13 +5208,21 @@
   {
    "id": "old-town-eureka",
    "name": "Old Town Eureka",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    40.803,
+    -124.168
+   ]
   },
   {
    "id": "ferndale",
    "name": "Ferndale",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
-   "desc": "Victorian dairy town"
+   "desc": "Victorian dairy town",
+   "ll": [
+    40.578,
+    -124.262
+   ]
   },
   {
    "id": "mendocino",
@@ -4047,12 +5247,20 @@
   {
    "id": "mackerricher-state-park",
    "name": "MacKerricher State Park",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    39.5,
+    -123.79
+   ]
   },
   {
    "id": "point-arena-lighthouse",
    "name": "Point Arena Lighthouse",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    38.955,
+    -123.741
+   ]
   },
   {
    "id": "mount-shasta-hiking-and-scenic-views",
@@ -4128,7 +5336,11 @@
    "id": "manzanita-lake",
    "name": "Manzanita Lake",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
-   "loc": "Lassen"
+   "loc": "Lassen",
+   "ll": [
+    40.534,
+    -121.568
+   ]
   },
   {
    "id": "lava-beds-national-monument",
@@ -4142,17 +5354,29 @@
   {
    "id": "castle-crags-state-park",
    "name": "Castle Crags State Park",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    41.165,
+    -122.311
+   ]
   },
   {
    "id": "trinity-lake",
    "name": "Trinity Lake",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    40.925,
+    -122.689
+   ]
   },
   {
    "id": "trinity-alps-wilderness",
    "name": "Trinity Alps Wilderness",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    41.004,
+    -123.064
+   ]
   },
   {
    "id": "sundial-bridge-and-turtle-bay-exploration-park",
@@ -4169,13 +5393,21 @@
    "name": "Bidwell Park",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
    "loc": "Chico",
-   "desc": "one of the largest urban parks in the US"
+   "desc": "one of the largest urban parks in the US",
+   "ll": [
+    39.786,
+    -121.741
+   ]
   },
   {
    "id": "sierra-nevada-brewing-co",
    "name": "Sierra Nevada Brewing Co.",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
-   "loc": "Chico"
+   "loc": "Chico",
+   "ll": [
+    39.724,
+    -121.814
+   ]
   },
   {
    "id": "lake-shasta-caverns",
@@ -4189,65 +5421,113 @@
   {
    "id": "humboldt-bay-national-wildlife-refuge",
    "name": "Humboldt Bay National Wildlife Refuge",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    40.688,
+    -124.215
+   ]
   },
   {
    "id": "sue-meg-patricks-point-state-park",
    "name": "Sue-meg (Patrick's Point) State Park",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    41.142,
+    -124.141
+   ]
   },
   {
    "id": "joss-house-state-historic-park",
    "name": "Joss House State Historic Park",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
-   "loc": "Weaverville"
+   "loc": "Weaverville",
+   "ll": [
+    40.743,
+    -122.928
+   ]
   },
   {
    "id": "marble-mountain-wilderness",
    "name": "Marble Mountain Wilderness",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    41.512,
+    -123.243
+   ]
   },
   {
    "id": "clear-lake",
    "name": "Clear Lake",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
-   "desc": "California's largest natural freshwater lake"
+   "desc": "California's largest natural freshwater lake",
+   "ll": [
+    39.032,
+    -122.799
+   ]
   },
   {
    "id": "lake-almanor",
    "name": "Lake Almanor",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    40.243,
+    -121.109
+   ]
   },
   {
    "id": "samoa-dunes-recreation-area",
    "name": "Samoa Dunes Recreation Area",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    40.767,
+    -124.23
+   ]
   },
   {
    "id": "shasta-dam",
    "name": "Shasta Dam",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    40.718,
+    -122.419
+   ]
   },
   {
    "id": "grizzly-creek-redwoods-state-park",
    "name": "Grizzly Creek Redwoods State Park",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    40.485,
+    -123.906
+   ]
   },
   {
    "id": "confusion-hill",
    "name": "Confusion Hill",
    "region": "northern-california-redwoods-shasta-lassen-mendocino",
-   "loc": "Piercy"
+   "loc": "Piercy",
+   "ll": [
+    39.918,
+    -123.764
+   ]
   },
   {
    "id": "fort-humboldt-state-historic-park",
    "name": "Fort Humboldt State Historic Park",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    40.777,
+    -124.188
+   ]
   },
   {
    "id": "arcata-marsh-and-wildlife-sanctuary",
    "name": "Arcata Marsh and Wildlife Sanctuary",
-   "region": "northern-california-redwoods-shasta-lassen-mendocino"
+   "region": "northern-california-redwoods-shasta-lassen-mendocino",
+   "ll": [
+    40.861,
+    -124.095
+   ]
   },
   {
    "id": "cinder-cone-and-the-painted-dunes",

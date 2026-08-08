@@ -18,6 +18,9 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const md = fs.readFileSync(path.join(ROOT, 'data', 'california-trip-planner.md'), 'utf8');
 const overrides = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'overrides.json'), 'utf8'));
+const geoPath = path.join(ROOT, 'data', 'geo.json');
+// Geocoded fallback coordinates (tools/geocode.js); override lls always win.
+const geo = fs.existsSync(geoPath) ? JSON.parse(fs.readFileSync(geoPath, 'utf8')) : {};
 
 const slug = s => s.toLowerCase()
   .normalize('NFD').replace(/[̀-ͯ]/g, '')
@@ -100,7 +103,7 @@ const usedOverrides = new Set();
         loc: (loc || '').trim() || undefined,
         desc: desc || undefined,
         season: season || undefined,
-        pin: o.pin, ll: o.ll, links: o.links,
+        pin: o.pin, ll: o.ll || geo[id], links: o.links,
       });
     }
   }

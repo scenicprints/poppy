@@ -9,13 +9,14 @@ import 'services.dart';
 import 'store.dart';
 import 'theme.dart';
 
-/// Full-screen zoomable map focused on one place (see what's around it) or
-/// one trip (see the route, spot places worth adding along the way).
+/// Full-screen zoomable map focused on one place (see what's around it),
+/// one trip (route + places worth adding), or a whole region.
 class FocusMapPage extends StatefulWidget {
   final Place? place;
   final Trip? trip;
-  const FocusMapPage({super.key, this.place, this.trip})
-      : assert(place != null || trip != null);
+  final Region? region;
+  const FocusMapPage({super.key, this.place, this.trip, this.region})
+      : assert(place != null || trip != null || region != null);
 
   @override
   State<FocusMapPage> createState() => _FocusMapPageState();
@@ -45,12 +46,21 @@ class _FocusMapPageState extends State<FocusMapPage>
     ];
   }
 
+  List<Place> _regionPlaces() => widget.region == null
+      ? const []
+      : AppState.instance.regionPlaces(widget.region!.id);
+
   List<Offset> _focusPoints() {
     final app = AppState.instance;
     final pts = <Offset>[];
     if (widget.place != null) {
       final o = pinPos(widget.place!);
       if (o != null) pts.add(o);
+    } else if (widget.region != null) {
+      for (final p in _regionPlaces()) {
+        final o = pinPos(p);
+        if (o != null) pts.add(o);
+      }
     } else {
       for (final id in _routeIds()) {
         final p = app.place(id);
@@ -94,10 +104,27 @@ class _FocusMapPageState extends State<FocusMapPage>
   }
 
   /// Nearby candidates: place mode = closest to the place; trip mode =
-  /// within reach of ANY stop and not already on the trip.
+  /// within reach of ANY stop and not already on the trip; region mode =
+  /// the region's own places, in-season first.
   List<(Place, double)> _nearby() {
     final app = AppState.instance;
     final out = <(Place, double)>[];
+    if (widget.region != null) {
+      final month = DateTime.now().month;
+      final list = _regionPlaces();
+      int rank(Place p) {
+        if (p.season != null && p.season!.inMonth(month) && !app.isDone(p.id)) {
+          return 0;
+        }
+        return app.isDone(p.id) ? 2 : 1;
+      }
+
+      list.sort((a, b) {
+        final r = rank(a).compareTo(rank(b));
+        return r != 0 ? r : a.name.compareTo(b.name);
+      });
+      return [for (final p in list) (p, -1.0)];
+    }
     if (widget.place != null) {
       final f = widget.place!;
       if (f.ll == null) return out;
@@ -127,10 +154,15 @@ class _FocusMapPageState extends State<FocusMapPage>
     return out.take(14).toList();
   }
 
+  Set<String>? _emphasizeIds() => widget.region == null
+      ? null
+      : {for (final p in _regionPlaces()) p.id};
+
   @override
   Widget build(BuildContext context) {
     final app = AppState.instance;
-    final title = widget.place?.name ?? widget.trip!.name;
+    final title =
+        widget.place?.name ?? widget.trip?.name ?? widget.region!.name;
     final nearby = _nearby();
     final month = DateTime.now().month;
 
@@ -189,6 +221,7 @@ class _FocusMapPageState extends State<FocusMapPage>
                             highlightId: widget.place?.id,
                             routeIds:
                                 widget.trip == null ? null : _routeIds(),
+                            emphasizeIds: _emphasizeIds(),
                             dimOthers: true,
                           ),
                           size: size,
@@ -213,7 +246,9 @@ class _FocusMapPageState extends State<FocusMapPage>
                     child: Text(
                       widget.place != null
                           ? 'NEARBY — CLOSEST FIRST'
-                          : 'WORTH ADDING ALONG THE WAY',
+                          : widget.region != null
+                              ? 'IN THIS REGION — IN SEASON FIRST'
+                              : 'WORTH ADDING ALONG THE WAY',
                       style: const TextStyle(
                           fontSize: 11,
                           fontWeight: FontWeight.w800,
@@ -284,7 +319,9 @@ class _FocusMapPageState extends State<FocusMapPage>
               )),
           subtitle: Text(
             [
-              '~${mi.round()} mi',
+              if (mi >= 0) '~${mi.round()} mi',
+              if (mi < 0 && driveTimeFromHome(p) != null)
+                '${driveTimeFromHome(p)} from home',
               if (inSeason) 'in season now',
               if (p.season != null && !inSeason) 'seasonal',
             ].join(' · '),

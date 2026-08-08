@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'focus_map.dart';
 import 'models.dart';
 import 'place_sheet.dart';
 import 'store.dart';
@@ -234,6 +235,21 @@ class _RegionHubPageState extends State<RegionHubPage> {
                   ]),
                 ),
               ]),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(14, 10, 14, 0),
+              child: SizedBox(
+                width: double.infinity,
+                child: FilledButton.tonal(
+                  onPressed: () async {
+                    await Navigator.of(context).push(MaterialPageRoute(
+                        builder: (_) => FocusMapPage(region: r)));
+                    setState(() {});
+                  },
+                  child: const Text('🗺️ See this region on the map',
+                      style: TextStyle(fontSize: 13)),
+                ),
+              ),
             ),
             if (inSeason.isNotEmpty) ...[
               _sect(context, 'In season now'),
