@@ -423,8 +423,8 @@ class PosterMapPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final scale = _fitScale(size);
-    final off = _fitOffset(size, scale);
+    final scale = mapFitScale(size);
+    final off = mapFitOffset(size, scale);
     canvas.save();
     canvas.translate(off.dx, off.dy);
     canvas.scale(scale);
